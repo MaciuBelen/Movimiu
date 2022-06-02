@@ -4,7 +4,11 @@ body {
 	margin: auto;
 	color: #FFFFFF;
 }
-nav {
+
+nav ul li{
+	align-content: center;
+}
+nav ul{
 	display: flex;
     flex-direction: row-reverse;
     align-items: center;
