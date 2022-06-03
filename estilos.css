@@ -10,6 +10,16 @@ body {
 	margin: auto;
 	color: #FFFFFF;
 }
+
+nav {
+	
+}
+
+nav ul li{
+	margin: 10px;
+	list-style-type: none;
+}
+
 nav ul{
 	display: flex;
     flex-direction: row-reverse;
@@ -17,6 +27,7 @@ nav ul{
 }
 nav a {
 	color: #FFFFFF;
+	
 }
 nav a:hover {
 	color: #A600A9;
