@@ -10,7 +10,8 @@ body {
 	max-width: 92%;
 	margin: auto;
 	color: #FFFFFF;
-	font-family: Inter
+	font-family: Inter;
+	text-decoration: none
 }
 
 nav ul li{
@@ -61,7 +62,8 @@ nav a:hover {
 	color: #150E23;
 	font-size: 1em;
 	margin-bottom: 30px;
-	padding: 0px 17% 3px
+	padding: 0px 17% 3px;
+	text-decoration: none
 }
 
 .botonesregistro{
@@ -71,7 +73,8 @@ nav a:hover {
 	color: #FFFFFF;
 	font-size: 1em;
 	margin-bottom: 30px;
-	padding: 0px 17% 3px
+	padding: 0px 17% 3px;
+	text-decoration: none
 }
 
 .titulosyr {
