@@ -76,11 +76,11 @@ opacity: 0.5;
 
 
 footer {
-display: flex;
+	display: flex;
 	flex-direction: row;
 	align-items: center;
 	background-color: #1F0A3D;
 	color: #FFFFFF;
 	font-size: 1em;
-	font-family: Inter regular
+	font-family: Inter;
 }
