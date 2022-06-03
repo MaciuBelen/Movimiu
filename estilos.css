@@ -5,10 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Montserrat:wght@400;700&display=swap');
 
 body {
-	background-color: #120028;
+	background-color: #150E23;
 	max-width: 92%;
 	margin: auto;
 	color: #FFFFFF;
+	font-family: Inter
 }
 
 nav {
@@ -21,11 +22,13 @@ nav ul li{
 }
 nav ul{
 	display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
 }
 nav a {
 	color: #FFFFFF;
-	
+	border-bottom-style: none;
+	text-decoration: none;
 }
 nav a:hover {
 	color: #A600A9;
@@ -36,13 +39,49 @@ nav a:hover {
     justify-content: center;
     align-items: center;
 }
-.sesion, .registro{
+
+.sesion, .registro {
+	margin: 0% 20%;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FFFFFF;
+	border-radius: 40px;
+	box-shadow: 5px 5px 30px 5px black;
+	margin-bottom: 80px;
+	padding-bottom: 20px
 }
+
+.botonessesion{
+	background-color: #BFFBFF;
+	border-radius: 40px;
+	box-shadow: 3px 3px 30px 3px black;
+	color: #150E23;
+	font-size: 1.6em;
+	margin-bottom: 30px;
+	padding: 0px 17% 3px
+}
+
+.titulosyr {
+	font-size: 2em;
+	color: #FFFFFF;
+	font-family: Inter SemiBold
+}
+
+
+.syrdatos {
+font-size: 1.6em;
+color: #120028;
+opacity: 0.5;
+}
+
+
 footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #1F0A3D;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-family: Inter;
 }
