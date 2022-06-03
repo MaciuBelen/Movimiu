@@ -10,10 +10,7 @@ body {
 	max-width: 92%;
 	margin: auto;
 	color: #FFFFFF;
-}
-
-nav {
-	
+	font-family: Inter
 }
 
 nav ul li{
@@ -24,13 +21,14 @@ nav ul li{
 
 nav ul{
 	display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+    	justify-content: flex-end;
+    	align-items: center;
 }
 
 nav a {
 	color: #FFFFFF;
-	
+	border-bottom-style: none;
+	text-decoration: none;
 }
 
 nav a:hover {
@@ -44,15 +42,58 @@ nav a:hover {
     align-items: center;
 }
 
-.sesion, .registro{
+.sesion, .registro {
+	margin: 0% 20%;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FFFFFF;
+	border-radius: 40px;
+	box-shadow: 5px 5px 30px 5px black;
+	margin-bottom: 80px;
+	padding-bottom: 20px
 }
 
+.botonessesion{
+	background-color: #BFFBFF;
+	border-radius: 40px;
+	box-shadow: 3px 3px 30px 3px black;
+	color: #150E23;
+	font-size: 1em;
+	margin-bottom: 30px;
+	padding: 0px 17% 3px
+}
+
+.botonesregistro{
+	background-color: #A600A9;
+	border-radius: 40px;
+	box-shadow: 3px 3px 30px 3px black;
+	color: #FFFFFF;
+	font-size: 1em;
+	margin-bottom: 30px;
+	padding: 0px 17% 3px
+}
+
+.titulosyr {
+	margin-bottom: 30px;
+	font-size: 1.6em;
+	color: #120028;
+	font-family: Inter;
+}
+
+.syrdatos {
+font-size: 1em;
+color: #120028;
+opacity: 0.5;
+}
+
+
 footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #1F0A3D;
+	color: #FFFFFF;
 	font-size: 0.7em;
+	font-family: Inter;
 }
