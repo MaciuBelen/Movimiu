@@ -27,7 +27,8 @@ nav ul{
 }
 nav a {
 	color: #FFFFFF;
-	
+	border-bottom-style: none;
+	text-decoration: none;
 }
 nav a:hover {
 	color: #A600A9;
