@@ -77,9 +77,13 @@ nav a:hover {
 
 
 .syrdatos {
-font-size: 1em;
-color: #120028;
-opacity: 0.5;
+	font-size: 1em;
+	color: #120028;
+	opacity: 0.5;
+	margin: 0px 10% 1%;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start
 }
 
 
