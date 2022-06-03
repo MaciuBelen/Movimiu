@@ -58,8 +58,18 @@ nav a:hover {
 	padding: 0px 17% 3px
 }
 
+.botonesregistro{
+	background-color: #A600A9;
+	border-radius: 40px;
+	box-shadow: 3px 3px 30px 3px black;
+	color: #FFFFFF;
+	font-size: 1em;
+	margin-bottom: 30px;
+	padding: 0px 17% 3px
+}
+
 .titulosyr {
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 	font-size: 1.6em;
 	color: #120028;
 	font-family: Inter;
