@@ -91,6 +91,12 @@ nav a:hover {
 	align-self: flex-start
 }
 
+hr {
+	height: 2px;
+	width: 200%;
+	background-color: black;
+	opacity: 0.5
+}
 
 footer {
 	display: flex;
