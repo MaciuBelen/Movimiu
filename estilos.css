@@ -6,18 +6,16 @@
 
 body {
 	background-color: #120028;
+	background-image: url("img/background.png");
 	max-width: 92%;
 	margin: auto;
 	color: #FFFFFF;
 }
 
-nav {
-	
-}
-
 nav ul li{
 	margin: 10px;
 	list-style-type: none;
+	text-decoration: none;
 }
 
 nav ul{
@@ -48,3 +46,4 @@ footer {
     flex-direction: row;
     align-items: center;
 }
+
