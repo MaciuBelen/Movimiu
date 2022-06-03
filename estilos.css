@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @charset "utf-8";
 /* CSS Document */
 
@@ -11,13 +10,23 @@ body {
 	margin: auto;
 	color: #FFFFFF;
 }
+
 nav {
+	
+}
+
+nav ul li{
+	margin: 10px;
+	list-style-type: none;
+}
+nav ul{
 	display: flex;
     flex-direction: row-reverse;
     align-items: center;
 }
 nav a {
 	color: #FFFFFF;
+	
 }
 nav a:hover {
 	color: #A600A9;
