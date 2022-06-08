@@ -6,7 +6,7 @@
 
 body {
 	background-color: #120028;
-	max-width: 92%;
+	max-width: 100%;
 	margin: auto;
 	color: #FFFFFF;
 }
@@ -39,4 +39,8 @@ footer {
 }
 .carrusel {
 	display: flex;
+	gap: 10px;
+	padding: 0px;
+	overflow: auto;
 }
+
