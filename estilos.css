@@ -106,7 +106,7 @@ nav a:hover {
 .botonessesion{
 	background-color: #BFFBFF;
 	border-radius: 40px;
-	box-shadow: 3px 3px 10px 0px grey;
+	box-shadow: 3px 3px 10px 0px #BBBBBB;
 	color: #150E23;
 	font-size: 0.9em;
 	margin-bottom: 30px;
@@ -118,7 +118,7 @@ nav a:hover {
 .botonesregistro{
 	background-color: #A600A9;
 	border-radius: 40px;
-	box-shadow: 3px 3px 10px 0px grey;
+	box-shadow: 3px 3px 10px 0px #BBBBBB;
 	color: #FFFFFF;
 	font-size: 0.9em;
 	margin-bottom: 30px;
