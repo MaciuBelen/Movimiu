@@ -8,7 +8,7 @@ body {
 	background-color: #120028;
 	background-image: url("img/background.png");
 	background-repeat: no-repeat;
-	background-size: 100% 32%;
+	background-size: 100% 30%;
 	margin: auto;
 	color: #FFFFFF;
 	font-family: Inter;
@@ -90,7 +90,7 @@ nav a:hover {
 	margin-left: 20px;
 }
 
-.sesion, .registro {
+#sesion, #registro {
 	margin: 0% 25%;
 	display: flex;
 	flex-direction: column;
@@ -101,6 +101,10 @@ nav a:hover {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	padding-bottom: 20px;
+}
+
+#registro {
+	margin-top: 150px;
 }
 
 .botonessesion{
@@ -211,7 +215,7 @@ footer {
 		color: #A600A9;
 	}
 	
-	.sesion, .registro {
+	#sesion, #registro {
 		display: flex;
 		align-items: center;
 		background: none;
