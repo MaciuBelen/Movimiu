@@ -42,11 +42,11 @@ nav a:hover {
 }
 
 .logotexto {
-    	display: flex;
+    display: flex;
    	flex-direction: row;
-    	justify-content: center;
-    	align-items: center;
-	padding: 50px 0px 220px 0px;
+    justify-content: center;
+    align-items: flex-start;
+	padding: 60px 0px 220px 0px;
 	margin-bottom: 100px;
 }
 
@@ -55,12 +55,40 @@ nav a:hover {
 	font-size: 1.35em;
 }
 
+.logotexto article h2 {
+	margin: 0px;
+}
+
+.logotexto article h3 {
+	padding-bottom: 40px;
+}
+
+.botóningresá, .botónregistrate {
+	font-size: 0.9em;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 10px 0px #C7BCBC;
+}
+
+.botóningresá {
+	background-color: #5390D9;
+}
+
+.botónregistrate {
+	background-color: #A600A9;
+	margin-left: 20px;
+}
+
+
+
 .sesion, .registro {
-	margin: 0% 20%;
+	margin: 0% 25%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #FFFFFF;
+	background-color: #EDECEC;
 	border-radius: 40px;
 	box-shadow: 5px 5px 30px 5px black;
 	margin-top: 100px;
