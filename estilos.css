@@ -41,8 +41,7 @@ footer {
 	display: flex;
 	gap: 30px;
 	padding: 0px;
-	/*overflow: auto;*/
-	overflow-x: scroll;
+	overflow: auto;
 	padding-left: 40px;
 	padding-right: 40px;
 }
