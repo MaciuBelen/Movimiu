@@ -12,18 +12,29 @@ body {
 	font-family: Inter
 }
 
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.miniatura {
+	margin: 20px;
 	
 }
 
 nav ul li{
-	margin: 10px;
+	margin: 20px;
 	list-style-type: none;
 }
 nav ul{
 	display: flex;
-    justify-content: flex-end;
-    align-items: center;
+	
 }
 nav a {
 	color: #FFFFFF;
@@ -75,6 +86,8 @@ color: #120028;
 opacity: 0.5;
 }
 
+/*---carrusel---*/
+
 .artistas-populares {
 	display: flex;
 	flex-direction: row;
@@ -84,6 +97,7 @@ opacity: 0.5;
 	padding: 0px;
 	margin: 100px 100px 0px 100px;
 	overflow-x: scroll;
+	
 }
 
 .artistas-populares img{
@@ -102,6 +116,7 @@ opacity: 0.5;
 	margin:  0px 10px 0px 10px;
 	box-shadow: 0px 10px 20px #A600A9;
 	transition: all 500ms;
+	
 }
 
 
