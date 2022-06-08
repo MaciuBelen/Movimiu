@@ -39,8 +39,11 @@ footer {
 }
 .carrusel {
 	display: flex;
-	gap: 10px;
+	gap: 30px;
 	padding: 0px;
-	overflow: auto;
+	/*overflow: auto;*/
+	overflow-x: scroll;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
