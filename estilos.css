@@ -152,3 +152,33 @@ footer {
 	font-family: Inter;
 	padding: 0px 10%
 }
+
+@media screen and (max-width: 600px){
+	
+	body {
+		background-image: none;
+	}
+	
+	.logotexto {
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+	}
+	
+	img {
+		padding-bottom: 80px;
+	}
+	
+	.logotexto article h2 {
+		display: none;
+	}
+	
+	.logotexto article h3 {
+		display: none;
+	}
+	
+	.logotexto article {
+		padding-left: 20px;
+	}
+	
+}
