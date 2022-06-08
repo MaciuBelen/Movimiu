@@ -90,7 +90,7 @@ nav a:hover {
 	margin-left: 20px;
 }
 
-.sesion, .registro {
+#sesion, #registro {
 	margin: 0% 25%;
 	display: flex;
 	flex-direction: column;
@@ -129,7 +129,7 @@ nav a:hover {
 
 .titulosyr {
 	margin-bottom: 30px;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	color: #120028;
 	font-family: Inter;
 }
@@ -148,7 +148,7 @@ hr {
 	height: 1px;
 	width: 200%;
 	background-color: black;
-	opacity: 0.5
+	opacity: 0.5;
 }
 
 footer {
@@ -211,7 +211,7 @@ footer {
 		color: #A600A9;
 	}
 	
-	.sesion, .registro {
+	#sesion, #registro {
 		display: flex;
 		align-items: center;
 		background: none;
