@@ -318,12 +318,8 @@ h4 {
 	color: #B7FFF4;
 }
 
-@media screen and (max-width: 600px){
-footer p {
-	padding-left: 40px;
-}
   
-@media screen and (max-width : 600px ){
+@media screen and (max-width : 600px){
 	body {
 		background-image: none;
 	}
@@ -408,4 +404,7 @@ footer p {
 		color:#120028; 
 	}
 	
-	
+	footer p {
+		padding-left: 40px;
+	}
+}
