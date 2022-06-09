@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Montserrat:wght@400;700&display=swap');
 
+/*---main---*/
+
 body {
 	background-color: #120028;
 	background-image: url("img/background2.png");
@@ -67,6 +69,8 @@ nav p:hover {
 	opacity: 1;
 }
 
+/*---inicio---*/
+
 /*---carrusel---*/
 
 .artistas-populares {
@@ -100,7 +104,6 @@ nav p:hover {
 	transition: all 500ms;
 	display: flex;
 	align-items: center;
-	
 }
 
 .artistas-populares p{
@@ -119,10 +122,6 @@ nav p:hover {
 	align-content: center;
 }
 
-#sesion, #registro {
-	margin: 0% 25%;
-}
-
 .artistas-populares p:hover {
 	justify-content: center;
 	transform: scale(1);
@@ -139,9 +138,8 @@ nav p:hover {
 	padding-bottom: 20px;
 }
 
-#registro {
-	margin-top: 150px;
-}
+/*---index---*/
+
 
 .logotexto {
     display: flex;
@@ -165,7 +163,7 @@ nav p:hover {
 	padding-bottom: 40px;
 }
 
-.botóningresá, .botónregistrate {
+.botoningresa, .botonregistrate {
 	font-size: 0.9em;
 	color: #FFFFFF;
 	text-decoration: none;
@@ -175,21 +173,25 @@ nav p:hover {
 	opacity: 0.8;
 }
 
-.botóningresá:hover{
+.botoningresa:hover{
 	opacity: 1;
 	}
 
-.botónregistrate:hover {
+.botonregistrate:hover {
 	opacity: 1;
 	}
 
-.botóningresá {
+.botoningresa {
 	background-color: #5390D9;
 }
 
-.botónregistrate {
+.botonregistrate {
 	background-color: #A600A9;
 	margin-left: 20px;
+}
+
+#registro {
+	margin-top: 150px;
 }
 
 #sesion, #registro {
@@ -317,14 +319,15 @@ h4 {
 	color: #B7FFF4;
 }
 
-  
+ /*---media---*/
+
 @media screen and (max-width : 600px){
 	body {
 		background-image: none;
 	}
 	
 	nav {
-		display: none
+		display: none;
 	}
 	
 	.logotexto {
@@ -351,14 +354,14 @@ h4 {
 		padding: 0px;
 	}
 	
-	.botóningresá {
+	.botoningresa {
 		font-size: 1.2em;
 		color: #120028; 
 		background-color: #B7FFF4;
 		padding: 15px;
 	}
 	
-	.botónregistrate {
+	.botonregistrate {
 		padding-top: 20px;
 		padding-left: 0px;
 		background: none;
@@ -366,7 +369,7 @@ h4 {
 		font-size: 0.7em;
 	}
 	
-	.botónregistrate:hover{
+	.botonregistrate:hover{
 		color: #A600A9;
 	}
 	
@@ -410,4 +413,3 @@ h4 {
 	footer p {
 		padding-left: 40px;
 	}
-}
