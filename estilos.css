@@ -112,7 +112,7 @@ h4 {
 
 .artistas-populares a{
 	position: relative;
-	border-radius: 15px;
+	border-radius: 20px;
 	height: 250px;
 	object-fit: cover;
 	margin:  0px 20px 0px 20px;
@@ -156,7 +156,7 @@ h4 {
 	display: flex;
 	align-items: center;
 	background-color: rgba(166,0,169,0.5);
-	border-radius: 15px;
+	border-radius: 20px;
 	margin-top: 100px;
 	margin-bottom: 100px;
 	padding-bottom: 20px;
