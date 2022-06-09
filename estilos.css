@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Montserrat:wght@400;700&display=swap');
 
 /*---main---*/
+
 body {
 	background-color: #120028;
 	background-image: url("img/background2.png");
@@ -16,13 +17,14 @@ body {
 	text-decoration: none
 }
 
-header, main{
+header, main {
 	max-widht: 92%
+
 }
 
 nav {
     display: flex;
-    flex-direction: row;
+	margin-left: 50px;
 }
 
 .miniatura {
@@ -37,7 +39,6 @@ nav ul li{
 
 nav ul{
 	display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
 
@@ -61,17 +62,19 @@ nav p {
 }
 
 nav p:hover {
-		opacity: 1;
+	opacity: 1;
 }
 
 h2 {
-	font-size: 3.8em;
+	font-size: 1.6em;
 }
+
 h3 {
-	font-size: 2.6em;
 	font-weight: 300;
 }
+
 h4 {
+	font-size: 0.7em;
 	font-weight: 300;
 	color: #B7FFF4;
 }
@@ -82,7 +85,7 @@ h4 {
 	padding-left: 70px
 }
 .boldmomimiu {
-	font-size: 2.6em;
+	font-size: 1.6em;
 }
 .subtitulos {
 	font-size: 1.8em
@@ -177,10 +180,9 @@ h4 {
 
 .logotexto {
     display: flex;
-   	flex-direction: row;
-    justify-content: center;
     align-items: flex-start;
 	padding: 60px 0px 220px 0px;
+	margin-left: 300px;
 	margin-bottom: 100px;
 }
 
@@ -300,9 +302,16 @@ h4 {
 	align-self: flex-start;
 }
 
-hr {
+.hr1 {
 	height: 1px;
 	width: 270%;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.hr2 {
+	height: 1px;
+	width: 322%;
 	background-color: black;
 	opacity: 0.5;
 }
@@ -399,7 +408,7 @@ footer p {
 		opacity: 0.7;
 	}
 	
-	hr {
+	.hr1, .hr2 {
 		background-color: #B7FFF4;
 		width: 350px;
 		opacity: 0.7;
