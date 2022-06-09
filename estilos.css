@@ -186,6 +186,11 @@ h4 {
 
 /*---index---*/
 
+input {
+	text-decoration:none;
+	padding-right: 100px;
+	margin-bottom: -3px
+}
 
 .logotexto {
     display: flex;
