@@ -10,7 +10,7 @@ body {
 	background-color: #120028;
 	background-image: url("img/background2.png");
 	background-repeat: no-repeat;
-	background-size: 100% 30%;
+	background-size: 100%;
 	margin: auto;
 	color: #FFFFFF;
 	font-family: Inter;
@@ -91,6 +91,7 @@ nav p:hover {
 	height: 250px;
 	object-fit: cover;
 	margin:  0px 20px 0px 20px;
+	
 }
 
 
@@ -131,7 +132,7 @@ nav p:hover {
 	transition: all 500ms;
 	display: flex;
 	align-items: center;
-	background-color: #EDECEC;
+	background-color: rgba(166,0,169,0.5);
 	border-radius: 40px;
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -155,7 +156,6 @@ nav p:hover {
 	transition: all 500ms;
 	display: flex;
 	align-items: center;
-	
 }
 
 /*---index---*/
