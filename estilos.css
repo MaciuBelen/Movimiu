@@ -61,14 +61,14 @@ nav p {
 }
 
 nav p:hover {
-	opacity: 1;
+		opacity: 1;
 }
 
 h2 {
-	font-size: 4.4em;
+	font-size: 3.8em;
 }
 h3 {
-	font-size: 3em;
+	font-size: 2.6em;
 	font-weight: 300;
 }
 h4 {
@@ -82,7 +82,7 @@ h4 {
 	padding-left: 70px
 }
 .boldmomimiu {
-	font-size: 3em;
+	font-size: 2.6em;
 }
 
 /*---carrusel---*/
