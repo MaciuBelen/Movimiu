@@ -8,11 +8,15 @@ body {
 	background-color: #120028;
 	background-image: url("img/background.png");
 	background-repeat: no-repeat;
-	background-size: 100% 32%;
+	background-size: 100% 30%;
 	margin: auto;
 	color: #FFFFFF;
 	font-family: Inter;
 	text-decoration: none
+}
+
+h3 {
+	font-weight: 300;
 }
 
 header, main{
@@ -95,6 +99,9 @@ nav a:hover {
 	
 }
 
+#sesion, #registro {
+	margin: 0% 25%;
+
 .artistas-populares p:hover {
 	justify-content: center;
 	transform: scale(1);
@@ -104,6 +111,29 @@ nav a:hover {
 	transition: all 500ms;
 	display: flex;
 	align-items: center;
+	background-color: #EDECEC;
+	border-radius: 40px;
+	box-shadow: 5px 5px 30px 5px black;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-bottom: 20px;
+}
+
+#registro {
+	margin-top: 150px;
+}
+
+.botonessesion{
+	background-color: #BFFBFF;
+	border-radius: 40px;
+	box-shadow: 3px 3px 10px 0px grey;
+	color: #150E23;
+	font-size: 0.9em;
+	margin-bottom: 30px;
+	width: 50%;
+	padding: 5px 50px;
+	text-decoration: none
+    
 }
 .artistas-populares img{
 	position: relative;
@@ -114,6 +144,12 @@ nav a:hover {
 	margin: 0px;
 }
 
+.titulosyr {
+	margin-bottom: 30px;
+	font-size: 1.4em;
+	color: #120028;
+	font-family: Inter;
+}
 
 .artistas-populares img:hover {
 	justify-content: center;
@@ -147,12 +183,17 @@ footer {
 	padding: 0px 80px;
 }
 
+h4 {
+	font-weight: 300;
+	color: #B7FFF4;
+}
+
+@media screen and (max-width: 600px){
 footer p {
 	padding-left: 40px;
 }
-
+  
 @media screen and (max-width : 600px ){
-	
 	body {
 		background-image: none;
 	}
