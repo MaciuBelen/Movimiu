@@ -15,18 +15,6 @@ body {
 	font-family: Inter;
 	text-decoration: none
 }
-#fondoinisio{
-	background-image: url("img/background3.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	margin: auto;
-	color: #FFFFFF;
-	font-family: Inter;
-	text-decoration: none
-}
-h3 {
-	font-weight: 300;
-}
 
 header, main{
 	max-widht: 92%
@@ -76,7 +64,26 @@ nav p:hover {
 	opacity: 1;
 }
 
+h2 {
+	font-size: 4.4em;
+}
+h3 {
+	font-size: 3em;
+	font-weight: 300;
+}
+h4 {
+	font-weight: 300;
+	color: #B7FFF4;
+}
+
 /*---inicio---*/
+
+.textopricipal {
+	padding-left: 70px
+}
+.boldmomimiu {
+	font-size: 3em;
+}
 
 /*---carrusel---*/
 
@@ -272,11 +279,7 @@ nav p:hover {
 	color: #120028;
 }
 
-.listosesion:hover {
-	opacity: 1;
-}
-
-.listoregistro:hover {
+.listosesion:hover, .listoregistro:hover {
 	opacity: 1;
 }
 
@@ -319,10 +322,7 @@ footer p {
 	padding-right: 20px;
 }
 
-h4 {
-	font-weight: 300;
-	color: #B7FFF4;
-}
+
 
  /*---media---*/
 
