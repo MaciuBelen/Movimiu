@@ -8,7 +8,7 @@ body {
 	background-color: #120028;
 	background-image: url("img/background.png");
 	background-repeat: no-repeat;
-	background-size: 100% 32%;
+	background-size: 100% 30%;
 	margin: auto;
 	color: #FFFFFF;
 	font-family: Inter;
@@ -45,59 +45,71 @@ nav a:hover {
 	color: #A600A9;
 }
 
-.logotexto {
-    display: flex;
-   	flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-	padding: 60px 0px 220px 0px;
-	margin-bottom: 100px;
+/*---carrusel---*/
+
+.artistas-populares {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	align-items: center;
+	width: 1800px;
+	height: 400px;
+	padding: 0px;
+	margin: 100px 100px 0px 100px;
+	overflow-x: scroll;
+	
 }
 
-.logotexto article {
-	padding-left: 120px;
-	font-size: 1.35em;
+.artistas-populares a{
+	position: relative;
+	border-radius: 20px;
+	height: 250px;
+	object-fit: cover;
+	margin:  0px 20px 0px 20px;
 }
 
-.logotexto article h2 {
-	margin: 0px;
+
+.artistas-populares a:hover {
+	justify-content: center;
+	transform: scale(1.3);
+	height: auto;
+	object-fit: cover;
+	margin:  0px 30px 0px 30px;
+	box-shadow: 0px 10px 20px #A600A9;
+	transition: all 500ms;
+	display: flex;
+	align-items: center;
+	
 }
 
-.logotexto article h3 {
-	padding-bottom: 40px;
-}
-
-.botóningresá, .botónregistrate {
-	font-size: 0.9em;
-	color: #FFFFFF;
-	text-decoration: none;
-	padding: 20px;
-	border-radius: 10px;
-	box-shadow: 0px 1px 10px 0px #C7BCBC;
-	opacity: 0.8;
-}
-
-.botóningresá:hover{
-	opacity: 1;
-	}
-
-.botónregistrate:hover {
-	opacity: 1;
-	}
-
-.botóningresá {
-	background-color: #5390D9;
-}
-
-.botónregistrate {
-	background-color: #A600A9;
-	margin-left: 20px;
+.artistas-populares p{
+	color: #B7FFF4;
+	justify-content: center;
+	font-size: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	position: fixed;
+	width: 300px;
+	height: 250px;
+	border-radius: 20px;
+	background: rgba(54, 0, 122, 0.5);
+	object-fit: cover;
+	margin:  0px 20px 0px 20px;
+	align-content: center;
+	
 }
 
 #sesion, #registro {
 	margin: 0% 25%;
+
+.artistas-populares p:hover {
+	justify-content: center;
+	transform: scale(1);
+	object-fit: cover;
+	margin: 0px;
+	box-shadow: 0px 10px 20px #A600A9;
+	transition: all 500ms;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	background-color: #EDECEC;
 	border-radius: 40px;
@@ -107,52 +119,30 @@ nav a:hover {
 	padding-bottom: 20px;
 }
 
+#registro {
+	margin-top: 150px;
+}
+
 .botonessesion{
 	background-color: #BFFBFF;
 	border-radius: 40px;
-	box-shadow: 3px 3px 10px 0px #BBBBBB;
+	box-shadow: 3px 3px 10px 0px grey;
 	color: #150E23;
 	font-size: 0.9em;
 	margin-bottom: 30px;
 	width: 50%;
 	padding: 5px 50px;
 	text-decoration: none
+    
 }
-
-.botonesregistro{
-	background-color: #A600A9;
-	border-radius: 40px;
-	box-shadow: 3px 3px 10px 0px #BBBBBB;
-	color: #FFFFFF;
-	font-size: 0.9em;
-	margin-bottom: 30px;
-	width: 50%;
-	padding: 5px 50px;
-	text-decoration: none
+.artistas-populares img{
+	position: relative;
+	width: 300px;
+	border-radius: 20px;
+	height: 250px;
+	object-fit: cover;
+	margin: 0px;
 }
-
-.listoregistro, .listosesion {
-	color: #FFFFFF;
-	background-color: #A600A9;
-	border-radius: 40px;
-	box-shadow: 3px 3px 10px 0px grey;
-	text-decoration: none;
-	padding: 10px 30px;
-	opacity: 0.5;
-}
-
-.listosesion {
-	background-color: #B7FFF4;
-	color: #120028;
-}
-
-.listosesion:hover {
-	opacity: 1;
-	}
-
-.listoregistro:hover {
-	opacity: 1;
-	}
 
 .titulosyr {
 	margin-bottom: 30px;
@@ -161,15 +151,19 @@ nav a:hover {
 	font-family: Inter;
 }
 
-.syrdatos {
-	font-size: 0.9em;
-	color: #120028;
-	opacity: 0.5;
-	margin: 0px 0px 20px 100px;
+.artistas-populares img:hover {
+	justify-content: center;
+	transform: scale(1.3);
+	height: auto;
+	object-fit: cover;
+	margin: 0px;
+	box-shadow: 0px 10px 20px #A600A9;
+	transition: all 500ms;
 	display: flex;
-	flex-direction: column;
-	align-self: flex-start;
+	align-items: center;
+	
 }
+
 
 hr {
 	height: 1px;
@@ -189,17 +183,26 @@ footer {
 	padding: 0px 80px;
 }
 
+h4 {
+	font-weight: 300;
+	color: #B7FFF4;
+}
+
+@media screen and (max-width: 600px){
 footer p {
 	padding-left: 40px;
 }
+<<<<<<< HEAD
 
 h4 {
 	color: #B7FFF4;
 	font-weight: 400;
 }
 
+=======
+  
+>>>>>>> origin/main
 @media screen and (max-width : 600px ){
-	
 	body {
 		background-image: none;
 	}
@@ -270,7 +273,7 @@ h4 {
 	
 	hr {
 		background-color: #B7FFF4;
-		width: 195%;
+		width: 350px;
 		opacity: 0.7;
 	}
 	
