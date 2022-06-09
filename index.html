@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Movimiu</title>
 <link href="estilos.css" rel="stylesheet" type="text/css">
 <link href="css/jquery.fancybox.min.css" rel="stylesheet">
@@ -10,58 +11,54 @@
 <body>
 	<header>
 		<nav>
-		   <img src="img/movimiu1.png" width="60" height="50" alt="movimiulogo1">
-			<section class="buscador">
-				<img src="img/buscar.png" width="30" height="30" alt="buscar">
-			</section>
-			<section>
-				<ul>
-					<li>
-						<a href="contactanos.html" target="_self">Contacto</a>
-					</li>
-					<li>
-						<a href="cercatuyo.html" target="_self">Cerca tuyo</a>
-					</li>
-					<li>
-						<a href="foro.html" target="_self">Foro</a>
-					</li>
-					<li>
-						<a href="artistas.html" taret="_self">Artistas</a>
-					</li>
-					<img src="img/perfil07.png" width="60" height="60" alt="fotoperfil1">			
-				</ul>
-			</section>
-	  </nav>
+			<ul>
+				<li><a href="cerca-tuyo.html">Cerca tuyo</a></li>
+				<li><a href="foto.html">Foro</a></li>
+				<li><a href="artistas.html">Artistas</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
 	</header>
 	<main>
-		<section class="carrusel">
-  			<a href="img/galeria/1/cdns.png">
-    			<img src="img/galeria/1/cdns.png" widht="345" height="282" alt="cuartetodenos"/>
-			</a>
-			
-			<a href="img/galeria/1/miranda.png">
-				<img src="img/galeria/1/miranda.png" widht="345" height="282" alt="miranda"/>
-			</a>
-			
-			<a href="img/galeria/1/chano.png">
-				<img src="img/galeria/1/chano.png" widht="345" height="282" alt="chano" />
-			</a>
-			
-			<a href="img/galeria/1/dualipa.png">
-				<img src="img/galeria/1/dualipa.png" widht="345" height="282" alt="dualipa"/>
-			</a>
-			
-			<a href="img/galeria/1/maneskin.png">
-				<img src="img/galeria/1/maneskin.png" widht="345" height="282" alt="maneskin" />
-			</a>
-			
-			<a href="img/galeria/1/litkillah.png">
-				<img src="img/galeria/1/litkillah.png" widht="345" height="282" alt="litkillah"/>
-			</a>
-			
-			<a href="img/galeria/1/rosalia.png">
-				<img src="img/galeria/1/rosalia.png" widht="345" height="282" alt="rosalia" />
-			</a>
+		<section class="logotexto">
+			<img src="img/movimiunombre.png" width="190" height="186" alt="logo movimiu">
+			<article>
+				<h2>No te pierdas de nada</h2>
+				<h3>Todas tus bandas, <br>
+					todos los conciertos, <br>
+					en un solo lugar</h3>
+					<a class="botóningresá" href="#sesion" target="_self">Ingresá</a>
+					<a class="botónregistrate" href="#registro" target="_self">Registrate</a>
+			</article>
+		</section>
+		<section id="sesion">
+			<h4 class="titulosyr">Inicia sesión</h4>
+			<a href="https://www.google.com/" target="_self" class="botonessesion">Ingresar con Google</a>
+			<a href="https://www.facebook.com/" target="_self" class="botonessesion">Ingresar con Facebook</a>
+			<div class="syrdatos">
+				<p>Mail</p>
+				<hr>
+				<p>Contraseña</p>
+				<hr>
+				<p>¿Olvidaste tu contraseña?</p>
+			</div>
+			<a href="Inicio" target="_self" class="listosesion">Listo</a>
+		</section>
+		<section id="registro">
+			<h4 class="titulosyr">Registrate</h4>
+				  <a href="https://www.google.com/" target="_self" class="botonesregistro">Ingresar con Google</a>
+				  <a href="https://www.facebook.com/" target="_self" class="botonesregistro">Ingresar con Facebook</a>
+				<div class="syrdatos">
+					<p>Nombre</p>
+					<hr>
+					<p>Correo</p>
+					<hr>
+					<p>Contraseña</p>
+					<hr>
+					<p>Confirmar contraseña</p>
+					<hr>
+				</div>
+				  <a href="Inicio" target="_self" class="listoregistro">Listo</a>
 		</section>
 	</main>
 	<footer>
