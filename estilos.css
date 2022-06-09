@@ -15,6 +15,10 @@ body {
 	text-decoration: none
 }
 
+h3 {
+	font-weight: 300;
+}
+
 header, main{
 	max-widht: 92%
 }
@@ -164,6 +168,11 @@ footer {
 	font-size: 0.7em;
 	font-family: Inter;
 	padding: 0px 10%
+}
+
+h4 {
+	font-weight: 300;
+	color: #B7FFF4;
 }
 
 @media screen and (max-width: 600px){
