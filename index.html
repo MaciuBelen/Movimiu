@@ -2,97 +2,61 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Movimiu</title>
 <link href="estilos.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>
 	<header>
-		<div class="miniatura">
-			<img src="img/iconos/movimiu1.png" width="50" height="auto" alt="miniatura"/>
-		</div>
-		<nav>
-			
+		<nav class="navindex">
 			<ul>
-			  <li><a href="cerca-tuyo.html">Cerca tuyo</a></li>
-				<li><a href="foto.html">Foro</a></li>
-				<li><a href="artistas.html">Artistas</a></li>
 				<li><a href="contacto.html">Contacto</a></li>
+				<li><a class="ayuda" href="ayuda.html">Ayuda</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
 		<section class="logotexto">
-			<img src="img/movimiunombre.svg" width="335" height="342" alt="logo movimiu">
+			<img src="img/movimiunombre.png" width="190" height="" alt="logo movimiu">
 			<article>
 				<h2>No te pierdas de nada</h2>
 				<h3>Todas tus bandas, <br>
 					todos los conciertos, <br>
 					en un solo lugar</h3>
-					<a href="Iniciar sesión" target="_self">Ingresá</a>
-					<a href="Registrate" target="_self">Registrate</a>
+					<a class="botoningresa" href="#sesion" target="_self">Ingresá</a>
+					<a class="botonregistrate" href="#registro" target="_self">Registrate</a>
 			</article>
-			<div class="artistas-populares">
-
-					<a href="paginad e airbag" data-fancybox="gallery" data-caption="descripcion">
-						<img src="img/galeria/2/airbag.png" alt="" />
-						<p>Ver más</p>
-					</a>
-
-					<a href="pagina de bad bunny" data-fancybox="gallery" data-caption="descripcion">
-						<img src="img/galeria/2/badbunny.png" alt="" />
-						<p>Ver más</p>
-					</a>
-					<a href="pagina de coldplay" data-fancybox="gallery" data-caption="Caption #1">
-						<img src="img/galeria/2/coldplay.png" alt="" />
-						<p>Ver más</p>
-					</a>
-
-					<a href="pagina de dua lipa" data-fancybox="gallery" data-caption="descripcion">
-						<img src="img/galeria/2/dualipa.png" alt="" />
-						<p>Ver más</p>
-					</a>
-					<a href="pagina de los guns" data-fancybox="gallery" data-caption="descripcion">
-						<img src="img/galeria/2/gunsnroses.png" alt="" />
-						<p>Ver más</p>
-					</a>
-
-					<a href="pagina de harry" data-fancybox="gallery" data-caption="descripcion">
-						<img src="img/galeria/2/harrystyles.png" alt="" />
-						<p>Ver más</p>
-					</a>
-					<a href="pagina de jared" data-fancybox="gallery" data-caption="descripcion">
-						<img src="img/galeria/2/jaredleto.png" alt="" />
-						<p>Ver más</p>
-					</a>
-
-					<a href="pagina de lit" data-fancybox="gallery" data-caption="descripcion">
-						<img src="img/galeria/2/litkillah.png" alt="" />
-						<p>Ver más</p>
-					</a>
-				</div>
 		</section>
-		<section class="sesion">
-			<h4>Inicia sesión</h4>
-			<p>Ingresar con Google</p>
+		<section id="sesion">
+			<h4 class="titulosyr">Inicia sesión</h4>
 			<a href="https://www.google.com/" target="_self" class="botonessesion">Ingresar con Google</a>
 			<a href="https://www.facebook.com/" target="_self" class="botonessesion">Ingresar con Facebook</a>
 			<div class="syrdatos">
 				<p>Mail</p>
+				<hr>
 				<p>Contraseña</p>
+				<hr>
+				<p>¿Olvidaste tu contraseña?</p>
 			</div>
-			<p>¿Olvidaste tu contraseña?</p>
-			<a href="Inicio" target="_self" class="botonessesion">Listo</a>
+			<a href="inicio.html" target="_self" class="listosesion">Listo</a>
 		</section>
-		<section class="registro">
-			<h4>Registrate</h4>
-				  <a href="https://www.google.com/" target="_self">Ingresar con Google</a>
-				  <a href="https://www.facebook.com/" target="_self">Ingresar con Facebook</a>
-				<p>Nombre</p>
-				<p>Correo</p>
-				<p>contraseña</p>
-				<p>Confirmar contraseña</p>
-				  <a href="Inicio" target="_self">Listo</a>
+		<section id="registro">
+			<h4 class="titulosyr">Registrate</h4>
+				  <a href="https://www.google.com/" target="_self" class="botonesregistro">Ingresar con Google</a>
+				  <a href="https://www.facebook.com/" target="_self" class="botonesregistro">Ingresar con Facebook</a>
+				<div class="syrdatos">
+					<p>Nombre</p>
+					<hr>
+					<p>Correo</p>
+					<hr>
+					<p>Contraseña</p>
+					<hr>
+					<p>Confirmar contraseña</p>
+					<hr>
+				</div>
+				  <a href="inicio.html" target="_self" class="listoregistro">Listo</a>
 		</section>
 	</main>
 	<footer>
