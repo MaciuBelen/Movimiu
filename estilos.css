@@ -16,8 +16,9 @@ body {
 	text-decoration: none
 }
 
-header, main{
+header, main {
 	max-widht: 92%
+
 }
 
 nav {
@@ -65,13 +66,15 @@ nav p:hover {
 }
 
 h2 {
-	font-size: 3.8em;
+	font-size: 1.6em;
 }
+
 h3 {
-	font-size: 2.6em;
 	font-weight: 300;
 }
+
 h4 {
+	font-size: 0.9em;
 	font-weight: 300;
 	color: #B7FFF4;
 }
@@ -82,7 +85,7 @@ h4 {
 	padding-left: 70px
 }
 .boldmomimiu {
-	font-size: 2.6em;
+	font-size: 1.6em;
 }
 .subtitulos {
 	font-size: 1.8em
