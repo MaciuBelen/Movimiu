@@ -480,4 +480,10 @@ footer p {
 	footer p {
 		padding-left: 40px;
 	}
+	
+	.textopricipal, .buscar form {
+		display: none;
+	}
+	
+	
 }
