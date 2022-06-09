@@ -79,7 +79,6 @@ nav p:hover {
 	padding: 0px;
 	margin: 100px 100px 0px 100px;
 	overflow-x: scroll;
-	
 }
 
 .artistas-populares a{
@@ -206,11 +205,10 @@ nav p:hover {
 	padding-bottom: 20px;
 }
 
-.botonessesion{
-	background-color: #BFFBFF;
+.botonessesion, .botonesregistro {
+	display: flex;
+	justify-content: center;
 	border-radius: 40px;
-	box-shadow: 3px 3px 10px 0px #BBBBBB;
-	color: #150E23;
 	font-size: 0.9em;
 	margin-bottom: 30px;
 	width: 50%;
@@ -218,16 +216,16 @@ nav p:hover {
 	text-decoration: none
 }
 
+.botonessesion{
+	background-color: #BFFBFF;
+	box-shadow: 3px 3px 10px 0px #BBBBBB;
+	color: #150E23;
+}
+
 .botonesregistro{
 	background-color: #A600A9;
-	border-radius: 40px;
 	box-shadow: 3px 3px 10px 0px #BBBBBB;
 	color: #FFFFFF;
-	font-size: 0.9em;
-	margin-bottom: 30px;
-	width: 50%;
-	padding: 5px 50px;
-	text-decoration: none
 }
 
 .listoregistro, .listosesion {
@@ -247,11 +245,11 @@ nav p:hover {
 
 .listosesion:hover {
 	opacity: 1;
-	}
+}
 
 .listoregistro:hover {
 	opacity: 1;
-	}
+}
 
 .titulosyr {
 	margin-bottom: 30px;
@@ -270,7 +268,6 @@ nav p:hover {
 	align-self: flex-start;
 }
 
-
 .artistas-populares img{
 	position: relative;
 	width: 300px;
@@ -279,7 +276,6 @@ nav p:hover {
 	object-fit: cover;
 	margin: 0px;
 }
-
 
 .artistas-populares img:hover {
 	justify-content: center;
@@ -293,7 +289,6 @@ nav p:hover {
 	align-items: center;
 	
 }
-
 
 hr {
 	height: 1px;
@@ -313,6 +308,10 @@ footer {
 	padding: 0px 80px;
 }
 
+footer p {
+	padding-right: 20px;
+}
+
 h4 {
 	font-weight: 300;
 	color: #B7FFF4;
@@ -322,6 +321,10 @@ h4 {
 @media screen and (max-width : 600px){
 	body {
 		background-image: none;
+	}
+	
+	nav {
+		display: none
 	}
 	
 	.logotexto {
