@@ -124,6 +124,19 @@ h4 {
 	overflow-x:scroll;
 }
 
+.artistas-populares::-webkit-scrollbar{
+	width: 10px
+}
+
+.artistas-populares::-webkit-scrollbar:horizontal {
+	background-color: #0D001D;
+}
+
+.artistas-populares::-webkit-scrollbar-thumb:horizontal{
+	background-color: #B7FFF4;
+	border-radius: 5px
+}
+
 .artistas-populares a{
 	position: relative;
 	border-radius: 20px;
