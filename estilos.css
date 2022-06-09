@@ -393,10 +393,9 @@ footer p {
 		background-image: none;
 	}
 	
-	.navindex {
+	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form {
 		display: none;
 	}
-	
 	
 	.logotexto {
 		flex-direction: column;
@@ -409,13 +408,6 @@ footer p {
 		padding-bottom: 80px;
 	}
 	
-	.logotexto article h2 {
-		display: none;
-	}
-	
-	.logotexto article h3 {
-		display: none;
-	}
 	
 	.logotexto article {
 		display: flex;
@@ -434,7 +426,6 @@ footer p {
 	
 	.botonregistrate {
 		padding-top: 20px;
-		padding-left: 30px;
 		background: none;
 		box-shadow: none;
 		font-size: 0.7em;
@@ -449,7 +440,7 @@ footer p {
 		align-items: center;
 		background: none;
 		box-shadow: none;
-		margin: 40px 40px 120px 40px;
+		margin: 40px;
 		font-size: 1.2em
 	}
 	
@@ -476,14 +467,4 @@ footer p {
 		background-color: #B7FFF4;
 		color:#120028; 
 	}
-	
-	footer p {
-		padding-left: 40px;
-	}
-	
-	.textopricipal, .buscar form {
-		display: none;
-	}
-	
-	
 }
