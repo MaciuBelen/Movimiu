@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Montserrat:wght@400;700&display=swap');
 
+/*---main---*/
+
 body {
 	background-color: #120028;
 	background-image: url("img/background2.png");
@@ -23,11 +25,19 @@ header, main{
 	max-widht: 92%
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.miniatura {
+    margin: 20px;
+}
+
 nav ul li{
+	margin: 10px;
 	list-style-type: none;
 	font-size: 0.8em;
-	margin: 20px;
-    list-style-type: none;
 }
 
 nav ul{
@@ -46,6 +56,21 @@ nav a:hover {
 	color: #A600A9;
 }
 
+nav p {
+	background-color: #BBBBBB;
+	border-radius: 40px;
+	padding: 12px 20px 0px 20px;
+	font-size: 0.8em;
+	width: 10%;
+	opacity: 0.5;
+}
+
+nav p:hover {
+	opacity: 1;
+}
+
+/*---inicio---*/
+
 /*---carrusel---*/
 
 .artistas-populares {
@@ -58,7 +83,6 @@ nav a:hover {
 	padding: 0px;
 	margin: 100px 100px 0px 100px;
 	overflow-x: scroll;
-	
 }
 
 .artistas-populares a{
@@ -80,7 +104,6 @@ nav a:hover {
 	transition: all 500ms;
 	display: flex;
 	align-items: center;
-	
 }
 
 .artistas-populares p{
@@ -97,11 +120,6 @@ nav a:hover {
 	object-fit: cover;
 	margin:  0px 20px 0px 20px;
 	align-content: center;
-	
-}
-
-#sesion, #registro {
-	margin: 0% 25%;
 }
 
 .artistas-populares p:hover {
@@ -120,9 +138,8 @@ nav a:hover {
 	padding-bottom: 20px;
 }
 
-#registro {
-	margin-top: 150px;
-}
+/*---index---*/
+
 
 .logotexto {
     display: flex;
@@ -160,7 +177,7 @@ nav a:hover {
 	opacity: 1;
 	}
 
-.botónregistrate:hover {
+.botonregistrate:hover {
 	opacity: 1;
 	}
 
@@ -171,6 +188,10 @@ nav a:hover {
 .botonregistrate {
 	background-color: #A600A9;
 	margin-left: 20px;
+}
+
+#registro {
+	margin-top: 150px;
 }
 
 #sesion, #registro {
@@ -186,7 +207,7 @@ nav a:hover {
 	padding-bottom: 20px;
 }
 
-.botonessesion, .botonesregistro{
+.botonessesion, .botonesregistro {
 	display: flex;
 	justify-content: center;
 	border-radius: 40px;
@@ -194,7 +215,7 @@ nav a:hover {
 	margin-bottom: 30px;
 	width: 50%;
 	padding: 5px 50px;
-	text-decoration: none;
+	text-decoration: none
 }
 
 .botonessesion{
@@ -226,11 +247,11 @@ nav a:hover {
 
 .listosesion:hover {
 	opacity: 1;
-	}
+}
 
 .listoregistro:hover {
 	opacity: 1;
-	}
+}
 
 .titulosyr {
 	margin-bottom: 30px;
@@ -249,7 +270,6 @@ nav a:hover {
 	align-self: flex-start;
 }
 
-
 .artistas-populares img{
 	position: relative;
 	width: 300px;
@@ -258,7 +278,6 @@ nav a:hover {
 	object-fit: cover;
 	margin: 0px;
 }
-
 
 .artistas-populares img:hover {
 	justify-content: center;
@@ -272,7 +291,6 @@ nav a:hover {
 	align-items: center;
 	
 }
-
 
 hr {
 	height: 1px;
@@ -301,12 +319,15 @@ h4 {
 	color: #B7FFF4;
 }
 
-
-
+ /*---media---*/
 
 @media screen and (max-width : 600px){
 	body {
 		background-image: none;
+	}
+	
+	nav {
+		display: none;
 	}
 	
 	.logotexto {
@@ -390,11 +411,5 @@ h4 {
 	}
 	
 	footer p {
-	padding-left: 40px;
-	padding-right: 40px;
+		padding-left: 40px;
 	}
-	
-	h4 {
-	color: #B7FFF4;
-	font-weight: 400;
-	}	
