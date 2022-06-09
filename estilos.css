@@ -81,7 +81,7 @@ h3 {
 }
 
 h4 {
-	font-size: 0.7em;
+	
 	font-weight: 300;
 	color: #B7FFF4;
 }
@@ -89,13 +89,15 @@ h4 {
 /*---inicio---*/
 
 .textopricipal, .subtitulos {
-	padding-left: 70px
+	padding-left: 70px;
+	margin: 0px;
 }
 .boldmomimiu {
+	margin: 0px;
 	font-size: 1.6em;
 }
 .subtitulos {
-	font-size: 1.8em
+	font-size: 1.5em;
 }
 
 /*---carrusel---*/
@@ -311,7 +313,7 @@ h4 {
 
 hr{
 	height: 1px;
-	width: 480px;
+	width: 420px;
 	background-color: black;
 	opacity: 0.5;
 }
