@@ -190,9 +190,9 @@ h4 {
 .logotexto {
     display: flex;
     align-items: flex-start;
-	padding: 60px 0px 220px 0px;
-	margin-left: 300px;
+	padding: 60px 300px 220px 300px;
 	margin-bottom: 100px;
+	justify-content: center;
 }
 
 .logotexto article {
