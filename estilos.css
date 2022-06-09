@@ -49,6 +49,7 @@ nav a {
 	border-bottom-style: none;
 	text-decoration: none;
 }
+
 .buscar{
 	margin-top: 2px;
 	padding: 0px 10px;
@@ -79,6 +80,10 @@ nav p:hover {
 .navindex {
 	justify-content: flex-end;
 	padding-right: 50px;
+}
+
+.navindex img {
+	display: none;
 }
 
 h2 {
@@ -235,7 +240,7 @@ input {
 }
 
 .logotexto img {
-	width: 300px;
+	width: 250px;
 	height: auto;
 }
 
@@ -388,9 +393,10 @@ footer p {
 		background-image: none;
 	}
 	
-	nav {
+	.navindex {
 		display: none;
 	}
+	
 	
 	.logotexto {
 		flex-direction: column;
@@ -398,7 +404,8 @@ footer p {
 		margin: 0px;
 	}
 	
-	img {
+	.logotexto img {
+		width: 200px;
 		padding-bottom: 80px;
 	}
 	
@@ -422,11 +429,12 @@ footer p {
 		color: #120028; 
 		background-color: #B7FFF4;
 		padding: 15px;
+		margin: 0px;
 	}
 	
 	.botonregistrate {
 		padding-top: 20px;
-		padding-left: 0px;
+		padding-left: 30px;
 		background: none;
 		box-shadow: none;
 		font-size: 0.7em;
@@ -441,10 +449,8 @@ footer p {
 		align-items: center;
 		background: none;
 		box-shadow: none;
-		margin-top: 100px;
-		margin-bottom: 100px;
-		padding-bottom: 20px;
-		margin: 40px;
+		margin: 40px 40px 120px 40px;
+		font-size: 1.2em
 	}
 	
 	.titulosyr {
@@ -458,7 +464,6 @@ footer p {
 	
 	hr {
 		background-color: #B7FFF4;
-		width: 350px;
 		opacity: 0.7;
 	}
 	
