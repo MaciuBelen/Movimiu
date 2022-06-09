@@ -78,36 +78,35 @@ h4 {
 
 /*---inicio---*/
 
-.textopricipal {
+.textopricipal, .subtitulos {
 	padding-left: 70px
 }
 .boldmomimiu {
 	font-size: 2.6em;
 }
+.subtitulos {
+	font-size: 1.8em
+}
 
 /*---carrusel---*/
 
-/*.artistas-populares {
+.artistas-populares {
 	display: flex;
 	position: relative;
 	flex-direction: row;
 	align-items: center;
 	width: 1800px;
 	height: 400px;
-	padding: 0px;
-	margin: 100px 100px 0px 100px;
 	overflow-x: scroll;
 }
 
 .artistas-populares a{
 	position: relative;
-	border-radius: 20px;
+	border-radius: 15px;
 	height: 250px;
 	object-fit: cover;
 	margin:  0px 20px 0px 20px;
-	
 }
-
 
 .artistas-populares a:hover {
 	justify-content: center;
@@ -129,7 +128,7 @@ h4 {
 	flex-wrap: wrap;
 	position: fixed;
 	width: 300px;
-	height: 250px;
+	height: 230px;
 	border-radius: 20px;
 	background: rgba(54, 0, 122, 0.5);
 	object-fit: cover;
@@ -147,11 +146,12 @@ h4 {
 	display: flex;
 	align-items: center;
 	background-color: rgba(166,0,169,0.5);
-	border-radius: 40px;
+	border-radius: 15px;
 	margin-top: 100px;
 	margin-bottom: 100px;
 	padding-bottom: 20px;
 }
+
 .artistas-populares img{
 	position: relative;
 	width: 300px;
@@ -170,7 +170,7 @@ h4 {
 	transition: all 500ms;
 	display: flex;
 	align-items: center;
-}*/
+}
 
 /*---index---*/
 
