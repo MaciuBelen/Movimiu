@@ -73,7 +73,7 @@ nav p:hover {
 
 /*---carrusel---*/
 
-.artistas-populares {
+/*.artistas-populares {
 	display: flex;
 	position: relative;
 	flex-direction: row;
@@ -156,7 +156,7 @@ nav p:hover {
 	transition: all 500ms;
 	display: flex;
 	align-items: center;
-}
+}*/
 
 /*---index---*/
 
