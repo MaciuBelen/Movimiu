@@ -41,7 +41,7 @@ nav ul li{
 nav ul{
 	display: flex;
     align-items: center;
-	padding-left: 500px;
+	padding-left: 450px;
 }
 
 nav a {
@@ -52,6 +52,10 @@ nav a {
 .buscar{
 	margin-top: 2px;
 	padding: 0px 10px;
+}
+
+.usuario {
+	padding-left: 20px;
 }
 
 nav a:hover {
