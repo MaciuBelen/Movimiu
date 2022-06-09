@@ -196,6 +196,15 @@ h4 {
 	align-items: center;
 }
 
+body::-webkit-scrollbar{
+	width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+	background: #B7FFF4;
+	border-radius: 5px;
+}
+
 /*---index---*/
 
 input {
