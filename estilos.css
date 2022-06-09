@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Montserrat:wght@400;700&display=swap');
 
 /*---main---*/
-
 body {
 	background-color: #120028;
 	background-image: url("img/background2.png");
@@ -15,10 +14,6 @@ body {
 	color: #FFFFFF;
 	font-family: Inter;
 	text-decoration: none
-}
-
-h3 {
-	font-weight: 300;
 }
 
 header, main{
@@ -66,10 +61,32 @@ nav p {
 }
 
 nav p:hover {
-	opacity: 1;
+		opacity: 1;
+}
+
+h2 {
+	font-size: 3.8em;
+}
+h3 {
+	font-size: 2.6em;
+	font-weight: 300;
+}
+h4 {
+	font-weight: 300;
+	color: #B7FFF4;
 }
 
 /*---inicio---*/
+
+.textopricipal, .subtitulos {
+	padding-left: 70px
+}
+.boldmomimiu {
+	font-size: 2.6em;
+}
+.subtitulos {
+	font-size: 1.8em
+}
 
 /*---carrusel---*/
 
@@ -80,19 +97,16 @@ nav p:hover {
 	align-items: center;
 	width: 1800px;
 	height: 400px;
-	padding: 0px;
-	margin: 100px 100px 0px 100px;
-	overflow-x: scroll;
+	overflow-x:scroll;
 }
 
 .artistas-populares a{
 	position: relative;
-	border-radius: 20px;
+	border-radius: 15px;
 	height: 250px;
 	object-fit: cover;
 	margin:  0px 20px 0px 20px;
 }
-
 
 .artistas-populares a:hover {
 	justify-content: center;
@@ -114,7 +128,7 @@ nav p:hover {
 	flex-wrap: wrap;
 	position: fixed;
 	width: 300px;
-	height: 250px;
+	height: 230px;
 	border-radius: 20px;
 	background: rgba(54, 0, 122, 0.5);
 	object-fit: cover;
@@ -132,11 +146,12 @@ nav p:hover {
 	display: flex;
 	align-items: center;
 	background-color: rgba(166,0,169,0.5);
-	border-radius: 40px;
+	border-radius: 15px;
 	margin-top: 100px;
 	margin-bottom: 100px;
 	padding-bottom: 20px;
 }
+
 .artistas-populares img{
 	position: relative;
 	width: 300px;
@@ -155,7 +170,6 @@ nav p:hover {
 	transition: all 500ms;
 	display: flex;
 	align-items: center;
-	
 }
 
 /*---index---*/
@@ -265,11 +279,7 @@ nav p:hover {
 	color: #120028;
 }
 
-.listosesion:hover {
-	opacity: 1;
-}
-
-.listoregistro:hover {
+.listosesion:hover, .listoregistro:hover {
 	opacity: 1;
 }
 
@@ -312,10 +322,7 @@ footer p {
 	padding-right: 20px;
 }
 
-h4 {
-	font-weight: 300;
-	color: #B7FFF4;
-}
+
 
  /*---media---*/
 
