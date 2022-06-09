@@ -51,41 +51,6 @@ nav a:hover {
     align-items: center;
 }
 
-.sesion, .registro {
-	margin: 0% 20%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #FFFFFF;
-	border-radius: 40px;
-	box-shadow: 5px 5px 30px 5px black;
-	margin-bottom: 80px;
-	padding-bottom: 20px
-}
-
-.botonessesion{
-	background-color: #BFFBFF;
-	border-radius: 40px;
-	box-shadow: 3px 3px 30px 3px black;
-	color: #150E23;
-	font-size: 1.6em;
-	margin-bottom: 30px;
-	padding: 0px 17% 3px
-}
-
-.titulosyr {
-	font-size: 2em;
-	color: #FFFFFF;
-	font-family: Inter SemiBold
-}
-
-
-.syrdatos {
-font-size: 1.6em;
-color: #120028;
-opacity: 0.5;
-}
-
 /*---carrusel---*/
 
 .artistas-populares {
