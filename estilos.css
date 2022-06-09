@@ -292,26 +292,16 @@ footer {
 	padding: 0px 80px;
 }
 
+footer p {
+	padding-right: 20px;
+}
+
 h4 {
 	font-weight: 300;
 	color: #B7FFF4;
 }
 
-@media screen and (max-width: 600px){
-footer p {
-	padding-left: 40px;
-}
-<<<<<<< HEAD
-
-h4 {
-	color: #B7FFF4;
-	font-weight: 400;
-}
-
-=======
-  
->>>>>>> origin/main
-@media screen and (max-width : 600px ){
+@media screen and (max-width : 600px){
 	body {
 		background-image: none;
 	}
@@ -396,4 +386,13 @@ h4 {
 		color:#120028; 
 	}
 	
-	
+	footer p {
+	padding-left: 40px;
+}
+
+h4 {
+	color: #B7FFF4;
+	font-weight: 400;
+}
+
+}
