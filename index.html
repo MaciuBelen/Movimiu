@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Movimiu</title>
 <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
@@ -12,9 +13,10 @@
 			<img src="img/iconos/movimiu1.png" width="50" height="auto" alt="miniatura"/>
 		</div>
 		<nav>
-			
+
 			<ul>
 			  <li><a href="cerca-tuyo.html">Cerca tuyo</a></li>
+
 				<li><a href="foto.html">Foro</a></li>
 				<li><a href="artistas.html">Artistas</a></li>
 				<li><a href="contacto.html">Contacto</a></li>
@@ -23,14 +25,19 @@
 	</header>
 	<main>
 		<section class="logotexto">
-			<img src="img/movimiunombre.svg" width="335" height="342" alt="logo movimiu">
+			<img src="img/movimiunombre.png" width="190" height="186" alt="logo movimiu">
 			<article>
 				<h2>No te pierdas de nada</h2>
 				<h3>Todas tus bandas, <br>
 					todos los conciertos, <br>
 					en un solo lugar</h3>
+
 					<a href="Iniciar sesión" target="_self">Ingresá</a>
 					<a href="Registrate" target="_self">Registrate</a>
+
+					<a class="botóningresá" href="#sesion" target="_self">Ingresá</a>
+					<a class="botónregistrate" href="#registro" target="_self">Registrate</a>
+
 			</article>
 			<div class="artistas-populares">
 
@@ -72,13 +79,19 @@
 					</a>
 				</div>
 		</section>
+
 		<section class="sesion">
 			<h4>Inicia sesión</h4>
 			<p>Ingresar con Google</p>
+
+		<section id="sesion">
+			<h4 class="titulosyr">Inicia sesión</h4>
+
 			<a href="https://www.google.com/" target="_self" class="botonessesion">Ingresar con Google</a>
 			<a href="https://www.facebook.com/" target="_self" class="botonessesion">Ingresar con Facebook</a>
 			<div class="syrdatos">
 				<p>Mail</p>
+
 				<p>Contraseña</p>
 			</div>
 			<p>¿Olvidaste tu contraseña?</p>
@@ -93,6 +106,30 @@
 				<p>contraseña</p>
 				<p>Confirmar contraseña</p>
 				  <a href="Inicio" target="_self">Listo</a>
+
+				<hr>
+				<p>Contraseña</p>
+				<hr>
+				<p>¿Olvidaste tu contraseña?</p>
+			</div>
+			<a href="Inicio" target="_self" class="listosesion">Listo</a>
+		</section>
+		<section id="registro">
+			<h4 class="titulosyr">Registrate</h4>
+				  <a href="https://www.google.com/" target="_self" class="botonesregistro">Ingresar con Google</a>
+				  <a href="https://www.facebook.com/" target="_self" class="botonesregistro">Ingresar con Facebook</a>
+				<div class="syrdatos">
+					<p>Nombre</p>
+					<hr>
+					<p>Correo</p>
+					<hr>
+					<p>Contraseña</p>
+					<hr>
+					<p>Confirmar contraseña</p>
+					<hr>
+				</div>
+				  <a href="Inicio" target="_self" class="listoregistro">Listo</a>
+
 		</section>
 	</main>
 	<footer>
