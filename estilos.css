@@ -101,7 +101,7 @@ nav a:hover {
 
 #sesion, #registro {
 	margin: 0% 25%;
-
+}
 .artistas-populares p:hover {
 	justify-content: center;
 	transform: scale(1);
@@ -123,18 +123,133 @@ nav a:hover {
 	margin-top: 150px;
 }
 
+.logotexto {
+    display: flex;
+   	flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+	padding: 60px 0px 220px 0px;
+	margin-bottom: 100px;
+}
+
+.logotexto article {
+	padding-left: 120px;
+	font-size: 1.35em;
+}
+
+.logotexto article h2 {
+	margin: 0px;
+}
+
+.logotexto article h3 {
+	padding-bottom: 40px;
+}
+
+.botóningresá, .botónregistrate {
+	font-size: 0.9em;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 10px 0px #C7BCBC;
+	opacity: 0.8;
+}
+
+.botóningresá:hover{
+	opacity: 1;
+	}
+
+.botónregistrate:hover {
+	opacity: 1;
+	}
+
+.botóningresá {
+	background-color: #5390D9;
+}
+
+.botónregistrate {
+	background-color: #A600A9;
+	margin-left: 20px;
+}
+
+#sesion, #registro {
+	margin: 0% 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #EDECEC;
+	border-radius: 40px;
+	box-shadow: 5px 5px 30px 5px black;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-bottom: 20px;
+}
+
 .botonessesion{
 	background-color: #BFFBFF;
 	border-radius: 40px;
-	box-shadow: 3px 3px 10px 0px grey;
+	box-shadow: 3px 3px 10px 0px #BBBBBB;
 	color: #150E23;
 	font-size: 0.9em;
 	margin-bottom: 30px;
 	width: 50%;
 	padding: 5px 50px;
 	text-decoration: none
-    
 }
+
+.botonesregistro{
+	background-color: #A600A9;
+	border-radius: 40px;
+	box-shadow: 3px 3px 10px 0px #BBBBBB;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	margin-bottom: 30px;
+	width: 50%;
+	padding: 5px 50px;
+	text-decoration: none
+}
+
+.listoregistro, .listosesion {
+	color: #FFFFFF;
+	background-color: #A600A9;
+	border-radius: 40px;
+	box-shadow: 3px 3px 10px 0px grey;
+	text-decoration: none;
+	padding: 10px 30px;
+	opacity: 0.5;
+}
+
+.listosesion {
+	background-color: #B7FFF4;
+	color: #120028;
+}
+
+.listosesion:hover {
+	opacity: 1;
+	}
+
+.listoregistro:hover {
+	opacity: 1;
+	}
+
+.titulosyr {
+	margin-bottom: 30px;
+	font-size: 1.4em;
+	color: #120028;
+	font-family: Inter;
+}
+
+.syrdatos {
+	font-size: 0.9em;
+	color: #120028;
+	opacity: 0.5;
+	margin: 0px 0px 20px 100px;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+}
+
+
 .artistas-populares img{
 	position: relative;
 	width: 300px;
@@ -144,12 +259,6 @@ nav a:hover {
 	margin: 0px;
 }
 
-.titulosyr {
-	margin-bottom: 30px;
-	font-size: 1.4em;
-	color: #120028;
-	font-family: Inter;
-}
 
 .artistas-populares img:hover {
 	justify-content: center;
@@ -287,4 +396,4 @@ h4 {
 		color:#120028; 
 	}
 	
-	}
+	
