@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Montserrat:wght@400;700&display=swap');
 
 /*---main---*/
+
 body {
 	background-color: #120028;
 	background-image: url("img/background2.png");
@@ -23,7 +24,7 @@ header, main {
 
 nav {
     display: flex;
-    flex-direction: row;
+	margin-left: 50px;
 }
 
 .miniatura {
@@ -38,7 +39,6 @@ nav ul li{
 
 nav ul{
 	display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
 
@@ -62,7 +62,7 @@ nav p {
 }
 
 nav p:hover {
-		opacity: 1;
+	opacity: 1;
 }
 
 h2 {
@@ -180,10 +180,9 @@ h4 {
 
 .logotexto {
     display: flex;
-   	flex-direction: row;
-    justify-content: center;
     align-items: flex-start;
 	padding: 60px 0px 220px 0px;
+	margin-left: 300px;
 	margin-bottom: 100px;
 }
 
