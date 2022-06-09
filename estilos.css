@@ -6,7 +6,7 @@
 
 body {
 	background-color: #120028;
-	background-image: url("img/background.png");
+	background-image: url("img/background2.png");
 	background-repeat: no-repeat;
 	background-size: 100% 30%;
 	margin: auto;
@@ -21,6 +21,10 @@ h3 {
 
 header, main{
 	max-widht: 92%
+}
+
+nav {
+	display: flex;
 }
 
 nav ul li{
@@ -43,6 +47,19 @@ nav a {
 
 nav a:hover {
 	color: #A600A9;
+}
+
+nav p {
+	background-color: #BBBBBB;
+	border-radius: 40px;
+	padding: 12px 20px 0px 20px;
+	font-size: 0.8em;
+	width: 10%;
+	opacity: 0.5;
+}
+
+nav p:hover {
+	opacity: 1;
 }
 
 /*---carrusel---*/
@@ -292,16 +309,17 @@ footer {
 	padding: 0px 80px;
 }
 
-footer p {
-	padding-right: 20px;
-}
-
 h4 {
 	font-weight: 300;
 	color: #B7FFF4;
 }
 
-@media screen and (max-width : 600px){
+@media screen and (max-width: 600px){
+footer p {
+	padding-left: 40px;
+}
+  
+@media screen and (max-width : 600px ){
 	body {
 		background-image: none;
 	}
@@ -386,13 +404,4 @@ h4 {
 		color:#120028; 
 	}
 	
-	footer p {
-	padding-left: 40px;
-}
-
-h4 {
-	color: #B7FFF4;
-	font-weight: 400;
-}
-
-}
+	
