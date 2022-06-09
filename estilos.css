@@ -349,6 +349,7 @@ footer p {
 	.logotexto {
 		flex-direction: column;
 		align-items: center;
+		margin: 0px;
 	}
 	
 	img {
