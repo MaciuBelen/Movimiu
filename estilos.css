@@ -24,6 +24,7 @@ header, main {
 
 nav {
     display: flex;
+	align-items: center;
 	margin-left: 50px;
 }
 
@@ -40,6 +41,7 @@ nav ul li{
 nav ul{
 	display: flex;
     align-items: center;
+	padding-left: 450px;
 }
 
 nav a {
@@ -47,22 +49,38 @@ nav a {
 	border-bottom-style: none;
 	text-decoration: none;
 }
+.buscar{
+	margin-top: 2px;
+	padding: 0px 10px;
+}
+
+.usuario {
+	padding-left: 20px;
+}
 
 nav a:hover {
 	color: #A600A9;
 }
 
 nav p {
+	align-content: center;
 	background-color: #BBBBBB;
 	border-radius: 40px;
-	padding: 12px 20px 0px 20px;
+	padding: 5px 20px;
 	font-size: 0.8em;
 	width: 10%;
 	opacity: 0.5;
 }
 
+
+
 nav p:hover {
 	opacity: 1;
+}
+
+.navindex {
+	justify-content: flex-end;
+	padding-right: 50px;
 }
 
 h2 {
@@ -74,7 +92,7 @@ h3 {
 }
 
 h4 {
-	font-size: 0.7em;
+	
 	font-weight: 300;
 	color: #B7FFF4;
 }
@@ -82,13 +100,15 @@ h4 {
 /*---inicio---*/
 
 .textopricipal, .subtitulos {
-	padding-left: 70px
+	padding-left: 70px;
+	margin: 0px;
 }
 .boldmomimiu {
+	margin: 0px;
 	font-size: 1.6em;
 }
 .subtitulos {
-	font-size: 1.8em
+	font-size: 1.5em;
 }
 
 /*---carrusel---*/
@@ -105,7 +125,7 @@ h4 {
 
 .artistas-populares a{
 	position: relative;
-	border-radius: 15px;
+	border-radius: 20px;
 	height: 250px;
 	object-fit: cover;
 	margin:  0px 20px 0px 20px;
@@ -149,7 +169,7 @@ h4 {
 	display: flex;
 	align-items: center;
 	background-color: rgba(166,0,169,0.5);
-	border-radius: 15px;
+	border-radius: 20px;
 	margin-top: 100px;
 	margin-bottom: 100px;
 	padding-bottom: 20px;
@@ -177,13 +197,25 @@ h4 {
 
 /*---index---*/
 
+input {
+	text-decoration:none;
+	padding-right: 100px;
+	margin-bottom: -3px;
+	background: none;
+	border: none;
+}
 
 .logotexto {
     display: flex;
     align-items: flex-start;
-	padding: 60px 0px 220px 0px;
-	margin-left: 300px;
+	padding: 60px 100px 220px 100px;
 	margin-bottom: 100px;
+	justify-content: center;
+}
+
+.logotexto img {
+	width: 300px;
+	height: auto;
 }
 
 .logotexto article {
@@ -193,20 +225,22 @@ h4 {
 
 .logotexto article h2 {
 	margin: 0px;
+	font-size: 2.5em;
+	font-weight: 900;
 }
 
 .logotexto article h3 {
 	padding-bottom: 40px;
 }
-
 .botoningresa, .botonregistrate {
 	font-size: 0.9em;
 	color: #FFFFFF;
 	text-decoration: none;
-	padding: 20px;
+	padding: 20px 50px 20px 50px;
 	border-radius: 10px;
 	box-shadow: 0px 1px 10px 0px #C7BCBC;
 	opacity: 0.8;
+	margin-left: 100px;
 }
 
 .botoningresa:hover{
@@ -296,22 +330,15 @@ h4 {
 	font-size: 0.9em;
 	color: #120028;
 	opacity: 0.5;
-	margin: 0px 0px 20px 100px;
+	margin: 0px 0px 20px 0px;
 	display: flex;
 	flex-direction: column;
-	align-self: flex-start;
+	align-self: center;
 }
 
-.hr1 {
+hr{
 	height: 1px;
-	width: 270%;
-	background-color: black;
-	opacity: 0.5;
-}
-
-.hr2 {
-	height: 1px;
-	width: 322%;
+	width: 420px;
 	background-color: black;
 	opacity: 0.5;
 }
@@ -347,6 +374,7 @@ footer p {
 	.logotexto {
 		flex-direction: column;
 		align-items: center;
+		margin: 0px;
 	}
 	
 	img {
@@ -404,11 +432,10 @@ footer p {
 	
 	.syrdatos {
 		color: #B7FFF4;
-		margin-left: 75px;
 		opacity: 0.7;
 	}
 	
-	.hr1, .hr2 {
+	hr {
 		background-color: #B7FFF4;
 		width: 350px;
 		opacity: 0.7;
@@ -427,3 +454,4 @@ footer p {
 	footer p {
 		padding-left: 40px;
 	}
+}
