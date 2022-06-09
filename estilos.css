@@ -24,7 +24,12 @@ header, main{
 }
 
 nav {
-	display: flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.miniatura {
+    margin: 20px;
 }
 
 nav ul li{
@@ -113,12 +118,12 @@ nav p:hover {
 	object-fit: cover;
 	margin:  0px 20px 0px 20px;
 	align-content: center;
-	
 }
 
 #sesion, #registro {
 	margin: 0% 25%;
 }
+
 .artistas-populares p:hover {
 	justify-content: center;
 	transform: scale(1);
@@ -130,7 +135,6 @@ nav p:hover {
 	align-items: center;
 	background-color: #EDECEC;
 	border-radius: 40px;
-	box-shadow: 5px 5px 30px 5px black;
 	margin-top: 100px;
 	margin-bottom: 100px;
 	padding-bottom: 20px;
