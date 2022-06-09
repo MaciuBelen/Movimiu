@@ -131,7 +131,7 @@ h4 {
 }
 
 .artistas-populares::-webkit-scrollbar-thumb:horizontal{
-	background-color: #B7FFF4;
+	background: rgba(166,0,169,0.5);
 	border-radius: 5px
 }
 
