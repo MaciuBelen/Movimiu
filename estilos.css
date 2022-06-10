@@ -262,6 +262,27 @@ input {
 	border: none;
 }
 
+.atras{
+	display: flex;
+	align-content: center;
+	align-self: center;
+	
+}
+
+.imgatras, .imgatras2{
+	border-radius: 100%;
+	padding: 5px;
+	margin-left: 200%;
+}
+
+.imgatras{
+	background-color: #BFFBFF;
+}
+
+.imgatras2{
+	background-color: #A600A9;
+}
+
 .logotexto {
     display: flex;
     align-items: flex-start;
@@ -330,9 +351,8 @@ input {
 	background-color: #EDECEC;
 	border-radius: 40px;
 	box-shadow: 5px 5px 30px 5px black;
-	margin-top: 100px;
 	margin-bottom: 100px;
-	padding-bottom: 20px;
+	padding: 0px 70px 20px;
 }
 
 .botonessesion, .botonesregistro {
