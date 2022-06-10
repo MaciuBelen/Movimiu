@@ -447,7 +447,11 @@ footer p {
 		background-image: none;
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario {
+	main {
+		margin: 0px 80px;
+	}
+	
+	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2 {
 		display: none;
 	}
 	
@@ -498,6 +502,7 @@ footer p {
 	.botonregistrate:hover{
 		color: #A600A9;
 	}
+	
 	
 	#sesion, #registro {
 		display: flex;
