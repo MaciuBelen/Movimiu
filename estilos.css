@@ -27,6 +27,7 @@ nav {
     display: flex;
 	align-items: center;
 	margin-left: 50px;
+	width: 93%
 }
 
 .miniatura {
@@ -474,4 +475,5 @@ footer p {
 	
 	/*---inicio---*/
 	
+
 }
