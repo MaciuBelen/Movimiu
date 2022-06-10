@@ -569,17 +569,32 @@ footer p {
 main {
 	display: flex;
 	flex-direction: row;
+	margin: 50px 100px 50px 100px;
+}
+
+main section {
+	
+	
 }
 
 main li {
 	list-style-type: none;
+	margin: 0px 100px 0px 100px;
 }
 
 #artistayfecha {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
 	width: 40%;
 	height: auto;
+	
+}
+
+#artistayfecha img {
+	width: 550px;
+	height: auto;
+	
 }
 
 .fecha-actual {
@@ -587,35 +602,64 @@ main li {
 	display: flex;
 	flex-direction: row;
 	font-size: 1.2em;
-	width: 6400px;
+	width: 550px;
 	height: 140px;
 }
 
 .fecha {
 	margin: 0px;
 	padding: 0px;
-	text-align: center;
 	color: rgba(18,0,40,1.00);
-	font-size: 1.2em;
+	font-size: 1.6em;
+	font-weight: 700;
 	width: 200px;
 	height: 140px;
 	background-color: rgba(183,255,244,1.00);
 	border-radius: 20px 0px 0px 20px;
+	text-align: center;
+	align-content: space-around;
+}
+
+.fecha li{
+	width: 100px;
+	margin: auto;
+	padding: 0px;
+	align-items: center;
+}
+
+.fecha li p{
+	width: 100px;
+	margin: 30px 0px 0px 0px;
+	padding: 0px;
+	align-items: center;
 }
 
 .hora-lugar {
+	justify-content: center;
 	margin: 0px;
 	padding: 0px;
-	font-size: 1.2em;
-	width: 440px;
+	width: 350px;
 	height: 140px;
 	background-color: rgba(166,0,169,1.00);
 	border-radius: 0px 20px 20px 0px;
 }
 
+.hora-lugar li {
+	margin: 10px 0px 10px 30px;
+	padding: 0px;
+	width: 300px;
+}
+
+.hora-lugar li p{
+	margin: 30px 0px 0px 0px;
+	padding: 0px;
+	font-size:  1.6em;
+}
+
 #como-llegar {
 	width: 40%;
 	height: auto;
+	padding: 0% 5% 0% 5%;
 }
 
 #otras-fechas {
