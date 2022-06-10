@@ -27,11 +27,13 @@ nav {
     display: flex;
 	align-items: center;
 	margin-left: 50px;
-	width: 93%
+	justify-content: space-around;
 }
 
 .miniatura {
-    margin: 20px;
+	width: 45px;
+	height: auto;
+	align-content: center;
 }
 
 nav ul li{
@@ -51,29 +53,52 @@ nav a {
 	text-decoration: none;
 }
 
-.buscar{
+.buscar {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	height: 80px;
 	margin-top: 2px;
 	padding: 0px 10px;
 }
 
+.buscar img {
+	margin: auto 10px auto 50px;
+}
+
+.botonera {
+	display: flex;
+	flex-direction: row;
+	width: 500px;
+	height: 50px;
+	margin-top: 2px;
+	padding: 0px 10px;
+}
+
+.botonera img{
+	margin: auto 20px auto 20px;
+}
+
+#texto {
+  	width: 100px;
+    height: 30px;
+    margin: 25px 0px 30px 0px;
+	background-color: #BBBBBB;
+	align-content: center;
+	border-radius: 40px;
+	padding: 0px 20px;
+	font-size: 0.8em;
+	opacity: 0.5;
+}
 
 nav a:hover {
 	color: #A600A9;
 }
 
-nav p {
-	align-content: center;
-	background-color: #BBBBBB;
-	border-radius: 40px;
-	padding: 5px 20px;
-	font-size: 0.8em;
-	width: 10%;
-	opacity: 0.5;
-}
-
-nav p:hover {
+#texto:hover {
 	opacity: 1;
 }
+
 
 .navindex {
 	justify-content: flex-end;
@@ -107,7 +132,7 @@ h4 {
 }
 
 .boldmomimiu {
-	margin: 0px;
+	margin: -55px 0px 0px;
 	font-size: 2.5em;
 }
 
@@ -116,6 +141,9 @@ h4 {
 	margin-top: 80px;
 }
 
+.subtitulosmedia, .menu, .notificacion {
+	display: none;
+}
 
 /*---carrusel---*/
 
@@ -234,6 +262,27 @@ input {
 	border: none;
 }
 
+.atras{
+	display: flex;
+	align-content: center;
+	align-self: center;
+	
+}
+
+.imgatras, .imgatras2{
+	border-radius: 100%;
+	padding: 5px;
+	margin-left: 200%;
+}
+
+.imgatras{
+	background-color: #BFFBFF;
+}
+
+.imgatras2{
+	background-color: #A600A9;
+}
+
 .logotexto {
     display: flex;
     align-items: flex-start;
@@ -302,9 +351,8 @@ input {
 	background-color: #EDECEC;
 	border-radius: 40px;
 	box-shadow: 5px 5px 30px 5px black;
-	margin-top: 100px;
 	margin-bottom: 100px;
-	padding-bottom: 20px;
+	padding: 0px 70px 20px;
 }
 
 .botonessesion, .botonesregistro {
@@ -398,8 +446,18 @@ footer p {
 		background-image: none;
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul {
+	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario {
 		display: none;
+	}
+	
+	nav {
+		display: flex;
+		margin: 40px 0px;
+	}
+	
+	.menu, .notificacion {
+		display: flex;
+		align-items: center;
 	}
 	
 	.logotexto {
@@ -473,7 +531,14 @@ footer p {
 		color:#120028; 
 	}
 	
-	/*---inicio---*/
+	.miniatura, .iconobuscar {
+		height: 30px;
+		width: auto;
+	}
 	
-
+	
+	.subtitulosmedia {
+		display: flex;
+		font-size: 1.5em;
+	}
 }
