@@ -11,24 +11,22 @@
 <body>
 	<header>
 		<nav>
-			<div class="miniatura">
-            	<img src="img/movimiunav.png" width="30" height="auto" alt="miniatura"/>
-        	</div>
 			<div class="buscar">
+				<img class="miniatura" src="img/movimiunav.png" width="30" height="auto" alt="miniatura"/>
 				<img src="img/iconos/buscarcelestex.png" width="auto" height="20px" alt="buscar">
+				<form method="post" action="" target="_blank" enctype="text/plain">
+					<input type="text" name="text" id="texto" maxlength="50" placeholder="Artistas, fechas..." size="40">
+				</form>
 			</div>
-			<form method="post" action="" target="_blank" enctype="text/plain">
-				<input type="text" name="text" id="texto" maxlength="50" placeholder="Artistas, fechas..." size="40">
-			</form>
-			<ul>
-				<li><a href="cerca-tuyo.html">Cerca tuyo</a></li>
-				<li><a href="foto.html">Foro</a></li>
-				<li><a href="artistas.html">Artistas</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
-				<li><a href="ayuda.html">Ayuda</a></li>
-			</ul>
-			<div class="usuario">
-				<img src="img/iconos/perfil012.png" width="auto" height="30px" alt="imagenusuario">
+			<div class="botonera">
+				<ul>
+					<li><a href="cerca-tuyo.html">Cerca tuyo</a></li>
+					<li><a href="foto.html">Foro</a></li>
+					<li><a href="artistas.html">Artistas</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="ayuda.html">Ayuda</a></li>
+				</ul>
+				<img class="usuario" src="img/iconos/perfil012.png" width="auto" height="30px" alt="imagenusuario">
 			</div>
 		</nav>
 	</header>

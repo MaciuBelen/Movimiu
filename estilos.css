@@ -49,6 +49,7 @@ nav a {
 	border-bottom-style: none;
 	text-decoration: none;
 }
+
 .buscar{
 	margin-top: 2px;
 	padding: 0px 10px;
@@ -72,8 +73,6 @@ nav p {
 	opacity: 0.5;
 }
 
-
-
 nav p:hover {
 	opacity: 1;
 }
@@ -83,16 +82,22 @@ nav p:hover {
 	padding-right: 50px;
 }
 
+.navindex img {
+	display: none;
+}
+
 h2 {
 	font-size: 4.6em;
 }
 
 h3 {
-	font-size: 2.5em;
+	margin-top: 30px 0px 0px 0px;
+	font-size: 2.2em;
 	font-weight: 300;
 }
 
 h4 {
+	
 	font-weight: 300;
 	color: #B7FFF4;
 }
@@ -121,6 +126,19 @@ h4 {
 	width: 1800px;
 	height: 400px;
 	overflow-x:scroll;
+}
+
+.artistas-populares::-webkit-scrollbar{
+	width: 10px
+}
+
+.artistas-populares::-webkit-scrollbar:horizontal {
+	background-color: #0D001D;
+}
+
+.artistas-populares::-webkit-scrollbar-thumb:horizontal{
+	background: rgba(166,0,169,0.5);
+	border-radius: 5px
 }
 
 .artistas-populares a{
@@ -195,6 +213,15 @@ h4 {
 	align-items: center;
 }
 
+body::-webkit-scrollbar{
+	width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+	background: #B7FFF4;
+	border-radius: 5px;
+}
+
 /*---index---*/
 
 input {
@@ -214,7 +241,8 @@ input {
 }
 
 .logotexto img {
-	width: 300px;
+
+	width: 250px;
 	height: auto;
 }
 
@@ -232,6 +260,7 @@ input {
 .logotexto article h3 {
 	padding-bottom: 40px;
 }
+
 .botoningresa, .botonregistrate {
 	font-size: 0.9em;
 	color: #FFFFFF;
@@ -240,7 +269,7 @@ input {
 	border-radius: 10px;
 	box-shadow: 0px 1px 10px 0px #C7BCBC;
 	opacity: 0.8;
-	margin-left: 100px;
+	margin-left: 1px;
 }
 
 .botoningresa:hover{
@@ -367,7 +396,7 @@ footer p {
 		background-image: none;
 	}
 	
-	nav {
+	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form {
 		display: none;
 	}
 	
@@ -377,17 +406,11 @@ footer p {
 		margin: 0px;
 	}
 	
-	img {
-		padding-bottom: 80px;
+	.logotexto img {
+		width: 200px;
+		padding: 40px 0px 80px 0px;
 	}
 	
-	.logotexto article h2 {
-		display: none;
-	}
-	
-	.logotexto article h3 {
-		display: none;
-	}
 	
 	.logotexto article {
 		display: flex;
@@ -401,11 +424,12 @@ footer p {
 		color: #120028; 
 		background-color: #B7FFF4;
 		padding: 15px;
+		margin: 0px;
 	}
 	
 	.botonregistrate {
 		padding-top: 20px;
-		padding-left: 0px;
+		margin: 0px;
 		background: none;
 		box-shadow: none;
 		font-size: 0.7em;
@@ -420,10 +444,8 @@ footer p {
 		align-items: center;
 		background: none;
 		box-shadow: none;
-		margin-top: 100px;
-		margin-bottom: 100px;
-		padding-bottom: 20px;
 		margin: 40px;
+		font-size: 1.2em
 	}
 	
 	.titulosyr {
@@ -437,7 +459,6 @@ footer p {
 	
 	hr {
 		background-color: #B7FFF4;
-		width: 350px;
 		opacity: 0.7;
 	}
 	
@@ -449,9 +470,5 @@ footer p {
 	.listoregistro {
 		background-color: #B7FFF4;
 		color:#120028; 
-	}
-	
-	footer p {
-		padding-left: 40px;
 	}
 }
