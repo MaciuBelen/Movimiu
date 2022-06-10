@@ -393,9 +393,10 @@ footer p {
 @media screen and (max-width : 600px){
 	body {
 		background-image: none;
+		
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form {
+	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul {
 		display: none;
 	}
 	
@@ -407,6 +408,7 @@ footer p {
 	
 	.logotexto img {
 		width: 200px;
+		margin-bottom: 80px;
 		padding: 40px 0px 80px 0px;
 	}
 	
@@ -419,7 +421,7 @@ footer p {
 	}
 	
 	.botoningresa {
-		font-size: 1.2em;
+		font-size: 1.5em;
 		color: #120028; 
 		background-color: #B7FFF4;
 		padding: 15px;
@@ -427,11 +429,11 @@ footer p {
 	}
 	
 	.botonregistrate {
-		padding-top: 20px;
+		padding-top: 30px;
 		margin: 0px;
 		background: none;
 		box-shadow: none;
-		font-size: 0.7em;
+		font-size: 0.9em;
 	}
 	
 	.botonregistrate:hover{
@@ -443,7 +445,7 @@ footer p {
 		align-items: center;
 		background: none;
 		box-shadow: none;
-		margin: 40px;
+		margin: 80px 40px;
 		font-size: 1.2em
 	}
 	
