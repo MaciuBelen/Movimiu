@@ -207,6 +207,7 @@ h4 {
 	object-fit: cover;
 	margin:  0px 20px 0px 20px;
 	align-content: center;
+	opacity: 0;
 }
 
 .artistas-populares p:hover {
@@ -223,6 +224,7 @@ h4 {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	padding-bottom: 20px;
+	opacity: 1;
 }
 
 .artistas-populares img{
