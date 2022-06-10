@@ -7,7 +7,6 @@
 /*---main---*/
 
 body {
-	width: 1920px;
 	background-color: #120028;
 	background-image: url("img/background2.png");
 	background-repeat: no-repeat;
@@ -19,30 +18,37 @@ body {
 	align-items: center;
 }
 
-header, main {
-	max-width: 92%
-
+header {
+	margin-left: 45px;
 }
 
-nav {
-    display: flex;
+main {
+	max-width: 92%;
 	margin-left: 50px;
 }
 
+nav {
+	width: 95%;
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
 .miniatura {
-    margin: 20px;
+	width: 45px;
+	height: auto;
+	align-content: center;
 }
 
 nav ul li{
-	margin: 10px;
+	margin: 10px 30px 10px 0px;
 	list-style-type: none;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 nav ul{
 	display: flex;
     align-items: center;
-	padding-left: 625px;
 }
 
 nav a {
@@ -51,39 +57,71 @@ nav a {
 	text-decoration: none;
 }
 
+.buscar {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	height: 80px;
+	margin-top: 2px;
+	padding: 0px 10px;
+}
+
+.buscar img {
+	margin: auto 10px auto 50px;
+}
+
+.botonera {
+	display: flex;
+	flex-direction: row;
+	height: 50px;
+	margin-top: 2px;
+}
+
+.botonera img{
+	margin: auto 20px;
+}
+
+#texto {
+  	width: 125px;
+    height: 30px;
+    margin: 25px 0px 30px 0px;
+	background-color: #BBBBBB;
+	align-content: center;
+	border-radius: 40px;
+	padding: 0px 25px;
+	font-size: 1em;
+	opacity: 0.5;
+}
+
 nav a:hover {
 	color: #A600A9;
 }
 
-nav p {
-	align-content: center;
-	background-color: #BBBBBB;
-	border-radius: 40px;
-	padding: 14px 20px 0px 20px;
-	font-size: 0.8em;
-	width: 10%;
-	opacity: 0.5;
-}
-
-nav p:hover {
+#texto:hover {
 	opacity: 1;
 }
+
 
 .navindex {
 	justify-content: flex-end;
 	padding-right: 50px;
 }
 
+.navindex img {
+	display: none;
+}
+
 h2 {
-	font-size: 1.6em;
+	font-size: 4.4em;
 }
 
 h3 {
+	margin-top: 30px 0px 0px 0px;
+	font-size: 2.2em;
 	font-weight: 300;
 }
 
 h4 {
-	
 	font-weight: 300;
 	color: #B7FFF4;
 }
@@ -94,12 +132,19 @@ h4 {
 	padding-left: 70px;
 	margin: 0px;
 }
+
 .boldmomimiu {
-	margin: 0px;
-	font-size: 1.6em;
+	margin: -55px 0px 0px;
+	font-size: 2.5em;
 }
+
 .subtitulos {
 	font-size: 1.5em;
+	margin-top: 80px;
+}
+
+.subtitulosmedia, .menu, .notificacion {
+	display: none;
 }
 
 /*---carrusel---*/
@@ -109,10 +154,23 @@ h4 {
 	position: relative;
 	flex-direction: row;
 	align-items: center;
-	width: 95%;
+	width: 98%;
 	height: 400px;
 	overflow-x:scroll;
-	padding: 0px 40px 0px 40px;
+	margin-top: -50px
+}
+
+.artistas-populares::-webkit-scrollbar{
+	width: 10px
+}
+
+.artistas-populares::-webkit-scrollbar:horizontal {
+	background-color: #0D001D;
+}
+
+.artistas-populares::-webkit-scrollbar-thumb:horizontal{
+	background: rgba(166,0,169,0.5);
+	border-radius: 5px;
 }
 
 .artistas-populares a{
@@ -136,7 +194,6 @@ h4 {
 }
 
 .artistas-populares p{
-	opacity: 0;
 	color: #B7FFF4;
 	justify-content: center;
 	font-size: 20px;
@@ -152,8 +209,7 @@ h4 {
 	align-content: center;
 }
 
-.artistas-populares p:hover {	
-	opacity: 1;
+.artistas-populares p:hover {
 	justify-content: center;
 	transform: scale(1);
 	object-fit: cover;
@@ -179,7 +235,7 @@ h4 {
 }
 .artistas-populares img:hover {
 	justify-content: center;
-	transform: scale(1);
+	transform: scale(1.3);
 	height: auto;
 	object-fit: cover;
 	margin: 0px;
@@ -189,17 +245,46 @@ h4 {
 	align-items: center;
 }
 
-.artistas-populares::-webkit-scrollbar {
-	width: 95%;
+body::-webkit-scrollbar{
+	width: 10px;
 }
 
-.artistas-populares::-webkit-scrollbar-thumb {
-	background: rgba(166,0,169,0.5);
+body::-webkit-scrollbar-thumb{
+	background: #B7FFF4;
+	border-radius: 5px;
 }
-
 
 /*---index---*/
 
+input {
+	text-decoration:none;
+	padding-right: 100px;
+	margin-bottom: -3px;
+	background: none;
+	border: none;
+}
+
+.atras{
+	display: flex;
+	align-content: center;
+	align-self: center;
+	justify-content: center;
+	
+}
+
+.imgatras, .imgatras2{
+	border-radius: 100%;
+	padding: 5px;
+	margin-left: 200%;
+}
+
+.imgatras{
+	background-color: #BFFBFF;
+}
+
+.imgatras2{
+	background-color: #A600A9;
+}
 
 .logotexto {
     display: flex;
@@ -208,8 +293,9 @@ h4 {
 	margin-bottom: 100px;
 	justify-content: center;
 }
+
 .logotexto img {
-	width: 300px;
+	width: 250px;
 	height: auto;
 }
 
@@ -236,7 +322,7 @@ h4 {
 	border-radius: 10px;
 	box-shadow: 0px 1px 10px 0px #C7BCBC;
 	opacity: 0.8;
-	margin-left: 100px;
+	margin-left: 1px;
 }
 
 .botoningresa:hover{
@@ -268,16 +354,15 @@ h4 {
 	background-color: #EDECEC;
 	border-radius: 40px;
 	box-shadow: 5px 5px 30px 5px black;
-	margin-top: 100px;
 	margin-bottom: 100px;
-	padding-bottom: 20px;
+	padding: 0px 70px 20px;
 }
 
 .botonessesion, .botonesregistro {
 	display: flex;
 	justify-content: center;
 	border-radius: 40px;
-	font-size: 0.9em;
+	font-size: 1em;
 	margin-bottom: 30px;
 	width: 50%;
 	padding: 5px 50px;
@@ -318,12 +403,13 @@ h4 {
 .titulosyr {
 	margin-bottom: 30px;
 	font-size: 1.4em;
+	font-weight: 600;
 	color: #120028;
 	font-family: Inter;
 }
 
 .syrdatos {
-	font-size: 0.9em;
+	font-size: 1em;
 	color: #120028;
 	opacity: 0.5;
 	margin: 0px 0px 20px 0px;
@@ -347,7 +433,7 @@ footer {
 	color: #FFFFFF;
 	font-size: 0.7em;
 	font-family: Inter;
-	padding: 0px 80px;
+	padding: 0px 100px;
 }
 
 footer p {
@@ -359,13 +445,35 @@ footer p {
  /*---media---*/
 
 @media screen and (max-width : 600px){
+	
 	body {
 		background-image: none;
 	}
 	
-	nav {
+	main {
+		margin: 40px 80px 0px;
+	}
+	
+	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2 {
 		display: none;
 	}
+	
+	nav {
+		display: flex;
+		margin: 20px 0px;
+		width: 90%;
+	}
+	
+	.menu, .notificacion {
+		display: flex;
+		padding-left: 20px;
+	}
+	
+	.iconosnav {
+		display: flex;
+		align-items: center;
+	}
+	
 	
 	.logotexto {
 		flex-direction: column;
@@ -373,16 +481,9 @@ footer p {
 		margin: 0px;
 	}
 	
-	img {
-		padding-bottom: 80px;
-	}
-	
-	.logotexto article h2 {
-		display: none;
-	}
-	
-	.logotexto article h3 {
-		display: none;
+	.logotexto img {
+		width: 200px;
+		margin-bottom: 80px;
 	}
 	
 	.logotexto article {
@@ -393,33 +494,33 @@ footer p {
 	}
 	
 	.botoningresa {
-		font-size: 1.2em;
+		font-size: 1.5em;
 		color: #120028; 
 		background-color: #B7FFF4;
 		padding: 15px;
+		margin: 0px;
 	}
 	
 	.botonregistrate {
-		padding-top: 20px;
-		padding-left: 0px;
+		padding-top: 30px;
+		margin: 0px;
 		background: none;
 		box-shadow: none;
-		font-size: 0.7em;
+		font-size: 0.9em;
 	}
 	
 	.botonregistrate:hover{
 		color: #A600A9;
 	}
 	
+	
 	#sesion, #registro {
 		display: flex;
 		align-items: center;
 		background: none;
 		box-shadow: none;
-		margin-top: 100px;
-		margin-bottom: 100px;
-		padding-bottom: 20px;
-		margin: 40px;
+		margin: 80px 0px;
+		font-size: 1.2em
 	}
 	
 	.titulosyr {
@@ -433,7 +534,6 @@ footer p {
 	
 	hr {
 		background-color: #B7FFF4;
-		width: 350px;
 		opacity: 0.7;
 	}
 	
@@ -447,7 +547,17 @@ footer p {
 		color:#120028; 
 	}
 	
-	footer p {
-		padding-left: 40px;
+	.miniatura, .iconobuscar {
+		height: 30px;
+		width: auto;
+	}
+	
+	.buscar img {
+		margin: 30px 30px 0px 10px;
+	}
+	
+	.subtitulosmedia {
+		display: flex;
+		font-size: 1.5em;
 	}
 }
