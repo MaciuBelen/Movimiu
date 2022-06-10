@@ -7,6 +7,7 @@
 /*---main---*/
 
 body {
+	width: 1920px;
 	background-color: #120028;
 	background-image: url("img/background2.png");
 	background-repeat: no-repeat;
@@ -14,11 +15,12 @@ body {
 	margin: auto;
 	color: #FFFFFF;
 	font-family: Inter;
-	text-decoration: none
+	text-decoration: none;
+	align-items: center;
 }
 
 header, main {
-	max-widht: 92%
+	max-width: 92%
 
 }
 
