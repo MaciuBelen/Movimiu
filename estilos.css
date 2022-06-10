@@ -7,7 +7,6 @@
 /*---main---*/
 
 body {
-	width: 1920px;
 	background-color: #120028;
 	background-image: url("img/background2.png");
 	background-repeat: no-repeat;
@@ -20,7 +19,8 @@ body {
 }
 
 header, main {
-	max-width: 92%
+	max-width: 92%;
+	margin-left: 50px;
 
 }
 
@@ -43,7 +43,6 @@ nav ul li{
 nav ul{
 	display: flex;
     align-items: center;
-	padding-left: 450px;
 }
 
 nav a {
@@ -57,9 +56,6 @@ nav a {
 	padding: 0px 10px;
 }
 
-.usuario {
-	padding-left: 20px;
-}
 
 nav a:hover {
 	color: #A600A9;
@@ -110,12 +106,16 @@ h4 {
 	padding-left: 70px;
 	margin: 0px;
 }
+
 .boldmomimiu {
 	margin: 0px;
 	font-size: 2.5em;
 }
+
 .subtitulos {
 	font-size: 1.5em;
+	margin-top: 80px
+
 }
 
 /*---carrusel---*/
@@ -125,9 +125,10 @@ h4 {
 	position: relative;
 	flex-direction: row;
 	align-items: center;
-	width: 1800px;
+	width: 98%;
 	height: 400px;
 	overflow-x:scroll;
+	margin-top: -50px
 }
 
 .artistas-populares::-webkit-scrollbar{
@@ -140,7 +141,7 @@ h4 {
 
 .artistas-populares::-webkit-scrollbar-thumb:horizontal{
 	background: rgba(166,0,169,0.5);
-	border-radius: 5px
+	border-radius: 5px;
 }
 
 .artistas-populares a{
@@ -381,7 +382,7 @@ footer {
 	color: #FFFFFF;
 	font-size: 0.7em;
 	font-family: Inter;
-	padding: 0px 80px;
+	padding: 0px 100px;
 }
 
 footer p {
@@ -393,9 +394,10 @@ footer p {
  /*---media---*/
 
 @media screen and (max-width : 600px){
+	
 	body {
 		background-image: none;
-		
+		width: 600px;
 	}
 	
 	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul {
@@ -411,9 +413,7 @@ footer p {
 	.logotexto img {
 		width: 200px;
 		margin-bottom: 80px;
-		padding: 40px 0px 80px 0px;
 	}
-	
 	
 	.logotexto article {
 		display: flex;
@@ -447,7 +447,7 @@ footer p {
 		align-items: center;
 		background: none;
 		box-shadow: none;
-		margin: 80px 40px;
+		margin: 80px 0px;
 		font-size: 1.2em
 	}
 	
