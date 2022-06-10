@@ -27,10 +27,13 @@ nav {
     display: flex;
 	align-items: center;
 	margin-left: 50px;
+	justify-content: space-around;
 }
 
 .miniatura {
-    margin: 20px;
+	width: 45px;
+	height: auto;
+	align-content: center;
 }
 
 nav ul li{
@@ -50,29 +53,52 @@ nav a {
 	text-decoration: none;
 }
 
-.buscar{
+.buscar {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	height: 80px;
 	margin-top: 2px;
 	padding: 0px 10px;
 }
 
+.buscar img {
+	margin: auto 10px auto 50px;
+}
+
+.botonera {
+	display: flex;
+	flex-direction: row;
+	width: 500px;
+	height: 50px;
+	margin-top: 2px;
+	padding: 0px 10px;
+}
+
+.botonera img{
+	margin: auto 20px auto 20px;
+}
+
+#texto {
+  	width: 100px;
+    height: 30px;
+    margin: 25px 0px 30px 0px;
+	background-color: #BBBBBB;
+	align-content: center;
+	border-radius: 40px;
+	padding: 0px 20px;
+	font-size: 0.8em;
+	opacity: 0.5;
+}
 
 nav a:hover {
 	color: #A600A9;
 }
 
-nav p {
-	align-content: center;
-	background-color: #BBBBBB;
-	border-radius: 40px;
-	padding: 5px 20px;
-	font-size: 0.8em;
-	width: 10%;
-	opacity: 0.5;
-}
-
 nav p:hover {
 	opacity: 1;
 }
+
 
 .navindex {
 	justify-content: flex-end;
@@ -115,6 +141,9 @@ h4 {
 	margin-top: 80px;
 }
 
+.subtitulosmedia, .menu, .notificacion {
+	display: none;
+}
 
 /*---carrusel---*/
 
@@ -397,8 +426,18 @@ footer p {
 		background-image: none;
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul {
+	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario {
 		display: none;
+	}
+	
+	nav {
+		display: flex;
+		margin: 40px 0px;
+	}
+	
+	.menu, .notificacion {
+		display: flex;
+		align-items: center;
 	}
 	
 	.logotexto {
@@ -470,5 +509,16 @@ footer p {
 	.listoregistro {
 		background-color: #B7FFF4;
 		color:#120028; 
+	}
+	
+	.miniatura, .iconobuscar {
+		height: 30px;
+		width: auto;
+	}
+	
+	
+	.subtitulosmedia {
+		display: flex;
+		font-size: 1.5em;
 	}
 }
