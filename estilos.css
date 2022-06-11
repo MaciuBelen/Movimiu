@@ -614,7 +614,36 @@ footer p {
 	opacity: 1;
 }
 
+/*---INFO FECHAS---*/
 
+#infofechas{
+	padding-top: 100px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.artistaymusica .lugaresconfirmados .carrusel2{
+	display: flex;
+	flex-direction: column;
+}
+.infocuadraditolargo{
+	display: flex;
+	align-items: row;
+	align-items: center;
+}
+
+.textocentrado{
+	display: flex;
+	align-items: center;
+}
+.teatrolugar{
+	padding-left: 50px
+}
+.proximasfechas{
+	display: flex;
+	flex-direction: row
+}
 
 
  /*---media---*/
