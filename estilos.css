@@ -126,6 +126,13 @@ h3 {
 	font-weight: 300;
 }
 
+.titulo {
+	font-size: 1.8em;
+	margin: 0px 0px 20px 0px;
+	opacity: 1;
+	color: #B7FFF4;
+}
+
 .subtitulofechas {
 	font-size: 1.2em;
 }
@@ -169,7 +176,7 @@ h4 {
 	margin-top: -50px
 }
 
-.artistas-populares::-webkit-scrollbar{
+.artistas-populares::-webkit-scrollbar {
 	width: 10px
 }
 
@@ -177,12 +184,12 @@ h4 {
 	background-color: #0D001D;
 }
 
-.artistas-populares::-webkit-scrollbar-thumb:horizontal{
+.artistas-populares::-webkit-scrollbar-thumb:horizontal {
 	background: rgba(166,0,169,0.5);
 	border-radius: 5px;
 }
 
-.artistas-populares a{
+.artistas-populares a {
 	position: relative;
 	border-radius: 20px;
 	height: 250px;
@@ -202,7 +209,7 @@ h4 {
 	align-items: center;
 }
 
-.artistas-populares p{
+.artistas-populares p {
 	color: #B7FFF4;
 	justify-content: center;
 	font-size: 20px;
@@ -234,7 +241,7 @@ h4 {
 	padding-bottom: 20px;
 }
 
-.artistas-populares img{
+.artistas-populares img {
 	position: relative;
 	width: 300px;
 	border-radius: 20px;
@@ -254,11 +261,11 @@ h4 {
 	align-items: center;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
 	width: 10px;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
 	background: #B7FFF4;
 	border-radius: 5px;
 }
@@ -460,7 +467,6 @@ footer p {
 	font-weight: 500;
 }
 
-
 #infofechas{
 	padding-top: 100px;
 	display: flex;
@@ -572,16 +578,10 @@ footer p {
 
 /*--todo css de como llegar--*/
 
-.pagina-como-llegar {
+#main-como-llegar {
 	display: flex;
 	flex-direction: row;
 	margin: 50px 100px 50px 100px;
-}
-
-
-.pagina-como-llegar li {
-	list-style-type: none;
-	margin: 0px 100px 0px 100px;
 }
 
 #artistayfecha {
@@ -646,6 +646,7 @@ footer p {
 }
 
 .hora-lugar li {
+	list-style-type: none;
 	margin: 10px 0px 10px 30px;
 	padding: 0px;
 	width: 300px;
@@ -656,7 +657,6 @@ footer p {
 	padding: 0px;
 	font-size:  1.6em;
 }
-
 
 #otras-fechas {
 	width: 20%;
@@ -671,7 +671,6 @@ footer p {
 	width: 40%;
 	height: auto;
 	padding: 0% 5% 0% 5%;
-	
 }
 
 #como-llegar article {
@@ -681,17 +680,7 @@ footer p {
 #como-llegar h4 {
 	font-size: 1.2em;
 	margin: 30px 0px 20px 100px;
-	
 }
-
-.titulo{
-	font-size: 1.8em;
-	margin: 0px 0px 20px 0px;
-	opacity: 1;
-	color: #B7FFF4;
-
-}
-
 
 #como-llegar p {
 	display: flex;
@@ -734,11 +723,11 @@ footer p {
 	border-radius: 10px;
 }
 
-#mapa {
+#mapa iframe {
 	opacity: 0.5;
 }
 
-#mapa:hover {
+#mapa:hover iframe{
 	transition: all 500ms;
 	opacity: 1;
 }
@@ -780,6 +769,10 @@ footer p {
 		display: none;
 	}
 	
+	.pagina-como-llegar, .infocuadraditolargo, .logotexto, .botoningresa, .botonregistrate, iframe {
+		margin: 0px;
+	}
+	
 	nav {
 		display: flex;
 		margin: 20px 0px;
@@ -800,7 +793,6 @@ footer p {
 	.logotexto {
 		flex-direction: column;
 		align-items: center;
-		margin: 0px;
 	}
 	
 	.logotexto img {
@@ -820,12 +812,10 @@ footer p {
 		color: #120028; 
 		background-color: #B7FFF4;
 		padding: 15px;
-		margin: 0px;
 	}
 	
 	.botonregistrate {
 		padding-top: 30px;
-		margin: 0px;
 		background: none;
 		box-shadow: none;
 		font-size: 0.9em;
@@ -834,7 +824,6 @@ footer p {
 	.botonregistrate:hover{
 		color: #A600A9;
 	}
-	
 	
 	#sesion, #registro {
 		display: flex;
@@ -883,13 +872,13 @@ footer p {
 		font-size: 1.5em;
 	}
 	
-	.pagina-como-llegar {
-		margin: 0px;
-	}
-	
-	#artistayfecha,.artistaymusica img, .mapainfo {
+	#artistayfecha,.artistaymusica img, iframe {
 		display: flex;
 		width: 450px;
+	}
+	
+	iframe {
+		opacity: 0.5;
 	}
 	
 	.titulo-media {
@@ -897,4 +886,9 @@ footer p {
 		color: #B7FFF4;
 		font-size: 1.5em;
 	}
+	
+	.teatrolugar, .fechaconfirmada, .infocuadraditolargo {
+		margin-top: 15px;
+	}
+	
 }
