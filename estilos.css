@@ -152,7 +152,7 @@ h4 {
 	margin-top: 80px;
 }
 
-.subtitulosmedia, .menu, .notificacion, .titulo-media {
+.menu, .notificacion, .titulo-media, .media {
 	display: none;
 }
 
