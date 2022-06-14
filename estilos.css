@@ -18,6 +18,11 @@ body {
 	align-items: center;
 }
 
+.nobackground {
+	background-image: none; 
+}
+
+
 header {
 	margin-left: 45px;
 }
@@ -121,6 +126,10 @@ h3 {
 	font-weight: 300;
 }
 
+.subtitulofechas {
+	font-size: 1.2em;
+}
+
 h4 {
 	font-weight: 300;
 	color: #B7FFF4;
@@ -143,7 +152,7 @@ h4 {
 	margin-top: 80px;
 }
 
-.subtitulosmedia, .menu, .notificacion {
+.subtitulosmedia, .menu, .notificacion, .titulo-media {
 	display: none;
 }
 
@@ -440,6 +449,312 @@ footer p {
 	padding-right: 20px;
 }
 
+/*---INFO FECHAS---*/
+
+.nobackground {
+	background-image: none; 
+}
+
+.artistas a {
+	color: #A600A9;
+	font-weight: 500;
+}
+
+
+#infofechas{
+	padding-top: 100px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carrusel1 {
+	display: flex;
+}
+
+.carrusel1 ul, #otras-fechas ul {
+	margin: 0px 5px;
+	padding: 0px;
+	opacity: 0.3;
+}
+
+#otras-fechas ul:hover {
+	opacity: 1;
+}
+
+.carrusel1 ul:hover {
+	opacity: 1;
+}
+
+.carrusel1 ul p {
+	margin: 0px;
+}
+
+.carrusel1 p { 
+	display: flex;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	padding: 5px ;
+	font-size: 1.4em;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(54,0,122,1.00);
+	border-radius: 10px;	
+}
+
+.artistaymusica .lugaresconfirmados .carrusel2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.infocuadraditolargo {
+	display: flex;
+	align-items: row;
+	align-items: center;
+}
+
+.infocuadraditolargo img, .fechaconfirmada {
+	background-color: #B7FFF4;
+	margin: 0px;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.fechaconfirmada {
+	color: #120028;
+	padding: 25px;
+	text-align: center;
+}
+
+.infocuadraditolargo img {
+	padding: 20px 20px; 
+}
+
+.teatrolugar, .ubicacion {
+	width: 78%;
+	background-color: #A600A9;
+	padding-right: 50px;
+}
+
+.teatrolugar {
+	border-radius: 0px 20px 20px 0px;
+	padding: 0px 0px 0px 25px;
+}
+
+.ubicacion {
+	margin-bottom: 0px;
+	padding: 25px;
+	border-radius: 0px 20px 0px 0px;
+}
+
+.proximasfechas{
+	display: flex;
+	flex-direction: row
+}
+
+.boton-ver-mas, .textocentrado {
+	display: flex; 
+	background-color: #A600A9;
+	justify-content: center;
+	padding: 10px;
+	text-shadow: 1px 1px 4px #120028;
+}
+
+.boton-ver-mas {
+	border-radius: 0px 0px 20px 20px;
+	margin-top: 0px;
+}
+
+.textocentrado {
+	border-radius: 20px 20px 0px 0px;
+	margin-bottom: 0px;
+}
+
+/*--todo css de como llegar--*/
+
+.pagina-como-llegar {
+	display: flex;
+	flex-direction: row;
+	margin: 50px 100px 50px 100px;
+}
+
+
+.pagina-como-llegar li {
+	list-style-type: none;
+	margin: 0px 100px 0px 100px;
+}
+
+#artistayfecha {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	height: auto;
+}
+
+#artistayfecha img {
+	width: 550px;
+	height: auto;
+	border-radius: 20px;
+}
+
+.fecha-actual {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	font-size: 1.2em;
+	width: 550px;
+	height: 140px;
+}
+
+.fecha {
+	margin: 0px;
+	padding: 0px;
+	color: rgba(18,0,40,1.00);
+	font-size: 1.6em;
+	font-weight: 700;
+	width: 200px;
+	height: 140px;
+	background-color: rgba(183,255,244,1.00);
+	border-radius: 20px 0px 0px 20px;
+	text-align: center;
+	align-content: space-around;
+}
+
+.fecha li{
+	width: 100px;
+	margin: auto;
+	padding: 0px;
+	align-items: center;
+}
+
+.fecha li p{
+	width: 100px;
+	margin: 30px 0px 0px 0px;
+	padding: 0px;
+	align-items: center;
+}
+
+.hora-lugar {
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	width: 350px;
+	height: 140px;
+	background-color: rgba(166,0,169,1.00);
+	border-radius: 0px 20px 20px 0px;
+}
+
+.hora-lugar li {
+	margin: 10px 0px 10px 30px;
+	padding: 0px;
+	width: 300px;
+}
+
+.hora-lugar li p{
+	margin: 30px 0px 0px 0px;
+	padding: 0px;
+	font-size:  1.6em;
+}
+
+
+#otras-fechas {
+	width: 20%;
+	height: auto;
+}
+
+
+/*--parte de los medios de transporte y mapa--*/
+
+
+#como-llegar {
+	width: 40%;
+	height: auto;
+	padding: 0% 5% 0% 5%;
+	
+}
+
+#como-llegar article {
+	margin-bottom: 50px;
+}
+
+#como-llegar h4 {
+	font-size: 1.2em;
+	margin: 30px 0px 20px 100px;
+	
+}
+
+.titulo{
+	font-size: 1.8em;
+	margin: 0px 0px 20px 0px;
+	opacity: 1;
+	color: #B7FFF4;
+
+}
+
+
+#como-llegar p {
+	display: flex;
+	align-items: center;
+	color: rgba(54,0,122,1.00);
+	height: 70px;
+	font-size: 1.3em;
+	font-style: italic;
+	background-color: #B7FFF4;
+	border-radius: 20px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 20px;
+}
+
+#como-llegar ul {
+	width: 100%;
+	height: 80px;
+	padding: 0px ;
+	margin: 0px ;
+	display: flex;
+	flex-direction: row;
+}
+
+#como-llegar img{
+	width: 80px;
+	height: 80px;
+	margin: 0px 20px 0px 0px;
+}
+
+#como-llegar li {
+	display: flex;
+	width: 80px;
+	height: 80px;
+	padding: 0px ;
+	margin: 0px 5px 0px 5px;
+	font-size: 1.5em;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(54,0,122,1.00);
+	border-radius: 10px;
+}
+
+#mapa {
+	opacity: 0.5;
+}
+
+#mapa:hover {
+	transition: all 500ms;
+	opacity: 1;
+}
+
+#otras-fechas p {
+	display: flex;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	padding: 0px ;
+	font-size: 1.5em;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(54,0,122,1.00);
+	border-radius: 10px;
+}
 
 
  /*---media---*/
@@ -450,11 +765,18 @@ footer p {
 		background-image: none;
 	}
 	
+	#infofechas, #main-como-llegar {
+		display: flex;
+		flex-direction: column;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	
 	main {
 		margin: 40px 80px 0px;
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2 {
+	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2 {
 		display: none;
 	}
 	
@@ -520,7 +842,7 @@ footer p {
 		background: none;
 		box-shadow: none;
 		margin: 80px 0px;
-		font-size: 1.2em
+		font-size: 1.2em;
 	}
 	
 	.titulosyr {
@@ -558,6 +880,21 @@ footer p {
 	
 	.subtitulosmedia {
 		display: flex;
+		font-size: 1.5em;
+	}
+	
+	.pagina-como-llegar {
+		margin: 0px;
+	}
+	
+	#artistayfecha,.artistaymusica img{
+		display: flex;
+		width: 450px;
+	}
+	
+	.titulo-media {
+		display: flex;
+		color: #B7FFF4;
 		font-size: 1.5em;
 	}
 }
