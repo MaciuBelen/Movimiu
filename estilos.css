@@ -23,6 +23,10 @@ body {
 }
 
 
+.navindex img, .menu, .notificacion, .titulo-media, .media {
+	display: none;
+}
+
 header {
 	margin-left: 45px;
 }
@@ -112,10 +116,6 @@ nav a:hover {
 	padding-right: 50px;
 }
 
-.navindex img {
-	display: none;
-}
-
 h2 {
 	font-size: 4.4em;
 }
@@ -157,10 +157,6 @@ h4 {
 .subtitulos {
 	font-size: 1.5em;
 	margin-top: 80px;
-}
-
-.menu, .notificacion, .titulo-media, .media {
-	display: none;
 }
 
 /*---carrusel---*/
@@ -273,7 +269,7 @@ body::-webkit-scrollbar-thumb {
 /*---index---*/
 
 input {
-	text-decoration:none;
+	text-decoration: none;
 	padding-right: 100px;
 	margin-bottom: -3px;
 	background: none;
@@ -382,7 +378,7 @@ input {
 	margin-bottom: 30px;
 	width: 50%;
 	padding: 5px 50px;
-	text-decoration: none
+	text-decoration: none;
 }
 
 .botonessesion{
@@ -457,10 +453,6 @@ footer p {
 }
 
 /*---INFO FECHAS---*/
-
-.nobackground {
-	background-image: none; 
-}
 
 .artistas a {
 	color: #A600A9;
@@ -555,7 +547,7 @@ footer p {
 
 .proximasfechas{
 	display: flex;
-	flex-direction: row
+	flex-direction: row;
 }
 
 .boton-ver-mas, .textocentrado {
@@ -754,7 +746,7 @@ footer p {
 		background-image: none;
 	}
 	
-	#infofechas, #main-como-llegar {
+	#infofechas, #main-como-llegar, .infocuadraditolargo {
 		display: flex;
 		flex-direction: column;
 		margin-top: 0px;
