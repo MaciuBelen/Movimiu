@@ -887,7 +887,7 @@ footer p {
 		margin: 0px;
 	}
 	
-	#artistayfecha,.artistaymusica img{
+	#artistayfecha,.artistaymusica img, .mapainfo {
 		display: flex;
 		width: 450px;
 	}
