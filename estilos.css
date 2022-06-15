@@ -459,8 +459,8 @@ footer p {
 	font-weight: 500;
 }
 
-#infofechas{
-	padding-top: 100px;
+#infofechas {
+	margin: 30px 100px;
 	display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -573,7 +573,7 @@ footer p {
 #main-como-llegar {
 	display: flex;
 	flex-direction: row;
-	margin: 50px 100px 50px 100px;
+	margin: 30px 100px;
 }
 
 #artistayfecha {
