@@ -149,6 +149,8 @@ h4 {
 	color: #B7FFF4;
 }
 
+
+
 /*---inicio---*/
 
 .textopricipal, .subtitulos {
@@ -437,7 +439,7 @@ input {
 	align-self: center;
 }
 
-hr{
+hr {
 	height: 1px;
 	width: 420px;
 	background-color: black;
@@ -488,13 +490,13 @@ footer p {
 	margin: 0px;
 }
 
-.carrusel1 p { 
+.carrusel1 p, #otras-fechas p { 
 	display: flex;
 	text-align: center;
-	width: 80px;
-	height: 80px;
+	width: 100px;
+	height: 100px;
 	padding: 5px ;
-	font-size: 1.4em;
+	font-size: 1.6em;
 	justify-content: center;
 	align-items: center;
 	background-color: rgba(54,0,122,1.00);
@@ -504,6 +506,10 @@ footer p {
 .artistaymusica .lugaresconfirmados .carrusel2 {
 	display: flex;
 	flex-direction: column;
+}
+
+.lugaresconfirmados {
+	width: 40%;
 }
 
 .infocuadraditolargo {
@@ -520,6 +526,7 @@ footer p {
 
 .fechaconfirmada {
 	color: #120028;
+	font-size: 1.6em;
 	padding: 25px;
 	text-align: center;
 }
@@ -579,18 +586,21 @@ footer p {
 	height: auto;
 }
 
+.fecha, .hora-lugar {
+	margin: 0px;
+	padding: 0px;
+}
+
 .fecha-actual {
 	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
 	font-size: 1.2em;
-	width: 550px;
+	width: 500px;
 	height: 140px;
 }
 
 .fecha {
-	margin: 0px;
-	padding: 0px;
 	color: rgba(18,0,40,1.00);
 	font-size: 1.6em;
 	font-weight: 700;
@@ -603,24 +613,12 @@ footer p {
 }
 
 .fecha li{
-	width: 100px;
 	margin: auto;
-	padding: 0px;
-	align-items: center;
-}
-
-.fecha li p{
-	width: 100px;
-	margin: 30px 0px 0px 0px;
-	padding: 0px;
 	align-items: center;
 }
 
 .hora-lugar {
 	justify-content: center;
-	margin: 0px;
-	padding: 0px;
-	width: 350px;
 	height: 140px;
 	background-color: rgba(166,0,169,1.00);
 	border-radius: 0px 20px 20px 0px;
@@ -629,13 +627,11 @@ footer p {
 .hora-lugar li {
 	list-style-type: none;
 	margin: 10px 0px 10px 30px;
-	padding: 0px;
 	width: 300px;
 }
 
 .hora-lugar li p{
 	margin: 30px 0px 0px 0px;
-	padding: 0px;
 	font-size:  1.6em;
 }
 
@@ -712,20 +708,6 @@ footer p {
 	transition: all 500ms;
 	opacity: 1;
 }
-
-#otras-fechas p {
-	display: flex;
-	text-align: center;
-	width: 80px;
-	height: 80px;
-	padding: 0px ;
-	font-size: 1.5em;
-	justify-content: center;
-	align-items: center;
-	background-color: rgba(54,0,122,1.00);
-	border-radius: 10px;
-}
-
 
  /*---media---*/
 
