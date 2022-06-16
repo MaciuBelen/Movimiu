@@ -284,6 +284,12 @@ input {
 	border: none;
 }
 
+.linea{
+	border-bottom: thin;
+	border-color: black;
+	opacity: 0.5
+}
+
 .atras{
 	display: flex;
 	align-content: center;
