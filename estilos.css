@@ -710,11 +710,11 @@ footer p {
 	border-radius: 10px;
 }
 
-#mapa iframe {
+#mapa iframe, .mapainfo {
 	opacity: 0.5;
 }
 
-#mapa:hover iframe{
+#mapa:hover iframe {
 	transition: all 500ms;
 	opacity: 1;
 }
