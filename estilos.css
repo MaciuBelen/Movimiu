@@ -36,6 +36,13 @@ main {
 	margin-left: 50px;
 }
 
+#infofechas, #main-como-llegar {
+	margin: 30px 100px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 nav {
 	width: 95%;
     display: flex;
@@ -459,13 +466,6 @@ footer p {
 	font-weight: 500;
 }
 
-#infofechas {
-	margin: 30px 100px;
-	display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .carrusel1 {
 	display: flex;
 }
@@ -570,11 +570,6 @@ footer p {
 
 /*--todo css de como llegar--*/
 
-#main-como-llegar {
-	display: flex;
-	flex-direction: row;
-	margin: 30px 100px;
-}
 
 #artistayfecha {
 	align-items: center;
@@ -582,12 +577,6 @@ footer p {
 	flex-direction: column;
 	width: 40%;
 	height: auto;
-}
-
-#artistayfecha img {
-	width: 550px;
-	height: auto;
-	border-radius: 20px;
 }
 
 .fecha-actual {
