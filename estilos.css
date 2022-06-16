@@ -571,7 +571,7 @@ footer p {
 /*--todo css de como llegar--*/
 
 
-#artistayfecha {
+#artistayfecha, .artistaymusica {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
