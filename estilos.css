@@ -578,12 +578,22 @@ footer p {
 	justify-content: center;
 	width: 30%;
 	background-color: #36007A;
+	border-radius: 10px;
+	opacity: 0.5;
+}
+
+.boton-llegar:hover {
+	opacity: 1;
+}
+
+.boton-llegar a {
+	text-decoration: none;
 }
 
 .boton-llegar p {
 	color: #FFFFFF;
-	text-decoration: none;
 }
+
 
 /*--todo css de como llegar--*/
 
@@ -714,7 +724,7 @@ footer p {
 	opacity: 0.5;
 }
 
-#mapa:hover iframe{
+#mapa:hover iframe {
 	transition: all 500ms;
 	opacity: 1;
 }
@@ -726,6 +736,7 @@ footer p {
 	body {
 		background-image: none;
 	}
+	
 	
 	#infofechas, #main-como-llegar, .infocuadraditolargo {
 		display: flex;
@@ -743,7 +754,7 @@ footer p {
 		flex-direction: column;
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas {
+	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar {
 		display: none;
 	}
 	
@@ -850,13 +861,21 @@ footer p {
 		font-size: 1.5em;
 	}
 	
+	.artistaymusica {
+		margin-left: 0px;
+	}
+	
 	#artistayfecha, #artistayfecha img,.artistaymusica img, .fecha-actual {
 		display: flex;
-		width: 440px;
+		width: 420px;
 	}
 	
 	.artistaymusica img {
-		margin-left: 80px;
+		margin: 0px 0px 40px 80px;
+	}
+	
+	.boton-llegar{
+		margin-bottom: 40px;
 	}
 	
 	iframe {
@@ -868,7 +887,8 @@ footer p {
 	.titulo-media {
 		display: flex;
 		color: #B7FFF4;
-		font-size: 1.5em;
+		font-size: 1.8em;
+		padding-bottom: 20px;
 	}
 	
 	.teatrolugar, .fechaconfirmada, .infocuadraditolargo {
@@ -882,6 +902,7 @@ footer p {
 	
 	.titulo-media {
 		font-size: 1.9em;
+		margin: 0px;
 	}
 	
 	.media {
@@ -924,4 +945,7 @@ footer p {
 		margin: 0px;
 	}
 	
+	.boton-llegar {
+		width: 80%;
+	}
 }
