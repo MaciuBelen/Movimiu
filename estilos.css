@@ -700,7 +700,7 @@ footer p {
 	border-radius: 10px;
 }
 
-#mapa iframe {
+#mapa iframe, .mapainfo {
 	opacity: 0.5;
 }
 
