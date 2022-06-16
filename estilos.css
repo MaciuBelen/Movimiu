@@ -738,6 +738,11 @@ footer p {
 		margin: 40px 80px 0px;
 	}
 	
+	.nobackground main {
+		display: flex;
+		flex-direction: column;
+	}
+	
 	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas {
 		display: none;
 	}
@@ -845,13 +850,19 @@ footer p {
 		font-size: 1.5em;
 	}
 	
-	#artistayfecha, #artistayfecha img,.artistaymusica img, iframe, .fecha-actual {
+	#artistayfecha, #artistayfecha img,.artistaymusica img, .fecha-actual {
 		display: flex;
 		width: 440px;
 	}
 	
+	.artistaymusica img {
+		margin-left: 80px;
+	}
+	
 	iframe {
 		opacity: 0.5;
+		width: 410px;
+		height: 200px;
 	}
 	
 	.titulo-media {
@@ -867,6 +878,50 @@ footer p {
 	#artistayfecha, .artistaymusica {
 		margin-left: 80px;
 		font-size: 0.8em;
+	}
+	
+	.titulo-media {
+		font-size: 1.9em;
+	}
+	
+	.media {
+		display: flex;
+		flex-direction: column;
+		font-size: 0.6em;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.fecha-actual {
+		margin: 0px;
+		height: 95px;
+	}
+	
+	.fecha, .hora-lugar {
+		height: 80px;
+	}
+	
+	.fecha {
+		padding: 0px;
+		margin: 0px;
+		align-content: center;
+		width: 80px;
+		font-weight: 600;
+	}
+	
+	.hora-lugar {
+		display: flex;
+		flex-direction: column;
+		color: #B7FFF4;
+	}
+	
+	.hora-lugar li {
+		display: flex;
+		margin: 0px 0px 2px 20px ;
+	}
+	
+	.hora-lugar li p {
+		margin: 0px;
 	}
 	
 }
