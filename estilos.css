@@ -579,7 +579,10 @@ footer p {
 	width: 30%;
 	background-color: #36007A;
 	border-radius: 10px;
-	opacity: 0.5;
+	opacity: 0.8;
+	position: relative;
+	bottom: 190px;
+	left: 200px;
 }
 
 .boton-llegar:hover {
@@ -947,5 +950,7 @@ footer p {
 	
 	.boton-llegar {
 		width: 80%;
+		bottom: 130px;
+		left: 145px;
 	}
 }
