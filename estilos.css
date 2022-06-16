@@ -577,6 +577,7 @@ footer p {
 	display: flex;
 	justify-content: center;
 	width: 30%;
+	font-size: 1.2em;
 	background-color: #36007A;
 	border-radius: 10px;
 	opacity: 0.8;
@@ -949,8 +950,10 @@ footer p {
 	}
 	
 	.boton-llegar {
-		width: 80%;
-		bottom: 130px;
-		left: 145px;
+		width: 90%;
+		bottom: 140px;
+		left: 130px;
+		font-size: 1.1em;
+		padding: 5px;
 	}
 }
