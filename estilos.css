@@ -285,9 +285,8 @@ input {
 }
 
 .linea{
-	border-bottom: thin;
-	border-color: black;
-	opacity: 0.5
+	border-bottom: solid thin;
+	border-color: grey;
 }
 
 .atras{
