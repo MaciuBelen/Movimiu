@@ -23,7 +23,7 @@ body {
 }
 
 
-.navindex img, .menu, .notificacion, .titulo-media, .media {
+.navindex img, .menu, .notificacion, .titulo-media, .media, .iconosnav {
 	display: none;
 }
 
@@ -32,8 +32,8 @@ header {
 }
 
 main {
-	max-width: 92%;
-	margin-left: 50px;
+	max-width: 95%;
+	margin-left: 45px;
 }
 
 #infofechas, #main-como-llegar {
@@ -44,7 +44,7 @@ main {
 }
 
 nav {
-	width: 95%;
+	width: 98%;
     display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -98,7 +98,7 @@ nav a {
 }
 
 #texto {
-  	width: 125px;
+  	width: 60%;
     height: 30px;
     margin: 25px 0px 30px 0px;
 	background-color: #BBBBBB;
