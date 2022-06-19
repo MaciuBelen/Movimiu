@@ -495,7 +495,7 @@ footer p {
 	font-size: 1.6em;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(54,0,122,1.00);
+	background-color: #36007A;
 	border-radius: 10px;	
 }
 
@@ -623,12 +623,12 @@ footer p {
 }
 
 .fecha {
-	color: rgba(18,0,40,1.00);
+	color: #120028;
 	font-size: 1.6em;
 	font-weight: 700;
 	width: 200px;
 	height: 140px;
-	background-color: rgba(183,255,244,1.00);
+	background-color: #B7FFF4;
 	border-radius: 20px 0px 0px 20px;
 	text-align: center;
 	align-content: space-around;
@@ -642,7 +642,7 @@ footer p {
 .hora-lugar {
 	justify-content: center;
 	height: 140px;
-	background-color: rgba(166,0,169,1.00);
+	background-color: #A600A9;
 	border-radius: 0px 20px 20px 0px;
 }
 
@@ -684,7 +684,7 @@ footer p {
 #como-llegar p {
 	display: flex;
 	align-items: center;
-	color: rgba(54,0,122,1.00);
+	color: #36007A;
 	height: 70px;
 	font-size: 1.3em;
 	font-style: italic;
@@ -718,7 +718,7 @@ footer p {
 	font-size: 1.5em;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(54,0,122,1.00);
+	background-color: #36007A ;
 	border-radius: 10px;
 }
 
