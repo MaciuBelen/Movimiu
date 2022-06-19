@@ -634,9 +634,8 @@ footer p {
 	align-content: space-around;
 }
 
-.fecha li{
+.fecha li {
 	margin: auto;
-	align-items: center;
 }
 
 .hora-lugar {
@@ -922,9 +921,13 @@ footer p {
 	.fecha {
 		padding: 0px;
 		margin: 0px;
-		align-content: center;
 		width: 80px;
 		font-weight: 600;
+	}
+	
+	.fecha p {
+		font-size: 1.12em;
+		margin: 14px;
 	}
 	
 	.hora-lugar {
