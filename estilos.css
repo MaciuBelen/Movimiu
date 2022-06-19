@@ -739,10 +739,16 @@ footer p {
 }
 #pantalla-foro{
 	justify-content: space-between;
-	padding-right: 150px
+	padding-right: 150px;
+	margin-bottom: 50px;
+	margin-top: 5% 
+}
+.artistasinfo {
+	display:flex;
+	flex-direction: column;
 }
 
-.perfilventa { 
+.perfilventa, .artistasinfo { 
 	align-items: center;
 }
 .orgdeperfiles {
@@ -757,6 +763,16 @@ footer p {
 	margin: 20px 5px 0px 5px;
 	justify-content: center;
 	flex-direction: column;
+	background-color: #A600A9;
+	border-radius: 10px;
+}
+.vernota {
+	display:flex; 
+	width: 550px;
+	height: 50px;
+	padding-top: 20px ;
+	margin-top: 20px;
+	justify-content: center;
 	background-color: #A600A9;
 	border-radius: 10px;
 }
