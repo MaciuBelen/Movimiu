@@ -600,7 +600,7 @@ footer p {
 /*--todo css de como llegar--*/
 
 
-#artistayfecha, .artistaymusica {
+#artistayfecha, .artistaymusica, #pantalla-foro {     /*ACA ESTA LO DEL FORO TAMBIEN */
 	align-items: center;
 	display: flex;
 	flex-direction: column;
