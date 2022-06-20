@@ -754,13 +754,14 @@ footer p {
 .orgdeperfiles {
 	display: flex;
 	flex-direction: row;
+	
 }
 .infocuadrado {
 	display: flex;
 	width: 500px;
 	height: 120px;
-	padding: 0px ;
-	margin: 20px 5px 0px 5px;
+	padding: 5px 0px 0px 30px;
+	margin: 20px 50px 0px 50px;
 	justify-content: center;
 	flex-direction: column;
 	background-color: #A600A9;
@@ -769,13 +770,25 @@ footer p {
 .vernota {
 	display:flex; 
 	width: 550px;
-	height: 50px;
+	height: 40px;
 	padding-top: 20px ;
 	margin-top: 20px;
 	justify-content: center;
 	background-color: #A600A9;
 	border-radius: 10px;
 }
+.perfilventa {
+	justify-content: space-between;
+	padding: 5px 0px 0px 25px;
+}
+.perfilventa p {
+	color: #B7FFF4;
+	padding: 0px 0px 0px 0px;
+}
+
+/*---VENTANA MODAL---*/
+
+
 
  /*---media---*/
 
