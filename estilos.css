@@ -120,14 +120,14 @@ nav a:hover {
 
 h2 {
 	font-size: 4.4em;
-	width: 47%;
+	width: 60%;
 }
 
 h3 {
 	margin: 25px 0px 0px 0px;
 	font-size: 2.2em;
 	font-weight: 300;
-	width: 60%;
+	width: 55%;
 }
 
 .titulo {
@@ -149,9 +149,19 @@ h4 {
 
 /*---inicio---*/
 
-.textopricipal, .subtitulos {
+.textoprincipal, .subtitulos {
 	padding-left: 70px;
 	margin: 0px;
+}
+
+.textoprincipal h2 {
+	width: 47%;
+	margin-bottom: 40px;
+}
+
+.textoprincipal h3 {
+	width: 35%;
+	margin-bottom: 60px;
 }
 
 .boldmomimiu {
@@ -816,7 +826,7 @@ footer p {
 		flex-direction: column;
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar {
+	.navindex, .logotexto article h2, .logotexto article h3, .textoprincipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar {
 		display: none;
 	}
 	
