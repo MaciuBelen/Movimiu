@@ -22,18 +22,13 @@ body {
 	background-image: none; 
 }
 
-
 .navindex img, .menu, .notificacion, .titulo-media, .media, .iconosnav {
 	display: none;
 }
 
-header {
-	margin-left: 45px;
-}
-
 main {
-	max-width: 95%;
-	margin-left: 45px;
+	width: 95%;
+	margin-left: 40px;
 }
 
 #infofechas, #main-como-llegar {
@@ -44,7 +39,8 @@ main {
 }
 
 nav {
-	width: 98%;
+	width: 95%;
+	margin-left: 40px;
     display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -76,14 +72,14 @@ nav a {
 .buscar {
 	display: flex;
 	flex-direction: row;
-	width: 50%;
+	width: 60%;
 	height: 80px;
 	margin-top: 2px;
 	padding: 0px 10px;
 }
 
 .buscar img {
-	margin: auto 10px auto 50px;
+	margin: auto 10px auto 20px;
 }
 
 .botonera {
@@ -124,12 +120,14 @@ nav a:hover {
 
 h2 {
 	font-size: 4.4em;
+	width: 47%;
 }
 
 h3 {
-	margin-top: 30px 0px 0px 0px;
+	margin: 25px 0px 0px 0px;
 	font-size: 2.2em;
 	font-weight: 300;
+	width: 60%;
 }
 
 .titulo {
@@ -294,7 +292,6 @@ input {
 	align-content: center;
 	align-self: center;
 	justify-content: center;
-	
 }
 
 .imgatras, .imgatras2{
@@ -313,10 +310,10 @@ input {
 
 .logotexto {
     display: flex;
+	align-self: center;
     align-items: flex-start;
 	padding: 60px 100px 220px 100px;
-	margin-bottom: 100px;
-	justify-content: center;
+	margin: 0% 0% 5% 15%;
 }
 
 .logotexto img {
@@ -325,7 +322,7 @@ input {
 }
 
 .logotexto article {
-	padding-left: 120px;
+	margin-left: 120px;
 	font-size: 1.35em;
 }
 
@@ -336,7 +333,8 @@ input {
 }
 
 .logotexto article h3 {
-	padding-bottom: 40px;
+	padding-bottom: 60px;
+	margin-right: 0px;
 }
 
 .botoningresa, .botonregistrate {
@@ -907,10 +905,6 @@ footer p {
 	.miniatura, .iconobuscar {
 		height: 30px;
 		width: auto;
-	}
-	
-	.buscar img {
-		margin: 30px 30px 0px 0px;
 	}
 	
 	.subtitulosmedia {
