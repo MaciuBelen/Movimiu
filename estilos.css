@@ -28,7 +28,7 @@ body {
 
 main {
 	width: 95%;
-	margin-left: 40px;
+	margin-left: 45px;
 }
 
 #infofechas, #main-como-llegar {
@@ -40,7 +40,7 @@ main {
 
 nav {
 	width: 95%;
-	margin-left: 40px;
+	margin-left: 45px;
     display: flex;
 	align-items: center;
 	justify-content: space-around;
