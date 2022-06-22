@@ -815,10 +815,11 @@ footer p {
 		flex-direction: column;
 		margin-top: 0px;
 		padding-top: 0px;
+		width: 90%;
 	}
 	
-	main{
-		margin: 40px 80px 0px;
+	main, #infofechas {
+		margin: 0% 10%;
 	}
 	
 	.nobackground main {
@@ -835,7 +836,7 @@ footer p {
 	}
 	
 	nav {
-		margin-left: 25px;
+		margin-left: 20px;
 		width: 90%;
 	}
 	
@@ -932,7 +933,7 @@ footer p {
 	}
 	
 	.artistaymusica img {
-		margin: 0px 0px 40px 80px;
+		margin: 0px 0px 30px 0px;
 	}
 	
 	.boton-llegar{
@@ -957,13 +958,7 @@ footer p {
 	}
 	
 	#artistayfecha, .artistaymusica {
-		margin-left: 80px;
 		font-size: 0.8em;
-	}
-	
-	.titulo-media {
-		font-size: 1.9em;
-		margin: 0px;
 	}
 	
 	.media {
