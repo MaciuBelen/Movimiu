@@ -234,6 +234,7 @@ h4 {
 	object-fit: cover;
 	margin:  0px 20px 0px 20px;
 	align-content: center;
+	opacity: 0;
 }
 
 .artistas-populares p:hover {
@@ -250,6 +251,7 @@ h4 {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	padding-bottom: 20px;
+	opacity: 1;
 }
 
 .artistas-populares img {
@@ -799,7 +801,7 @@ footer p {
 
  /*---media---*/
 
-@media screen and (max-width : 600px){
+@media screen and (max-width : 600px ){
 	
 	body {
 		background-image: none;
@@ -819,7 +821,9 @@ footer p {
 	}
 	
 	main, #infofechas {
-		margin: 0% 10%;
+		margin: 0% 15%;
+		padding: 0%;
+		width: 420px;
 	}
 	
 	.nobackground main {
@@ -936,20 +940,24 @@ footer p {
 		margin: 0px 0px 30px 0px;
 	}
 	
-	.boton-llegar{
-		margin-bottom: 40px;
+	article {
+		width: 420px;
+		padding: 0px;
+		margin: 0px;
 	}
-	
+	 	
 	iframe {
 		opacity: 0.5;
-		width: 410px;
-		height: 200px;
+		width: 100%;
+		height: 230px;
+		border: 0px;
 	}
 	
 	.titulo-media {
+		width: 420px;
 		display: flex;
 		color: #B7FFF4;
-		font-size: 1.8em;
+		font-size: 3em;
 		padding-bottom: 20px;
 	}
 	
@@ -967,6 +975,7 @@ footer p {
 		font-size: 0.6em;
 		margin: 0px;
 		padding: 0px;
+		width: 480px;
 	}
 
 	.fecha-actual {
@@ -976,17 +985,18 @@ footer p {
 	
 	.fecha, .hora-lugar {
 		height: 80px;
+		font-size: 1.3em;
 	}
 	
 	.fecha {
 		padding: 0px;
 		margin: 0px;
-		width: 80px;
 		font-weight: 600;
+		width: 20%;
 	}
 	
 	.fecha p {
-		font-size: 1.12em;
+		font-size: 1.5em;
 		margin: 14px;
 	}
 	
@@ -994,6 +1004,7 @@ footer p {
 		display: flex;
 		flex-direction: column;
 		color: #B7FFF4;
+		width: 80%;
 	}
 	
 	.hora-lugar li {
@@ -1005,11 +1016,16 @@ footer p {
 		margin: 0px;
 	}
 	
+	
 	.boton-llegar {
-		width: 90%;
-		bottom: 140px;
-		left: 130px;
+		left: 0%;
+		width: 40%;
 		font-size: 1.1em;
-		padding: 5px;
+		padding: 0px;
+		margin: 10% auto 0% auto;
+	}
+	
+	footer {
+		margin-top: 50px;
 	}
 }
