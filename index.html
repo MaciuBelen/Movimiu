@@ -12,8 +12,8 @@
 	<header>
 		<nav class="navindex">
 			<ul>
-				<li><a href="contacto.html">Contacto</a></li>
-				<li><a class="ayuda" href="ayuda.html">Ayuda</a></li>
+				<li><a href="error.html">Contacto</a></li>
+				<li><a class="ayuda" href="error.html">Ayuda</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -24,9 +24,7 @@
 			</div>
 			<article>
 				<h2>No te pierdas de nada</h2>
-				<h3>Todas tus bandas, <br>
-					todos los conciertos, <br>
-					en un solo lugar</h3>
+				<h3>Todas tus bandas, todos los conciertos, en un solo lugar</h3>
 					<a class="botoningresa" href="#sesion" target="_self">Ingresá</a>
 					<a class="botonregistrate" href="#registro" target="_self">Registrate</a>
 			</article>
@@ -42,13 +40,11 @@
 				<a href="https://www.google.com/" target="_self" class="botonessesion">Ingresar con Google</a>
 				<a href="https://www.facebook.com/" target="_self" class="botonessesion">Ingresar con Facebook</a>
 				<div class="syrdatos">
-					<form method="post" action="" target="_blank" enctype="text/plain">
+					<form method="post" action="mailto:movimiu@hotmail.com?subject='Usuario Ingreso'" target="_blank" enctype="text/plain">
 						<p>Mail</p>
-						<input type="email" name="email" id="email" maxlength="100" placeholder="Ejemplo: maria_gonzales@hotmail.com" size="40">
-						<hr>
+						<input type="email" name="email" id="email" maxlength="100" placeholder="Ejemplo: maria_gonzales@hotmail.com" size="40" class="linea" required>
 						<p>Contraseña</p>
-						<input type="password" name="password" id="password" maxlength="30" placeholder="Ejemplo: Ab8aGG7sZ100" size="40">
-						<hr>
+						<input type="password" name="password" id="password" maxlength="30" placeholder="Ejemplo: Ab8aGG7sZ100" size="40" class="linea" required>
 						<p>¿Olvidaste tu contraseña?</p>	
 					</form>
 				</div>
@@ -66,19 +62,15 @@
 				<a href="https://www.google.com/" target="_self" class="botonesregistro">Ingresar con Google</a>	
 				<a href="https://www.facebook.com/" target="_self" class="botonesregistro">Ingresar con Facebook</a>
 				<div class="syrdatos">
-					<form method="post" action="" target="_blank" enctype="text/plain">
+					<form method="post" action="mailto:movimiu@hotmail.com?subject='Nuevo Usuario'" target="_blank" enctype="text/plain">
 						<p>Nombre</p>
-						<input type="name" name="name" id="name" maxlength="30" placeholder="Ejemplo: María" size="40">
-						<hr>
+						<input type="name" name="name" id="name" maxlength="30" placeholder="Ejemplo: María" size="40" class="linea" required>
 						<p>Correo</p>
-						<input type="email" name="email" id="email2" maxlength="40" placeholder="Ejemplo: maria_gonzales@hotmail.com" size="40">
-						<hr>
+						<input type="email" name="email" id="email2" maxlength="40" placeholder="Ejemplo: maria_gonzales@hotmail.com" size="40" class="linea" required>
 						<p>Contraseña</p>
-						<input type="password" name="password" id="password2" maxlength="30" placeholder="Ejemplo: Ab8aGG7sZ100" size="30">
-						<hr>
+						<input type="password" name="password" id="password2" maxlength="30" placeholder="Ejemplo: Ab8aGG7sZ100" size="40" class="linea" required>
 						<p>Confirmar contraseña</p>
-						<input type="password" name="password" id="password3" maxlength="30" placeholder="Repita su contraseña" size="30">
-						<hr>
+						<input type="password" name="password" id="password3" maxlength="30" placeholder="Repita su contraseña" size="40" class="linea" required>
 					</form>
 				</div>
 				<a href="inicio.html" target="_self" class="listoregistro">Listo</a>
@@ -87,8 +79,8 @@
 	</main>
 	<footer>
 		<p>Copyright © 2022 Movimiu</p>
-		<p>Política de privacidad</p>
-		<p>Términos y condiciones</p>
+		<p class="politicas">Política de privacidad</p>
+		<p class="terminosycondiciones">Términos y condiciones</p>
 		<p>Argentina</p>
 	</footer>
 </body>

@@ -19,20 +19,48 @@ body {
 }
 
 .nobackground {
-	background-image: none; 
+	background-image: none;
 }
 
+.paginaerror {
+	background-image: none;
+	width: 1920px;
+	height: 1080px;
+}
+
+.upss {
+	align-content: center;
+	justify-content: center;
+	margin: auto 15%;
+	padding: 0px;
+	display: flex;
+	width: 70%;
+	height: 100%;
+}
+
+.upss img {
+	margin-top: 10%;
+	width: 500px;
+}
+
+.upss section {
+	height: auto;
+	align-items: center;
+	padding: 0% 5%;
+}
+
+.upss section h3 {
+	font-size: 30pt;
+	width: 100%;
+	margin-bottom: 50px;
+}
 
 .navindex img, .menu, .notificacion, .titulo-media, .media, .iconosnav {
 	display: none;
 }
 
-header {
-	margin-left: 45px;
-}
-
 main {
-	max-width: 95%;
+	width: 95%;
 	margin-left: 45px;
 }
 
@@ -44,7 +72,8 @@ main {
 }
 
 nav {
-	width: 98%;
+	width: 95%;
+	margin-left: 45px;
     display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -76,14 +105,14 @@ nav a {
 .buscar {
 	display: flex;
 	flex-direction: row;
-	width: 50%;
+	width: 60%;
 	height: 80px;
 	margin-top: 2px;
 	padding: 0px 10px;
 }
 
 .buscar img {
-	margin: auto 10px auto 50px;
+	margin: auto 10px auto 20px;
 }
 
 .botonera {
@@ -124,12 +153,14 @@ nav a:hover {
 
 h2 {
 	font-size: 4.4em;
+	width: 60%;
 }
 
 h3 {
-	margin-top: 30px 0px 0px 0px;
+	margin: 25px 0px 0px 0px;
 	font-size: 2.2em;
 	font-weight: 300;
+	width: 55%;
 }
 
 .titulo {
@@ -149,16 +180,25 @@ h4 {
 }
 
 
-
 /*---inicio---*/
 
-.textopricipal, .subtitulos {
+.textoprincipal, .subtitulos {
 	padding-left: 70px;
 	margin: 0px;
 }
 
+.textoprincipal h2 {
+	width: 47%;
+	margin-bottom: 40px;
+}
+
+.textoprincipal h3 {
+	width: 35%;
+	margin-bottom: 60px;
+}
+
 .boldmomimiu {
-	margin: -55px 0px 0px;
+	margin: 0px;
 	font-size: 2.5em;
 }
 
@@ -227,6 +267,7 @@ h4 {
 	object-fit: cover;
 	margin:  0px 20px 0px 20px;
 	align-content: center;
+	opacity: 0;
 }
 
 .artistas-populares p:hover {
@@ -243,6 +284,7 @@ h4 {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	padding-bottom: 20px;
+	opacity: 1;
 }
 
 .artistas-populares img {
@@ -295,7 +337,6 @@ input {
 	align-content: center;
 	align-self: center;
 	justify-content: center;
-	
 }
 
 .imgatras, .imgatras2{
@@ -314,10 +355,10 @@ input {
 
 .logotexto {
     display: flex;
+	align-self: center;
     align-items: flex-start;
 	padding: 60px 100px 220px 100px;
-	margin-bottom: 100px;
-	justify-content: center;
+	margin: 0% 0% 5% 15%;
 }
 
 .logotexto img {
@@ -326,7 +367,7 @@ input {
 }
 
 .logotexto article {
-	padding-left: 120px;
+	margin-left: 120px;
 	font-size: 1.35em;
 }
 
@@ -337,7 +378,8 @@ input {
 }
 
 .logotexto article h3 {
-	padding-bottom: 40px;
+	padding-bottom: 60px;
+	margin-right: 0px;
 }
 
 .botoningresa, .botonregistrate {
@@ -460,6 +502,7 @@ footer p {
 }
 
 /*---INFO FECHAS---*/
+
 
 .carrusel1, .carrusel1 p, #otras-fechas p {
 	display: flex;
@@ -601,11 +644,11 @@ footer p {
 /*--todo css de como llegar--*/
 
 
-#artistayfecha, .artistaymusica #pantalla-foro {     /*ACA ESTA LO DEL FORO TAMBIEN */
-	align-items: center;
+#artistayfecha, .artistaymusica, #pantalla-foro {     /*ACA ESTA LO DEL FORO TAMBIEN */
+	align-items: flex-start;
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 30%;
 	height: auto;
 }
 
@@ -790,11 +833,9 @@ footer p {
 
 
 
-
-
  /*---media---*/
 
-@media screen and (max-width : 600px){
+@media screen and (max-width : 600px ){
 	
 	body {
 		background-image: none;
@@ -805,15 +846,22 @@ footer p {
 		margin: 0px;
 	}
 	
+	.buscar {
+		width: 600px;
+	}
+	
 	#infofechas, #main-como-llegar, .infocuadraditolargo {
 		display: flex;
 		flex-direction: column;
 		margin-top: 0px;
 		padding-top: 0px;
+		width: 90%;
 	}
 	
-	main{
-		margin: 40px 80px 0px;
+	main, #infofechas {
+		margin: 0% 15%;
+		padding: 0%;
+		width: 420px;
 	}
 	
 	.nobackground main {
@@ -821,7 +869,7 @@ footer p {
 		flex-direction: column;
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar {
+	.navindex, .logotexto article h2, .logotexto article h3, .textoprincipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar {
 		display: none;
 	}
 	
@@ -830,7 +878,7 @@ footer p {
 	}
 	
 	nav {
-		margin-left: 25px;
+		margin-left: 20px;
 		width: 90%;
 	}
 	
@@ -859,8 +907,31 @@ footer p {
 		flex-direction: column;
 		align-items: center;
 		padding: 0px;
+		margin: 0px;
 	}
 	
+	.botonessesion {
+		width: 300px;
+		height: 40px;
+		align-items: center;
+		font-size: 16pt;
+		font-weight: 500;
+	}
+	
+	.botonesregistro {
+		width: 300px;
+		height: 40px;
+		align-items: center;
+		font-size: 16pt;
+		font-weight: 500;
+	}
+	
+	#email, #email2, #name, #password, #password2, #password3 {
+		width: 300px;
+		
+	}
+	
+		
 	.botoningresa {
 		font-size: 1.5em;
 		color: #120028; 
@@ -885,6 +956,7 @@ footer p {
 		background: none;
 		box-shadow: none;
 		margin: 80px 0px;
+		padding: 0px;
 		font-size: 1.2em;
 	}
 	
@@ -897,23 +969,21 @@ footer p {
 		opacity: 0.7;
 	}
 	
+	
 	.botonesregistro {
 		background-color: #B7FFF4;
 		color: #120028;
 	}
 	
-	.listoregistro {
+	.listoregistro, .listosesion {
 		background-color: #B7FFF4;
 		color:#120028; 
+		margin-top: 50px;
 	}
 	
 	.miniatura, .iconobuscar {
 		height: 30px;
 		width: auto;
-	}
-	
-	.buscar img {
-		margin: 30px 30px 0px 0px;
 	}
 	
 	.subtitulosmedia {
@@ -931,24 +1001,28 @@ footer p {
 	}
 	
 	.artistaymusica img {
-		margin: 0px 0px 40px 80px;
+		margin: 0px 0px 30px 0px;
 	}
 	
-	.boton-llegar{
-		margin-bottom: 40px;
+	article {
+		width: 420px;
+		padding: 0px;
+		margin: 0px;
 	}
-	
+	 	
 	iframe {
 		opacity: 0.5;
-		width: 410px;
-		height: 200px;
+		width: 100%;
+		height: 230px;
+		border: 0px;
 	}
 	
 	.titulo-media {
+		width: 420px;
 		display: flex;
 		color: #B7FFF4;
-		font-size: 1.8em;
 		padding-bottom: 20px;
+		font-size: 24pt;
 	}
 	
 	.teatrolugar, .fechaconfirmada, .infocuadraditolargo {
@@ -956,13 +1030,7 @@ footer p {
 	}
 	
 	#artistayfecha, .artistaymusica {
-		margin-left: 80px;
 		font-size: 0.8em;
-	}
-	
-	.titulo-media {
-		font-size: 1.9em;
-		margin: 0px;
 	}
 	
 	.media {
@@ -971,6 +1039,7 @@ footer p {
 		font-size: 0.6em;
 		margin: 0px;
 		padding: 0px;
+		width: 480px;
 	}
 
 	.fecha-actual {
@@ -980,17 +1049,18 @@ footer p {
 	
 	.fecha, .hora-lugar {
 		height: 80px;
+		font-size: 1.3em;
 	}
 	
 	.fecha {
 		padding: 0px;
 		margin: 0px;
-		width: 80px;
 		font-weight: 600;
+		width: 20%;
 	}
 	
 	.fecha p {
-		font-size: 1.12em;
+		font-size: 1.5em;
 		margin: 14px;
 	}
 	
@@ -998,6 +1068,7 @@ footer p {
 		display: flex;
 		flex-direction: column;
 		color: #B7FFF4;
+		width: 80%;
 	}
 	
 	.hora-lugar li {
@@ -1009,11 +1080,26 @@ footer p {
 		margin: 0px;
 	}
 	
+	
 	.boton-llegar {
-		width: 90%;
-		bottom: 140px;
-		left: 130px;
+		left: 0%;
+		width: 40%;
 		font-size: 1.1em;
-		padding: 5px;
+		padding: 0px;
+		margin: 10% auto 0% auto;
+	}
+	
+	.terminosycondiciones {
+		display: none;
+	}
+	
+	footer {
+		margin: 10% 0% 0% 0%;
+		width: 80%;
+		padding: 5% 10% 5% 10%;
+	}
+	
+	footer p {
+		font-size: 1.3em;
 	}
 }

@@ -7,81 +7,180 @@
 <link href="estilos.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="img/favicon.ico">
 </head>
-
-<body>
+	
+<body class="nobackground">
 	<header>
 		<nav>
 			<div class="buscar">
 				<img class="miniatura" src="img/movimiunav.png" width="30" height="auto" alt="miniatura"/>
 				<img class="iconobuscar" src="img/iconoscolor/buscarcelestex.png" width="auto" height="20px" alt="buscar">
 				<form method="post" action="" target="_blank" enctype="text/plain">
-					<input type="text" name="text" id="texto" maxlength="50" placeholder="Artistas, fechas..." size="40">
+					<input type="text" name="text" id="texto" maxlength="50" placeholder="Artistas, fechas, ubicación..." size="40">
 				</form>
 			</div>
 			<div class="botonera">
 				<ul>
-					<li><a href="cerca-tuyo.html">Cerca tuyo</a></li>
-					<li><a href="foto.html">Foro</a></li>
-					<li><a href="artistas.html">Artistas</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
-					<li><a href="ayuda.html">Ayuda</a></li>
+					<li><a href="error.html">Cerca tuyo</a></li>
+					<li><a href="error.html">Foro</a></li>
+					<li class="artistas"><a href="info-fecha.html">Artistas</a></li>
+					<li><a href="error.html">Contacto</a></li>
+					<li><a href="error.html">Ayuda</a></li>
 				</ul>
-				<img class="usuario" src="img/iconos/perfil012.png" width="auto" height="30px" alt="imagenusuario">
+				<img class="usuario" src="img/iconos/perfil012.png" width="auto" height="45px" alt="imagenusuario">
 			</div>
 			<div class="iconosnav">
 				<img class="notificacion" src="img/iconoscolor/campana2celeste.png" width="auto" height="30px" alt="notificacion">
 				<img class="menu" src="img/iconoscolor/menuceleste.png" width="auto" height="30px" alt="menu">
 			</div>
 		</nav>
-		<main id="infofechas">
+	</header>
+	<main id="infofechas">
 			<section class="artistaymusica">
-		    	<img src="img/galeriaartistas/mirandabarra.png" width="550" height="auto" alt="miranda"/>
+				<h3 class="titulo-media">Próxima fecha</h3>
+		    	<img src="img/galeriaartistas/mirandabarra.png" width="500" height="auto" alt="miranda"/>
 				<article>
 					<p class="textocentrado">Escucha su música</p>
-					<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2eEmsgWmUFMbtU7agJpnjY?utm_source=generator" width="550" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-					<p>Ver más</p>
+					<iframe src="https://open.spotify.com/embed/artist/2eEmsgWmUFMbtU7agJpnjY?utm_source=generator" width="500" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+					<p class="boton-ver-mas">Ver más</p>
+				</article>
+			</section>
+			<section class="media">
+				<article class="fecha-actual">					
+						<ul class="fecha">
+							<p>18 ABR</p>
+						</ul>
+						<ul class="hora-lugar">
+							<li><p>Teatro Gran Rex</p></li>
+							<li>Buenos Aires</li>
+							<li>Lunes, 20:00 hs</li>
+						</ul>
 				</article>
 			</section>
 			<section class="lugaresconfirmados">
-				<h4>Lugar confirmado</h4>
+				<h3 class="titulo">Lugar confirmado</h3>
 				<article class="infocuadraditolargo">					
 					<div>
-						<p>18<br>
-						abril</p>
+					  <p class="fechaconfirmada">18 abril</p>
 					</div>
 					<div class="teatrolugar">
 						<p>Teatro Gran Rex</p>
-						<p>Lunes, 20:30</p>
+						<p>Lunes, 20:00</p>
 					</div>
 				</article>
 				<article>
 					<div class="infocuadraditolargo">
 						<img src="img/iconos/ubicacion.png" width="auto" height="30px" alt="ubicacion">
-						<p class="teatrolugar">Av.Corrientes 857, CABA</p>
+						<p class="ubicacion">Av.Corrientes 857, CABA</p>
 					</div>
 					<div class="mapainfo">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2815.2281234410325!2d-58.36816159589903!3d-34.60301526742684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1654892688802!5m2!1ses-419!2sar" width="650" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2815.2281234410325!2d-58.36816159589903!3d-34.60301526742684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1654892688802!5m2!1ses-419!2sar" width="551" height="300" style="border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+					<div class="boton-llegar">
+						<a href="como-llegar.html" target="_self">
+							<p>¿Cómo llegar?</p>
+						</a>
 					</div>
 				</article>
-				<article>
-					<h4>Conseguí tu entrada</h4>
+				<article class="media">
+					<h3 class="titulo-media">Cerca de tu ubicación</h3>
+					<div class="fecha-actual">
+						<ul class="fecha">
+							<p>1 JUL</p>
+						</ul>
+						<ul class="hora-lugar">
+							<li><p>Teatro Gran Rex</p></li>
+							<li>Buenos Aires</li>
+							<li>Sábado, 20:30 hs</li>
+						</ul>
+					</div>
+					<div class="fecha-actual">
+						<ul class="fecha">
+							<p>5 JUL</p>
+						</ul>
+						<ul class="hora-lugar">
+							<li><p>El Teatro Flores</p></li>
+							<li>Buenos Aires</li>
+							<li>Sábado, 20:30 hs</li>
+						</ul>
+					</div>
+
 				</article>
 				<article>
-					<h4>Próximas fechas</h4>
+					<h3 class="titulo">Conseguí tu entrada</h3>
+				</article>
+				<article>
+					<h3 class="titulo"> Próximas fechas</h3>
 					<div class="carrusel1">
 						<ul>
-							<p>15<br>
-							julio</p>
+							<p>15 Julio</p>
 						</ul>				
 						<ul>
-							<p>25 julio</p>
+							<p>25 Julio</p>
 						</ul>
 						<ul>
-							<p>1 agosto</p>
+							<p>1 Agosto</p>
 						</ul>
 						<ul>
-							<p>8<br>
-							agosto</p>
+							<p>8 Agosto</p>
+						</ul>
+						<ul>
+							<p>12 Agosto</p>
+						</ul>
+						<ul>
+							<p>19 Agosto</p>
+						</ul>	
+					</div>
+				</article>
+				<article class="media">
+					<h3 class="titulo-media">Otras ciudades</h3>
+					<div class="fecha-actual">
+						<ul class="fecha">
+							<p>12 JUL</p>
+						</ul>
+						<ul class="hora-lugar">
+							<li><p>Quality Espacio</p></li>
+							<li>Córdoba</li>
+							<li>Viernes, 20:00 hs</li>
+						</ul>
+					</div>
+					<div class="fecha-actual">
+						<ul class="fecha">
+							<p>14 JUL</p>
+						</ul>
+						<ul class="hora-lugar">
+							<li><p>Tribus Bar y Arte</p></li>
+							<li>Santa Fe</li>
+							<li>Domingo, 20:00 hs</li>
+						</ul>
+					</div>
+					<div class="fecha-actual">
+						<ul class="fecha">
+							<p>17 JUL</p>
+						</ul>
+						<ul class="hora-lugar">
+							<li><p>T. Vorterix Rosario</p></li>
+							<li>Rosario</li>
+							<li>Sábado, 20:00 hs</li>
+						</ul>
+					</div>
+				  <div class="fecha-actual">
+						<ul class="fecha">
+							<p>20 JUL</p>
+						</ul>
+						<ul class="hora-lugar">
+							<li><p>Pepsi Center WTC</p></li>
+							<li>México City</li>
+							<li>Sábado, 21:00 hs</li>
+						</ul>
+					</div>
+					<div class="fecha-actual">
+						<ul class="fecha">
+							<p>30 JUL</p>
+						</ul>
+						<ul class="hora-lugar">
+							<li><p>Teatro Caupolicán</p></li>
+							<li>Santiago</li>
+							<li>Sábado, 20:00 hs</li>
 						</ul>
 					</div>
 				</article>
@@ -93,13 +192,12 @@
 				<p>Miranda</p>
 				<p>Ver más</p>
 			</section>
-		</main>
-		</header>
+	</main>
 	<footer>
-	  <p>Copyright © 2022 Movimiu</p>
-		<p>Política de privacidad</p>
-		<p>Términos y condiciones</p>
+		<p>Copyright © 2022 Movimiu</p>
+		<p class="politicas">Política de privacidad</p>
+		<p class="terminosycondiciones">Términos y condiciones</p>
 		<p>Argentina</p>
-</footer>
+	</footer>
 </body>
 </html>
