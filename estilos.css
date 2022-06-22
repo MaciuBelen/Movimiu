@@ -64,7 +64,7 @@ main {
 	margin-left: 45px;
 }
 
-#infofechas, #main-como-llegar {
+/*#infofechas,*/ #main-como-llegar, #pantalla-foro {
 	margin: 30px 100px;
 	display: flex;
     flex-direction: row;
@@ -503,10 +503,6 @@ footer p {
 
 /*---INFO FECHAS---*/
 
-#infofechas {
-	padding-right: 50px;
-}
-
 .carrusel1, .carrusel1 p, #otras-fechas p {
 	display: flex;
 }
@@ -836,7 +832,6 @@ footer p {
 	border-radius: 10px;
 }
 .perfilventa {
-	justify-content: space-between;
 	padding: 5px 0px 0px 25px;
 }
 .perfilventa p {
