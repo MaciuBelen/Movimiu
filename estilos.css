@@ -25,7 +25,7 @@ body {
 .upss {
 	align-content: center;
 	justify-content: center;
-	margin: auto 15%;
+	margin: auto 15% 17%;
 	padding: 0px;
 	display: flex;
 	width: 70%;
@@ -58,7 +58,7 @@ main {
 	margin-left: 45px;
 }
 
-#infofechas, #main-como-llegar, #pantalla-foro {
+#infofechas, #main-como-llegar {
 	margin: 30px 100px;
 	display: flex;
     flex-direction: row;
