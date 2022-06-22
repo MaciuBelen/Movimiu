@@ -19,7 +19,33 @@ body {
 }
 
 .nobackground {
-	background-image: none; 
+	background-image: none;
+	width: 1920px;
+	height: 1080px;
+}
+.upss {
+	align-content: center;
+	justify-content: center;
+	margin: auto 20%;
+	padding: 0px;
+	display: flex;
+	width: 60%;
+	height: 100%;
+}
+
+.upss img {
+	margin-top: 10%;
+	width: 500px;
+}
+
+.upss section {
+	align-items: center;
+	padding: 0% 5%;
+}
+
+.upss section h3 {
+	width: 100%;
+	margin-bottom: 50px;
 }
 
 .navindex img, .menu, .notificacion, .titulo-media, .media, .iconosnav {
@@ -869,6 +895,7 @@ footer p {
 		flex-direction: column;
 		align-items: center;
 		padding: 0px;
+		margin: 0px;
 	}
 	
 	.botoningresa {
@@ -957,8 +984,8 @@ footer p {
 		width: 420px;
 		display: flex;
 		color: #B7FFF4;
-		font-size: 3em;
 		padding-bottom: 20px;
+		font-size: 24pt;
 	}
 	
 	.teatrolugar, .fechaconfirmada, .infocuadraditolargo {
