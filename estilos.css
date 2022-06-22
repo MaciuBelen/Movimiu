@@ -25,20 +25,19 @@ body {
 .upss {
 	align-content: center;
 	justify-content: center;
-	margin: auto 15% 17%;
-	padding: 0px;
+	margin: auto;
+	padding-top: 80px;
 	display: flex;
 	width: 70%;
-	height: 100%;
+	height: 980px;
 }
 
 .upss img {
 	margin-top: 10%;
-	width: 500px;
 }
 
 .upss section {
-	height: auto;
+	height: 500px;
 	align-items: center;
 	padding: 0% 5%;
 }
@@ -46,7 +45,6 @@ body {
 .upss section h3 {
 	font-size: 30pt;
 	width: 100%;
-	margin-bottom: 50px;
 }
 
 .navindex img, .menu, .notificacion, .titulo-media, .media, .iconosnav {
@@ -1114,6 +1112,11 @@ footer p {
 		font-size: 1.1em;
 		padding: 0px;
 		margin: 10% auto 0% auto;
+	}
+	
+	.upss section{
+		padding: 0%;
+		height: auto
 	}
 	
 	.upss section h2 {
