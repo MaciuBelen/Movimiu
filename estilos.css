@@ -543,7 +543,7 @@ footer p {
 	border-radius: 10px;	
 }
 
-.artistaymusica .lugaresconfirmados .carrusel2 {
+.artistaymusica .lugaresconfirmados {
 	display: flex;
 	flex-direction: column;
 }
@@ -576,9 +576,10 @@ footer p {
 }
 
 .teatrolugar, .ubicacion {
-	width: 78%;
+	width: 550px;
 	background-color: #A600A9;
 	padding-right: 50px;
+	
 }
 
 .teatrolugar {
@@ -639,7 +640,15 @@ footer p {
 .boton-llegar p {
 	color: #FFFFFF;
 }
-
+.carrusel2 {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.carrusel2 p {
+    display: flex;
+    justify-content: center;
+}
 
 /*--todo css de como llegar--*/
 
