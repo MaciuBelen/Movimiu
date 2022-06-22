@@ -599,7 +599,7 @@ footer p {
 	flex-direction: row;
 }
 
-.boton-spotify, .textocentrado {
+.boton-spotify, .textocentrado, .irayoutube, .vernota {
 	display: flex; 
 	background-color: #A600A9;
 	justify-content: center;
@@ -607,7 +607,7 @@ footer p {
 	text-shadow: 1px 1px 4px #120028;
 }
 
-.boton-spotify {
+.boton-spotify, .irayoutube {
 	border-radius: 0px 0px 20px 20px;
 	margin-top: 0px;
 	color: #FFFFFF;
@@ -617,7 +617,7 @@ footer p {
 	text-decoration: none;
 }
 
-.textocentrado {
+.textocentrado, .vernota {
 	border-radius: 20px 20px 0px 0px;
 	margin-bottom: 0px;
 }
@@ -798,12 +798,6 @@ footer p {
 }
 
 
-#pantalla-foro{
-	justify-content: space-between;
-	padding-right: 150px;
-	margin-bottom: 50px;
-	margin-top: 5% 
-}
 .artistasinfo {
 	display:flex;
 	flex-direction: column;
@@ -812,11 +806,7 @@ footer p {
 .perfilventa, .artistasinfo { 
 	align-items: center;
 }
-.orgdeperfiles {
-	display: flex;
-	flex-direction: row;
 	
-}
 .infocuadrado {
 	display: flex;
 	width: 500px;
@@ -828,16 +818,13 @@ footer p {
 	background-color: #A600A9;
 	border-radius: 10px;
 }
-.vernota {
-	display:flex; 
-	width: 550px;
-	height: 40px;
-	padding-top: 20px ;
-	margin-top: 20px;
-	justify-content: center;
-	background-color: #A600A9;
-	border-radius: 10px;
+.irayoutube, .vernota {
+	width: 530px;
 }
+.informacionextra, .reventaforo{
+	padding-left: 80px;
+}
+
 .perfilventa {
 	padding: 5px 0px 0px 25px;
 }
