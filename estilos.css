@@ -22,12 +22,6 @@ body {
 	background-image: none;
 }
 
-.paginaerror {
-	background-image: none;
-	width: 1920px;
-	height: 1080px;
-}
-
 .upss {
 	align-content: center;
 	justify-content: center;
@@ -596,7 +590,7 @@ footer p {
 	flex-direction: row;
 }
 
-.boton-ver-mas, .textocentrado {
+.boton-spotify, .textocentrado {
 	display: flex; 
 	background-color: #A600A9;
 	justify-content: center;
@@ -604,9 +598,14 @@ footer p {
 	text-shadow: 1px 1px 4px #120028;
 }
 
-.boton-ver-mas {
+.boton-spotify {
 	border-radius: 0px 0px 20px 20px;
 	margin-top: 0px;
+	color: #FFFFFF;
+}
+
+#infofechas a {
+	text-decoration: none;
 }
 
 .textocentrado {
@@ -857,6 +856,19 @@ footer p {
 		width: 90%;
 	}
 	
+	.nobackground .upss {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0px 0px 100px 50px ;
+		height: 100vh;
+	}
+	
+	.nobackground .navindex {
+		display: flex;
+		font-size: 0.8em;
+		width: 85%;
+	}
+	
 	main, #infofechas {
 		margin: 0% 15%;
 		padding: 0%;
@@ -872,7 +884,7 @@ footer p {
 		display: none;
 	}
 	
-	.pagina-como-llegar, .infocuadraditolargo, .logotexto, .botoningresa, .botonregistrate, iframe, #main-como-llegar {
+	.pagina-como-llegar, .infocuadraditolargo, .logotexto, .botoningresa, .botonregistrate, iframe, #main-como-llegar, .upss {
 		margin: 0px;
 	}
 	
@@ -929,7 +941,6 @@ footer p {
 		width: 300px;
 		
 	}
-	
 		
 	.botoningresa {
 		font-size: 1.5em;
@@ -1044,10 +1055,11 @@ footer p {
 	.fecha-actual {
 		margin: 0px;
 		height: 95px;
+		margin-top: 20px;
 	}
 	
 	.fecha, .hora-lugar {
-		height: 80px;
+		height: 100px;
 		font-size: 1.3em;
 	}
 	
@@ -1060,7 +1072,7 @@ footer p {
 	
 	.fecha p {
 		font-size: 1.5em;
-		margin: 14px;
+		margin: 24px 14px;
 	}
 	
 	.hora-lugar {
@@ -1079,13 +1091,30 @@ footer p {
 		margin: 0px;
 	}
 	
-	
 	.boton-llegar {
 		left: 0%;
 		width: 40%;
 		font-size: 1.1em;
 		padding: 0px;
 		margin: 10% auto 0% auto;
+	}
+	
+	.upss section h2 {
+		margin: 0px 0px 20px;
+		font-size: 3em;
+	}
+	
+	.upss section h3 {
+		margin: 0px;
+		font-size: 1.1em;
+		width: 450px;
+		margin-top: 10px;
+	}
+	
+	.upss section img {
+		width: 300px;
+		margin-left: 20%;
+		margin-bottom: 0px;
 	}
 	
 	.terminosycondiciones {
