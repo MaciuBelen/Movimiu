@@ -109,6 +109,10 @@ nav a {
 	margin: auto 10px auto 20px;
 }
 
+.buscar a img {
+	margin: 20px 10px auto 20px;
+}
+
 .botonera {
 	display: flex;
 	flex-direction: row;
@@ -505,7 +509,7 @@ footer p {
 	display: flex;
 }
 
-.artistas a {
+.artistas a, .foro a {
 	color: #A600A9;
 	font-weight: 500;
 }
