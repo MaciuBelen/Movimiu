@@ -609,7 +609,7 @@ footer p {
 
 
 #artistayfecha, .artistaymusica, #pantalla-foro {     /*ACA ESTA LO DEL FORO TAMBIEN */
-	align-items: center;
+	align-items: flex-start;
 	display: flex;
 	flex-direction: column;
 	width: 40%;
