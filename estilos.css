@@ -503,6 +503,9 @@ footer p {
 
 /*---INFO FECHAS---*/
 
+#infofechas {
+	padding-right: 50px;
+}
 
 .carrusel1, .carrusel1 p, #otras-fechas p {
 	display: flex;
@@ -648,6 +651,7 @@ footer p {
 .carrusel2 p {
     display: flex;
     justify-content: center;
+	
 }
 
 /*--todo css de como llegar--*/
