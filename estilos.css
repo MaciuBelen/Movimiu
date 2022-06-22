@@ -58,7 +58,7 @@ main {
 	margin-left: 45px;
 }
 
-#infofechas, #main-como-llegar {
+#infofechas, #main-como-llegar, #pantalla-foro {
 	margin: 30px 100px;
 	display: flex;
     flex-direction: row;
