@@ -664,18 +664,32 @@ footer p {
 	opacity: 1;
 }
 
-.boton-llegar a, .botonvermas {
+.boton-llegar a, .boton-ver-mas {
 	text-decoration: none;
 }
 
-.boton-llegar p, .botonvermas p{
+.boton-llegar p, .boton-ver-mas p{
 	color: #FFFFFF;
 }
-.botonvermas {
+
+.boton-ver-mas, .boton-ver-mas-foro {
 	display: flex; 
-	background-color: #A600A9;
 	justify-content: center;
-	border-radius: 10px
+	border-radius: 10px;
+}
+
+.boton-ver-mas {
+	background-color: #A600A9;
+}
+
+.boton-ver-mas-foro {
+	background-color: #B7FFF4;
+	margin-top: 15px;
+}
+
+.boton-ver-mas-foro p {
+	color: #120028;
+	font-weight: 500;
 }
 
 .carrusel2 {
