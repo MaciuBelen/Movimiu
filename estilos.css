@@ -797,6 +797,11 @@ footer p {
 	border-radius: 10px;
 }
 
+.transporte-media {
+	width: 40%;
+	display: none;
+}
+
 #mapa iframe, .mapainfo {
 	opacity: 0.5;
 }
@@ -895,7 +900,7 @@ footer p {
 	#main-como-llegar {
 		display: flex;
 		flex-direction: column;
-		margin: 0px auto;
+		margin: 0% 15%;
 	}
 	
 	.nobackground .upss {
@@ -1126,7 +1131,7 @@ footer p {
 	
 	.fecha p {
 		font-size: 1.5em;
-		margin: 24px 14px;
+		margin: 15px 10px;
 	}
 	
 	.hora-lugar {
@@ -1145,12 +1150,53 @@ footer p {
 		margin: 0px;
 	}
 	
+	#como-llegar {
+		margin-top: 20px;
+		width: 100%;
+	}
+	
+	#como-llegar h4 {
+		margin: 20px 0px 10px 110px;
+	}
+	
+	#como-llegar img {
+		width: 20%;
+		height: auto;
+	}
+	
+	#como-llegar p {
+		background-color: #A600A9;
+		width: 70%;
+		height: 80px;
+		align-content: center;
+		color: #B7FFF4;
+		font-size: 1.3em;
+		margin: 0px;
+	}
+	
+	#como-llegar ul {
+		margin: 0px 0px 30px 0px;
+		height: 80px;
+	}
+	
+	#mapa {
+		margin-top: 50px;
+	}
+	
 	.boton-llegar {
 		left: 0%;
 		width: 40%;
 		font-size: 1.1em;
 		padding: 0px;
 		margin: 10% auto 0% auto;
+	}
+	
+	.transporte-desktop {
+		display: none;
+	}
+	
+	.transporte-media {
+		display: inline;
 	}
 	
 	.upss section{
