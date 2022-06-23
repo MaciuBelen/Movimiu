@@ -51,6 +51,10 @@ a{
 	width: 100%;
 }
 
+.errorp{
+	padding: 50px 0px 0px
+}
+
 .navindex img, .menu, .notificacion, .titulo-media, .media, .iconosnav {
 	display: none;
 }
