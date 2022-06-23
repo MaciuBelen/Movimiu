@@ -671,6 +671,12 @@ footer p {
 .boton-llegar p, .botonvermas p{
 	color: #FFFFFF;
 }
+.botonvermas {
+	display: flex; 
+	background-color: #A600A9;
+	justify-content: center;
+	border-radius: 10px
+}
 
 .carrusel2 {
 	display: flex;
