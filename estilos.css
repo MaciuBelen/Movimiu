@@ -1065,7 +1065,7 @@ footer p {
 	}
 	
 	.artistaymusica img {
-		margin: 0px 0px 30px 0px;
+		margin: 0px 0px 15px 0px;
 	}
 	
 	article {
@@ -1147,10 +1147,16 @@ footer p {
 	
 	.boton-llegar {
 		left: 0%;
+		bottom: 120px;
 		width: 40%;
 		font-size: 1.1em;
 		padding: 0px;
-		margin: 10% auto 0% auto;
+		margin: 0% auto 0% auto;
+	}
+	
+	.mapainfo {
+		height: 200px;
+		margin-top: 15px;
 	}
 	
 	.upss section{
