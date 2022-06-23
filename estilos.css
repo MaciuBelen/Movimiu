@@ -602,6 +602,7 @@ footer p {
 	justify-content: center;
 	padding: 10px;
 	text-shadow: 1px 1px 4px #120028;
+	margin-top: 30px;
 }
 
 .boton-spotify, .irayoutube {
@@ -815,6 +816,10 @@ footer p {
 	background-color: #A600A9;
 	border-radius: 10px;
 }
+.subtituventa {
+	font-size: 1.
+}
+
 .irayoutube, .vernota {
 	width: 530px;
 }
