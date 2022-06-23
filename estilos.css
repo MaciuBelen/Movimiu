@@ -489,12 +489,20 @@ input {
 footer {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	background-color: #1F0A3D;
 	color: #FFFFFF;
 	font-size: 0.7em;
 	font-family: Inter;
-	padding: 0px 100px;
+	padding: 10px 100px;
+}
+
+.footer{
+	padding-left: 35%
+}
+
+footer a p{
+	color: white;
+	padding-left: 35%
 }
 
 footer p {
