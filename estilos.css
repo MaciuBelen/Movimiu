@@ -500,19 +500,21 @@ footer {
 	font-size: 0.7em;
 	font-family: Inter;
 	padding: 10px 100px;
+	box-sizing: border-box;
 }
 
 .footer{
-	padding-left: 35%
+	padding-left: 55%
 }
 
 footer a p{
 	color: white;
-	padding-left: 35%
+	padding-left: 55%
 }
 
 footer p {
 	padding-right: 20px;
+	width: 180px
 }
 
 /*---INFO FECHAS---*/
