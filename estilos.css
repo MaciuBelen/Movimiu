@@ -149,6 +149,7 @@ nav a:hover {
 .navindex {
 	justify-content: flex-end;
 	padding-right: 50px;
+	box-sizing: border-box;
 }
 
 h2 {
