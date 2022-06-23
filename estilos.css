@@ -596,7 +596,7 @@ footer p {
 	flex-direction: row;
 }
 
-.boton-spotify, .textocentrado, .irayoutube, .vernota {
+.boton-spotify, .textocentrado, .bordesuperior, .vernota {
 	display: flex; 
 	background-color: #A600A9;
 	justify-content: center;
@@ -605,7 +605,7 @@ footer p {
 	margin-top: 30px;
 }
 
-.boton-spotify, .irayoutube {
+.boton-spotify, .vernota{
 	border-radius: 0px 0px 20px 20px;
 	margin-top: 0px;
 	color: #FFFFFF;
@@ -615,7 +615,7 @@ footer p {
 	text-decoration: none;
 }
 
-.textocentrado, .vernota {
+.textocentrado, .bordesuperior {
 	border-radius: 20px 20px 0px 0px;
 	margin-bottom: 0px;
 }
@@ -815,14 +815,19 @@ footer p {
 	flex-direction: column;
 	background-color: #A600A9;
 	border-radius: 10px;
+	font-size: 1.1em
 }
 .subtituventa {
-	font-size: 1.
+	font-size: 1em
 }
 
-.irayoutube, .vernota {
+.bordesuperior, .vernota {
 	width: 530px;
 }
+.bordesuperior{
+	height: 15px
+}
+
 .informacionextra, .reventaforo{
 	padding-left: 80px;
 }
