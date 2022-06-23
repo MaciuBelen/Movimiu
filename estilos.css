@@ -537,7 +537,7 @@ footer p {
 	opacity: 1;
 }
 
-.carrusel1 ul:hover {
+.carrusel1 ul:hover,r {
 	opacity: 1;
 }
 
@@ -555,11 +555,6 @@ footer p {
 	align-items: center;
 	background-color: #36007A;
 	border-radius: 10px;	
-}
-
-#otras-fechas p {
-	width: 80px;
-	padding: 10px 20px 10px 20px;
 }
 
 .artistaymusica .lugaresconfirmados {
@@ -617,13 +612,18 @@ footer p {
 	flex-direction: row;
 }
 
-.boton-spotify, .textocentrado, .bordesuperior, .vernota {
+.boton-spotify, .textocentrado, .bordesuperior, .botonvermas {
 	display: flex; 
 	background-color: #A600A9;
 	justify-content: center;
 	padding: 10px;
 	text-shadow: 1px 1px 4px #36007A;
 	margin-top: 30px;
+}
+.botonvermas{
+	border-radius: 20px 20px 20px 20px;
+	margin-top: 0px;
+	color: #FFFFFF;
 }
 
 .boton-spotify, .vernota{
@@ -658,11 +658,11 @@ footer p {
 	opacity: 1;
 }
 
-.boton-llegar a {
+.boton-llegar a, .botonvermas {
 	text-decoration: none;
 }
 
-.boton-llegar p {
+.boton-llegar p, .botonvermas p{
 	color: #FFFFFF;
 }
 
@@ -696,11 +696,11 @@ footer p {
 }
 
 .fecha-actual {
-	margin-top: 30px;
+	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
 	font-size: 1.2em;
-	width: 100%;
+	width: 500px;
 	height: 140px;
 }
 
@@ -708,7 +708,7 @@ footer p {
 	color: #120028;
 	font-size: 1.6em;
 	font-weight: 700;
-	width: 30%;
+	width: 200px;
 	height: 140px;
 	background-color: #B7FFF4;
 	border-radius: 20px 0px 0px 20px;
@@ -722,7 +722,6 @@ footer p {
 
 .hora-lugar {
 	justify-content: center;
-	width: 70%;
 	height: 140px;
 	background-color: #A600A9;
 	border-radius: 0px 20px 20px 0px;
@@ -884,18 +883,12 @@ footer p {
 		width: 600px;
 	}
 	
-	#infofechas, .infocuadraditolargo {
+	#infofechas, #main-como-llegar, .infocuadraditolargo {
 		display: flex;
 		flex-direction: column;
 		margin-top: 0px;
 		padding-top: 0px;
 		width: 90%;
-	}
-	
-	#main-como-llegar {
-		display: flex;
-		flex-direction: column;
-		margin: 0px auto;
 	}
 	
 	.nobackground .upss {
@@ -926,7 +919,7 @@ footer p {
 		display: none;
 	}
 	
-	.pagina-como-llegar, .infocuadraditolargo, .logotexto, .botoningresa, .botonregistrate, iframe, .upss {
+	.pagina-como-llegar, .infocuadraditolargo, .logotexto, .botoningresa, .botonregistrate, iframe, #main-como-llegar, .upss {
 		margin: 0px;
 	}
 	
