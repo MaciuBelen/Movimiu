@@ -51,6 +51,10 @@ a{
 	width: 100%;
 }
 
+.errorp{
+	padding: 50px 0px 0px
+}
+
 .navindex img, .menu, .notificacion, .titulo-media, .media, .iconosnav {
 	display: none;
 }
@@ -496,19 +500,21 @@ footer {
 	font-size: 0.7em;
 	font-family: Inter;
 	padding: 10px 100px;
+	box-sizing: border-box;
 }
 
 .footer{
-	padding-left: 35%
+	padding-left: 55%
 }
 
 footer a p{
 	color: white;
-	padding-left: 35%
+	padding-left: 55%
 }
 
 footer p {
 	padding-right: 20px;
+	width: 180px
 }
 
 /*---INFO FECHAS---*/
@@ -533,7 +539,7 @@ footer p {
 	opacity: 1;
 }
 
-.carrusel1 ul:hover {
+.carrusel1 ul:hover,r {
 	opacity: 1;
 }
 
@@ -613,8 +619,13 @@ footer p {
 	background-color: #A600A9;
 	justify-content: center;
 	padding: 10px;
-	text-shadow: 1px 1px 4px #120028;
+	text-shadow: 1px 1px 4px #36007A;
 	margin-top: 30px;
+}
+.vernota{
+	border-radius: 20px 20px 20px 20px;
+	margin-top: 0px;
+	color: #FFFFFF;
 }
 
 .boton-spotify, .vernota{
@@ -649,11 +660,11 @@ footer p {
 	opacity: 1;
 }
 
-.boton-llegar a {
+.boton-llegar a, .botonvermas {
 	text-decoration: none;
 }
 
-.boton-llegar p {
+.boton-llegar p, .botonvermas p{
 	color: #FFFFFF;
 }
 
@@ -732,7 +743,7 @@ footer p {
 /*--parte de los medios de transporte y mapa--*/
 
 
-#como-llegar, .lugaresconfirmados {
+#como-llegar, .lugaresconfirmados, .informacionextra {
 	width: 40%;
 	height: auto;
 }
@@ -815,29 +826,36 @@ footer p {
 	
 .infocuadrado {
 	display: flex;
-	width: 500px;
 	height: 120px;
-	padding: 5px 0px 0px 30px;
-	margin: 20px 50px 0px 50px;
+	margin: 20px 0px 0px 0px;
 	justify-content: center;
 	flex-direction: column;
 	background-color: #A600A9;
 	border-radius: 10px;
-	font-size: 1.1em
 }
+
+.infocuadrado p {
+	font-size: 1.4em;
+	padding-left: 30px;
+	margin: 0px 50px 0px 0px;
+}
+
+.infocuadrado .tips-foro {
+	font-size: 1.8em;
+	padding-bottom: 2px;
+	font-weight: 600;
+}
+
 .subtituventa {
 	font-size: 1em
 }
 
 .bordesuperior, .vernota {
-	width: 530px;
-}
-.bordesuperior{
-	height: 15px
+	width: 480px;
 }
 
-.informacionextra, .reventaforo{
-	padding-left: 80px;
+.bordesuperior{
+	height: 15px
 }
 
 .perfilventa {
@@ -1016,7 +1034,6 @@ footer p {
 		color: #120028;
 	}
 	
-
 	.listoregistro, .listosesion {
 		background-color: #B7FFF4;
 		color:#120028; 
@@ -1043,7 +1060,7 @@ footer p {
 	}
 	
 	.artistaymusica img {
-		margin: 0px 0px 30px 0px;
+		margin: 0px 0px 15px 0px;
 	}
 	
 	article {
@@ -1125,10 +1142,16 @@ footer p {
 	
 	.boton-llegar {
 		left: 0%;
+		bottom: 120px;
 		width: 40%;
 		font-size: 1.1em;
 		padding: 0px;
-		margin: 10% auto 0% auto;
+		margin: 0% auto 0% auto;
+	}
+	
+	.mapainfo {
+		height: 200px;
+		margin-top: 15px;
 	}
 	
 	.upss section{
@@ -1166,5 +1189,9 @@ footer p {
 	
 	footer p {
 		font-size: 1.3em;
+	}
+	
+	.footermedia{
+		display: none
 	}
 }
