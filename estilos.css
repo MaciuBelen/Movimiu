@@ -896,6 +896,18 @@ footer p {
 		margin: 0px;
 	}
 	
+	.artistas-populares-media {
+		width: 80%;
+		display: flex;
+		flex-direction: row;
+		overflow-x: scroll;
+	}
+	
+	.artistas-populares-media img {
+		width: 400px;
+		margin: 0px 0px 0px 20px;
+	}
+	
 	nav {
 		margin-left: 20px;
 		width: 90%;
