@@ -181,7 +181,7 @@ h3 {
 
 .subtitulofechas {
 	font-size: 1.2em;
-	width: inherit;
+	width: inherit;	
 }
 
 h4 {
@@ -507,7 +507,7 @@ footer {
 	box-sizing: border-box;
 }
 
-.footer{
+.footer {
 	padding-left: 55%
 }
 
@@ -521,7 +521,7 @@ footer p {
 	width: 180px
 }
 
-.footerc{
+.footerc {
 	padding-top:8px
 }
 
@@ -545,6 +545,7 @@ footer p {
 
 .carrusel1 {
     justify-content: space-around;
+	margin: 0px 0px 45px;
 }
 
 #otras-fechas ul:hover {
@@ -570,7 +571,6 @@ footer p {
 	background-color: #36007A;
 	border-radius: 10px;	
 }
-
 
 .artistaymusica .lugaresconfirmados {
 	display: flex;
@@ -719,31 +719,25 @@ footer p {
     flex-direction: column;
 }
 
-.carrusel2 p {
-    display: flex;
-    justify-content: center;
-}
-
 .carrusel2 img {
 	margin-bottom: 15px;
 }
-
-
 
 .entradas {
 	display: flex;
 	justify-content: space-between;
 	width: 70%;
 	text-align: center;
+	margin: 0px 0px 45px;
 }
 
 .entradas a p {
 	background-color: #B7FFF4;
 	padding: 25px;
-	margin-bottom: 0px;
 	border-radius: 10px 10px 0px 0px;
 	font-weight: 600;
 	color: #120028;
+	margin: 0px;
 }
 
 .disponibilidad {
@@ -1215,7 +1209,7 @@ footer p {
 		width: 420px;
 		display: flex;
 		color: #B7FFF4;
-		padding: 20px 0px 0px;
+		padding-bottom: 15px;
 		font-size: 24pt;
 	}
 	
@@ -1239,7 +1233,7 @@ footer p {
 	.fecha-actual {
 		margin: 0px;
 		height: 95px;
-		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 	
 	.fecha, .hora-lugar {
