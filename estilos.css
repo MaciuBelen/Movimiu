@@ -1012,6 +1012,11 @@ footer p {
 		width: 420px;
 	}
 	
+	.main-inicio {
+		width: 80%;
+		margin: 0% 10%;
+	}
+	
 	.nobackground main {
 		display: flex;
 		flex-direction: column;
@@ -1042,7 +1047,7 @@ footer p {
 	}
 	
 	.artistas-populares-media {
-		width: 85%;
+		width: 95%;
 		display: flex;
 		flex-direction: row;
 		overflow-x: scroll;
@@ -1050,7 +1055,7 @@ footer p {
 	
 	.artistas-populares-media img {
 		width: 350px;
-		margin: 0px 0px 0px 20px;
+		margin: 0px;
 	}
 	
 	nav {
@@ -1201,7 +1206,7 @@ footer p {
 		width: 200px
 	}
 	
-	.subtituventa, .mediap{
+	.subtituventa{
 		padding-top: 5%
 	}
 	
@@ -1226,10 +1231,15 @@ footer p {
 		flex-direction: column;
 		font-size: 0.6em;
 		margin: 0px;
-		padding: 0px;
+		padding: 10px 0px 0px 0px;
 		width: 480px;
 	}
-
+	
+	.media a {
+		width: 70%;
+		margin: 0% 5%;
+	}
+	
 	.fecha-actual {
 		margin: 0px;
 		height: 95px;
