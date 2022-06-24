@@ -18,7 +18,7 @@ body {
 	align-items: center;
 }
 
-a{
+a {
 	text-decoration: none
 }
 
@@ -553,15 +553,16 @@ footer p {
 
 .carrusel1 p, #otras-fechas p { 
 	text-align: center;
-	width: 100px;
+	width: 80px;
 	height: 100px;
-	padding: 5px;
+	padding: 0px 10px 0px 10px;
 	font-size: 1.6em;
 	justify-content: center;
 	align-items: center;
 	background-color: #36007A;
 	border-radius: 10px;	
 }
+
 
 .artistaymusica .lugaresconfirmados {
 	display: flex;
@@ -742,7 +743,7 @@ footer p {
 }
 
 .fecha-actual {
-	margin-top: 50px;
+	margin-top: 30px;
 	display: flex;
 	flex-direction: row;
 	font-size: 1.2em;
@@ -754,7 +755,7 @@ footer p {
 	color: #120028;
 	font-size: 1.6em;
 	font-weight: 700;
-	width: 200px;
+	width: 30%;
 	height: 140px;
 	background-color: #B7FFF4;
 	border-radius: 20px 0px 0px 20px;
@@ -767,6 +768,7 @@ footer p {
 }
 
 .hora-lugar {
+	width: 70%;
 	justify-content: center;
 	height: 140px;
 	background-color: #A600A9;
@@ -917,6 +919,16 @@ footer p {
 }
 
 
+.atras-media {
+	background-color: #B7FFF4;
+	padding: 15px;
+	border-radius: 50px;
+	box-shadow: 0px 1px 8px 2px #36007A;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+}
+
 
  /*---media---*/
 
@@ -935,12 +947,20 @@ footer p {
 		width: 600px;
 	}
 	
-	#infofechas, #main-como-llegar, .infocuadraditolargo, #pantalla-foro {
+	#infofechas, .infocuadraditolargo, #pantalla-foro {
 		display: flex;
 		flex-direction: column;
 		margin-top: 0px;
 		padding-top: 0px;
 		width: 90%;
+	}
+	
+	#main-como-llegar {
+		display: flex;
+		flex-direction: column;
+		margin-top: 0px;
+		padding-top: 0px;
+		width: 80%;
 	}
 	
 	.nobackground .upss {
@@ -1200,7 +1220,7 @@ footer p {
 	
 	#como-llegar {
 		margin-top: 20px;
-		width: 80%;
+		width: 90%;
 	}
 	
 	#como-llegar h4 {
@@ -1214,7 +1234,7 @@ footer p {
 	
 	#como-llegar p {
 		background-color: #A600A9;
-		width: 70%;
+		width: 300px;
 		height: 80px;
 		align-content: center;
 		color: #B7FFF4;
@@ -1296,7 +1316,7 @@ footer p {
 	
 	.entradascuadrado{
 		padding-left: 6px;
-		box-sizing: border-box
+		box-sizing: border-box;
 	}
 	
 	.tuentrada{
