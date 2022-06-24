@@ -885,6 +885,7 @@ footer p {
 .perfilventa {
 	padding: 5px 0px 0px 25px;
 }
+
 .perfilventa p {
 	color: #B7FFF4;
 	padding: 0px 0px 0px 0px;
@@ -909,7 +910,7 @@ footer p {
 		width: 600px;
 	}
 	
-	#infofechas, #main-como-llegar, .infocuadraditolargo {
+	#infofechas, #main-como-llegar, .infocuadraditolargo, #pantalla-foro {
 		display: flex;
 		flex-direction: column;
 		margin-top: 0px;
@@ -930,7 +931,7 @@ footer p {
 		width: 85%;
 	}
 	
-	main, #infofechas {
+	main, #infofechas, #pantalla-foro {
 		margin: 0% 15%;
 		padding: 0%;
 		width: 420px;
@@ -941,7 +942,7 @@ footer p {
 		flex-direction: column;
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textoprincipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar {
+	.navindex, .logotexto article h2, .logotexto article h3, .textoprincipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar, .artistasinfo iframe, .artistasinfo .bordesuperior, .vernota {
 		display: none;
 	}
 	
@@ -1052,7 +1053,6 @@ footer p {
 		opacity: 0.7;
 	}
 	
-	
 	.botonesregistro {
 		background-color: #B7FFF4;
 		color: #120028;
@@ -1078,7 +1078,7 @@ footer p {
 		margin-left: 0px;
 	}
 	
-	#artistayfecha, #artistayfecha img,.artistaymusica img, .fecha-actual {
+	#artistayfecha, #artistayfecha img, .artistaymusica img, .fecha-actual, .artistasinfo img {
 		display: flex;
 		width: 420px;
 	}
@@ -1201,13 +1201,29 @@ footer p {
 		margin-bottom: 0px;
 	}
 	
+	.informacionextra h3 {
+		display: flex;
+	}
+	
+	.infocuadrado {
+		height: 80px;
+	}
+	
+	.infocuadrado p {
+		padding: 0px 0px 0px 20px;
+	}
+	
+	.infocuadrado p, .infocuadrado .tips-foro {
+		font-size: 1.2em;
+	}
+	
 	.terminosycondiciones {
 		display: none;
 	}
 	
 	footer {
 		margin: 10% 0% 0% 0%;
-		width: 80%;
+		max-sizing: borderbox;
 		padding: 5% 10% 5% 10%;
 	}
 	
@@ -1216,6 +1232,6 @@ footer p {
 	}
 	
 	.footermedia{
-		display: none
+		display: none;
 	}
 }
