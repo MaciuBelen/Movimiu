@@ -960,7 +960,7 @@ footer p {
 		flex-direction: column;
 		margin-top: 0px;
 		padding-top: 0px;
-		width: 80%;
+		width: 70%;
 	}
 	
 	.nobackground .upss {
@@ -1220,7 +1220,7 @@ footer p {
 	
 	#como-llegar {
 		margin-top: 20px;
-		width: 90%;
+		width: 100%;
 	}
 	
 	#como-llegar h4 {
@@ -1228,13 +1228,13 @@ footer p {
 	}
 	
 	#como-llegar img {
-		width: 80px;
+		width: 20%;
 		height: auto;
 	}
 	
 	#como-llegar p {
 		background-color: #A600A9;
-		width: 300px;
+		width: 80%;
 		height: 80px;
 		align-content: center;
 		color: #B7FFF4;
