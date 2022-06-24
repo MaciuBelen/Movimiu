@@ -227,7 +227,7 @@ h4 {
 	width: 98%;
 	height: 400px;
 	overflow-x:scroll;
-	margin-top: -50px
+	margin-top: 0px
 }
 
 .artistas-populares::-webkit-scrollbar {
@@ -964,9 +964,9 @@ footer p {
 	#main-como-llegar {
 		display: flex;
 		flex-direction: column;
-		margin-top: 0px;
+		margin: 0px auto;
 		padding-top: 0px;
-		width: 80%;
+		width: 70%;
 	}
 	
 	.nobackground .upss {
@@ -1247,7 +1247,7 @@ footer p {
 	
 	#como-llegar {
 		margin-top: 20px;
-		width: 90%;
+		width: 100%;
 	}
 	
 	#como-llegar h4 {
@@ -1255,13 +1255,13 @@ footer p {
 	}
 	
 	#como-llegar img {
-		width: 80px;
+		width: 20%;
 		height: auto;
 	}
 	
 	#como-llegar p {
 		background-color: #A600A9;
-		width: 300px;
+		width: 80%;
 		height: 80px;
 		align-content: center;
 		color: #B7FFF4;
