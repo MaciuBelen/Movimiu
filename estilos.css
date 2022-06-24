@@ -182,9 +182,13 @@ h3 {
 
 
 
-.subtitulofechas {
+.subtitulofechas, .subforo {
 	font-size: 1.2em;
-	width: inherit;	
+	width: inherit
+}
+
+.subforo{
+		padding-top: 20px
 }
 
 h4 {
