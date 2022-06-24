@@ -944,6 +944,27 @@ footer p {
 	padding: 0px 0px 0px 0px;
 }
 
+.atras-media {
+	background-color: #B7FFF4;
+	padding: 15px;
+	border-radius: 50px;
+	box-shadow: 0px 1px 8px 2px #36007A;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+}
+
+.persona{
+	font-size: 1.3em
+}
+
+.accion{
+	color: #A600A9
+}
+
+.mediap{
+	padding-top: 50px
+}
 
  /*---media---*/
 
