@@ -77,6 +77,7 @@ nav {
     display: flex;
 	align-items: center;
 	justify-content: space-around;
+	box-sizing: border-box;
 }
 
 .miniatura {
@@ -705,6 +706,25 @@ footer p {
 .carrusel2 img {
 	margin-bottom: 15px;
 }
+
+.entradas {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+
+.entradas a p {
+	background-color: #B7FFF4;
+	padding: 25px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.disponibilidad {
+	background-color: #A600A9;
+	padding: 15px;
+	border-radius: 0px 0px 10px 10px;
+}
+
 
 /*--todo css de como llegar--*/
 
