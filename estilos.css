@@ -177,6 +177,7 @@ h3 {
 	margin: 0px 0px 20px 0px;
 	opacity: 1;
 	color: #B7FFF4;
+	width: 96%;
 }
 
 
@@ -920,25 +921,25 @@ footer p {
 	font-weight: 600;
 }
 
-.subtituventa {
-	font-size: 1em
-}
-
 .bordesuperior, .ver-nota {
 	width: 480px;
 }
 
 .bordesuperior{
-	height: 15px
+	height: 15px;
 }
 
 .perfilventa {
-	padding: 5px 0px 0px 25px;
+	padding: 0px 0px 0px 25px;
 }
 
 .perfilventa p {
 	color: #B7FFF4;
-	padding: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.perfilventa ul {
+	margin: 0px;
 }
 
 .atras-media {
@@ -951,17 +952,15 @@ footer p {
 	right: 20px;
 }
 
-.persona{
-	font-size: 1.3em
+.persona {
+	font-size: 1.3em;
 }
 
-.accion{
-	color: #A600A9
+.perfilventa .accion {
+	color: #A600A9;
+	font-weight: 600;
 }
 
-.mediap{
-	padding-top: 50px
-}
 
  /*---media---*/
 
@@ -1113,7 +1112,6 @@ footer p {
 	
 	#email, #email2, #name, #password, #password2, #password3 {
 		width: 300px;
-		
 	}
 		
 	.botoningresa {
@@ -1187,7 +1185,7 @@ footer p {
 		width: 420px;
 	}
 	
-	.artistaymusica img {
+	.artistaymusica img, #artistayfecha img {
 		margin: 0px 0px 15px 0px;
 	}
 	
