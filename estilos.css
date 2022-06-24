@@ -1120,6 +1120,10 @@ footer p {
 		border: 0px;
 	}
 	
+	.titulo{
+		padding-top: 30%
+	}
+	
 	.titulo-media {
 		width: 420px;
 		display: flex;
