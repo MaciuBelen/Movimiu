@@ -18,17 +18,62 @@ body {
 	align-items: center;
 }
 
-header {
-	margin-left: 45px;
+a{
+	text-decoration: none
 }
 
-main {
-	max-width: 92%;
-	margin-left: 50px;
+.nobackground {
+	background-image: none;
+}
+
+.upss {
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+	padding-top: 80px;
+	display: flex;
+	width: 70%;
+	height: 1080px;
+}
+
+.upss img {
+	margin-top: 10%;
+}
+
+.upss section {
+	height: 500px;
+	align-items: center;
+	padding: 0% 5%;
+}
+
+.upss section h3 {
+	font-size: 30pt;
+	width: 100%;
+}
+
+.errorp{
+	padding: 50px 0px 0px
+}
+
+.navindex img, .menu, .notificacion, .titulo-media, .media, .iconosnav {
+	display: none;
+}
+
+.main-inicio {
+	width: 95%;
+	margin-left: 30px;
+}
+
+#infofechas, #main-como-llegar, #pantalla-foro {
+	margin: 30px 100px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 nav {
 	width: 95%;
+	margin-left: 45px;
     display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -60,14 +105,18 @@ nav a {
 .buscar {
 	display: flex;
 	flex-direction: row;
-	width: 50%;
+	width: 60%;
 	height: 80px;
 	margin-top: 2px;
 	padding: 0px 10px;
 }
 
 .buscar img {
-	margin: auto 10px auto 50px;
+	margin: auto 10px auto 20px;
+}
+
+.buscar a img {
+	margin: 20px 10px auto 20px;
 }
 
 .botonera {
@@ -82,7 +131,7 @@ nav a {
 }
 
 #texto {
-  	width: 125px;
+  	width: 60%;
     height: 30px;
     margin: 25px 0px 30px 0px;
 	background-color: #BBBBBB;
@@ -101,24 +150,34 @@ nav a:hover {
 	opacity: 1;
 }
 
-
 .navindex {
 	justify-content: flex-end;
 	padding-right: 50px;
-}
-
-.navindex img {
-	display: none;
+	box-sizing: border-box;
 }
 
 h2 {
 	font-size: 4.4em;
+	width: 60%;
 }
 
 h3 {
-	margin-top: 30px 0px 0px 0px;
+	margin: 25px 0px 0px 0px;
 	font-size: 2.2em;
 	font-weight: 300;
+	width: 55%;
+}
+
+.titulo {
+	font-size: 1.8em;
+	margin: 0px 0px 20px 0px;
+	opacity: 1;
+	color: #B7FFF4;
+}
+
+.subtitulofechas {
+	font-size: 1.2em;
+	width: inherit;
 }
 
 h4 {
@@ -126,25 +185,32 @@ h4 {
 	color: #B7FFF4;
 }
 
+
 /*---inicio---*/
 
-.textopricipal, .subtitulos {
+.textoprincipal, .subtitulos {
 	padding-left: 70px;
 	margin: 0px;
 }
 
+.textoprincipal h2 {
+	width: 47%;
+	margin-bottom: 40px;
+}
+
+.textoprincipal h3 {
+	width: 35%;
+	margin-bottom: 60px;
+}
+
 .boldmomimiu {
-	margin: -55px 0px 0px;
+	margin: 0px;
 	font-size: 2.5em;
 }
 
 .subtitulos {
 	font-size: 1.5em;
 	margin-top: 80px;
-}
-
-.subtitulosmedia, .menu, .notificacion {
-	display: none;
 }
 
 /*---carrusel---*/
@@ -160,7 +226,7 @@ h4 {
 	margin-top: -50px
 }
 
-.artistas-populares::-webkit-scrollbar{
+.artistas-populares::-webkit-scrollbar {
 	width: 10px
 }
 
@@ -168,12 +234,12 @@ h4 {
 	background-color: #0D001D;
 }
 
-.artistas-populares::-webkit-scrollbar-thumb:horizontal{
+.artistas-populares::-webkit-scrollbar-thumb:horizontal {
 	background: rgba(166,0,169,0.5);
 	border-radius: 5px;
 }
 
-.artistas-populares a{
+.artistas-populares a {
 	position: relative;
 	border-radius: 20px;
 	height: 250px;
@@ -193,7 +259,7 @@ h4 {
 	align-items: center;
 }
 
-.artistas-populares p{
+.artistas-populares p {
 	color: #B7FFF4;
 	justify-content: center;
 	font-size: 20px;
@@ -227,7 +293,7 @@ h4 {
 	opacity: 1;
 }
 
-.artistas-populares img{
+.artistas-populares img {
 	position: relative;
 	width: 300px;
 	border-radius: 20px;
@@ -235,6 +301,7 @@ h4 {
 	object-fit: cover;
 	margin: 0px;
 }
+
 .artistas-populares img:hover {
 	justify-content: center;
 	transform: scale(1.3);
@@ -247,11 +314,11 @@ h4 {
 	align-items: center;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
 	width: 10px;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
 	background: #B7FFF4;
 	border-radius: 5px;
 }
@@ -259,11 +326,16 @@ body::-webkit-scrollbar-thumb{
 /*---index---*/
 
 input {
-	text-decoration:none;
+	text-decoration: none;
 	padding-right: 100px;
 	margin-bottom: -3px;
 	background: none;
 	border: none;
+}
+
+.linea{
+	border-bottom: solid thin;
+	border-color: grey;
 }
 
 .atras{
@@ -271,7 +343,6 @@ input {
 	align-content: center;
 	align-self: center;
 	justify-content: center;
-	
 }
 
 .imgatras, .imgatras2{
@@ -290,10 +361,10 @@ input {
 
 .logotexto {
     display: flex;
+	align-self: center;
     align-items: flex-start;
 	padding: 60px 100px 220px 100px;
-	margin-bottom: 100px;
-	justify-content: center;
+	margin: 0% 0% 5% 15%;
 }
 
 .logotexto img {
@@ -302,7 +373,7 @@ input {
 }
 
 .logotexto article {
-	padding-left: 120px;
+	margin-left: 120px;
 	font-size: 1.35em;
 }
 
@@ -313,7 +384,8 @@ input {
 }
 
 .logotexto article h3 {
-	padding-bottom: 40px;
+	padding-bottom: 60px;
+	margin-right: 0px;
 }
 
 .botoningresa, .botonregistrate {
@@ -368,7 +440,7 @@ input {
 	margin-bottom: 30px;
 	width: 50%;
 	padding: 5px 50px;
-	text-decoration: none
+	text-decoration: none;
 }
 
 .botonessesion{
@@ -420,257 +492,259 @@ input {
 	align-self: center;
 }
 
-hr{
-	height: 1px;
-	width: 420px;
-	background-color: black;
-	opacity: 0.5;
-}
-
 footer {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	background-color: #1F0A3D;
 	color: #FFFFFF;
 	font-size: 0.7em;
 	font-family: Inter;
-	padding: 0px 100px;
+	padding: 10px 100px;
+}
+
+.footer{
+	padding-left: 35%
+}
+
+footer a p{
+	color: white;
+	padding-left: 35%
 }
 
 footer p {
 	padding-right: 20px;
 }
 
+/*---INFO FECHAS---*/
 
 
- /*---media---*/
+.carrusel1, .carrusel1 p, #otras-fechas p {
+	display: flex;
+}
 
-@media screen and (max-width : 600px){
+.artistas a, .foro a {
+	color: #A600A9;
+	font-weight: 500;
+}
+
+.carrusel1 ul, #otras-fechas ul {
+	margin: 0px 5px 15px;
+	padding: 0px;
+	opacity: 0.3;
+}
+
+#otras-fechas ul:hover {
+	opacity: 1;
+}
+
+.carrusel1 ul:hover {
+	opacity: 1;
+}
+
+.carrusel1 ul p {
+	margin: 0px;
+}
+
+.carrusel1 p, #otras-fechas p { 
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	font-size: 1.6em;
+	justify-content: center;
+	align-items: center;
+	background-color: #36007A;
+	border-radius: 10px;	
+}
+
+#otras-fechas p {
+	width: 80px;
+	padding: 10px 20px 10px 20px;
+}
+
+.artistaymusica .lugaresconfirmados {
+	display: flex;
+	flex-direction: column;
+}
+
+.lugaresconfirmados {
+	width: 550px;
+}
+
+.infocuadraditolargo {
+	display: flex;
+	align-items: row;
+	align-items: center;
+}
+
+.infocuadraditolargo img, .fechaconfirmada {
+	background-color: #B7FFF4;
+	margin: 0px;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.fechaconfirmada {
+	color: #120028;
+	font-size: 1em;
+	padding: 25px;
+	text-align: center;
+}
+
+.infocuadraditolargo img {
+	padding: 20px 20px; 
+}
+
+.teatrolugar, .ubicacion {
+	width: 550px;
+	background-color: #A600A9;
+	padding-right: 50px;
 	
-	body {
-		background-image: none;
-	}
-	
-	main {
-		margin: 40px 80px 0px;
-	}
-	
-	.navindex, .logotexto article h2, .logotexto article h3, .textopricipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2 {
-		display: none;
-	}
-	
-	nav {
-		display: flex;
-		margin: 20px 0px;
-		width: 90%;
-	}
-	
-	.menu, .notificacion {
-		display: flex;
-		padding-left: 20px;
-	}
-	
-	.iconosnav {
-		display: flex;
-		align-items: center;
-	}
-	
-	
-	.logotexto {
-		flex-direction: column;
-		align-items: center;
-		margin: 0px;
-	}
-	
-	.logotexto img {
-		width: 200px;
-		margin-bottom: 80px;
-	}
-	
-	.logotexto article {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 0px;
-	}
-	
-	.botoningresa {
-		font-size: 1.5em;
-		color: #120028; 
-		background-color: #B7FFF4;
-		padding: 15px;
-		margin: 0px;
-	}
-	
-	.botonregistrate {
-		padding-top: 30px;
-		margin: 0px;
-		background: none;
-		box-shadow: none;
-		font-size: 0.9em;
-	}
-	
-	.botonregistrate:hover{
-		color: #A600A9;
-	}
-	
-	
-	#sesion, #registro {
-		display: flex;
-		align-items: center;
-		background: none;
-		box-shadow: none;
-		margin: 80px 0px;
-		font-size: 1.2em
-	}
-	
-	.titulosyr {
-		color: #B7FFF4;
-	}
-	
-	.syrdatos {
-		color: #B7FFF4;
-		opacity: 0.7;
-	}
-	
-	hr {
-		background-color: #B7FFF4;
-		opacity: 0.7;
-	}
-	
-	.botonesregistro {
-		background-color: #B7FFF4;
-		color: #120028;
-	}
-	
-	.listoregistro {
-		background-color: #B7FFF4;
-		color:#120028; 
-	}
-	
-	.miniatura, .iconobuscar {
-		height: 30px;
-		width: auto;
-	}
-	
-	.buscar img {
-		margin: 30px 30px 0px 10px;
-	}
-	
-	.subtitulosmedia {
-		display: flex;
-		font-size: 1.5em;
-	}
+}
+
+.teatrolugar {
+	border-radius: 0px 20px 20px 0px;
+	padding: 0px 0px 0px 25px;
+}
+
+.ubicacion {
+	margin-bottom: 0px;
+	padding: 25px;
+	border-radius: 0px 20px 0px 0px;
+}
+
+.proximasfechas{
+	display: flex;
+	flex-direction: row;
+}
+
+.boton-spotify, .textocentrado, .bordesuperior, .vernota {
+	display: flex; 
+	background-color: #A600A9;
+	justify-content: center;
+	padding: 10px;
+	text-shadow: 1px 1px 4px #36007A;
+	margin-top: 30px;
+}
+
+.boton-spotify, .vernota{
+	border-radius: 0px 0px 20px 20px;
+	margin-top: 0px;
+	color: #FFFFFF;
+}
+
+#infofechas a {
+	text-decoration: none;
+}
+
+.textocentrado, .bordesuperior {
+	border-radius: 20px 20px 0px 0px;
+	margin-bottom: 0px;
+}
+
+.boton-llegar {
+	display: flex;
+	justify-content: center;
+	width: 30%;
+	font-size: 1.2em;
+	background-color: #36007A;
+	border-radius: 10px;
+	opacity: 0.8;
+	position: relative;
+	bottom: 190px;
+    left: 200px;
+}
+
+.boton-llegar:hover {
+	opacity: 1;
+}
+
+.boton-llegar a {
+	text-decoration: none;
+}
+
+.boton-llegar p {
+	color: #FFFFFF;
+}
+
+.carrusel2 {
+	display: flex;
+    flex-direction: column;
+}
+
+.carrusel2 p {
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel2 img {
+	margin-bottom: 15px;
 }
 
 /*--todo css de como llegar--*/
 
-.pagina-como-llegar {
-	display: flex;
-	flex-direction: row;
-	margin: 50px 100px 50px 100px;
-}
 
-.pagina-como-llegar section {
-	
-	
-}
-
-.pagina-como-llegar li {
-	list-style-type: none;
-	margin: 0px 100px 0px 100px;
-}
-
-#artistayfecha {
-	align-items: center;
+#artistayfecha, .artistaymusica, #pantalla-foro {     /*ACA ESTA LO DEL FORO TAMBIEN */
+	align-items: flex-start;
 	display: flex;
 	flex-direction: column;
-	width: 40%;
 	height: auto;
-	
 }
 
-#artistayfecha img {
-	width: 550px;
-	height: auto;
-	border-radius: 20px;
+.fecha, .hora-lugar {
+	margin: 0px;
+	padding: 0px;
 }
 
 .fecha-actual {
-	margin-top: 50px;
+	margin-top: 30px;
 	display: flex;
 	flex-direction: row;
 	font-size: 1.2em;
-	width: 550px;
+	width: 100%;
 	height: 140px;
 }
 
 .fecha {
-	margin: 0px;
-	padding: 0px;
-	color: rgba(18,0,40,1.00);
+	color: #120028;
 	font-size: 1.6em;
 	font-weight: 700;
-	width: 200px;
+	width: 30%;
 	height: 140px;
-	background-color: rgba(183,255,244,1.00);
+	background-color: #B7FFF4;
 	border-radius: 20px 0px 0px 20px;
 	text-align: center;
 	align-content: space-around;
 }
 
-.fecha li{
-	width: 100px;
-	margin: auto;
-	padding: 0px;
-	align-items: center;
-}
-
-.fecha li p{
-	width: 100px;
-	margin: 30px 0px 0px 0px;
-	padding: 0px;
-	align-items: center;
+.fecha p {
+	margin: 30px 35px;
 }
 
 .hora-lugar {
 	justify-content: center;
-	margin: 0px;
-	padding: 0px;
-	width: 350px;
+	width: 70%;
 	height: 140px;
-	background-color: rgba(166,0,169,1.00);
+	background-color: #A600A9;
 	border-radius: 0px 20px 20px 0px;
 }
 
 .hora-lugar li {
+	list-style-type: none;
 	margin: 10px 0px 10px 30px;
-	padding: 0px;
 	width: 300px;
 }
 
 .hora-lugar li p{
 	margin: 30px 0px 0px 0px;
-	padding: 0px;
 	font-size:  1.6em;
-}
-
-
-
-#otras-fechas {
-	width: 20%;
-	height: auto;
 }
 
 /*--parte de los medios de transporte y mapa--*/
 
 
-#como-llegar {
+#como-llegar, .lugaresconfirmados, .informacionextra {
 	width: 40%;
 	height: auto;
-	padding: 0% 5% 0% 5%;
-	
 }
 
 #como-llegar article {
@@ -679,23 +753,17 @@ footer p {
 
 #como-llegar h4 {
 	font-size: 1.2em;
-	margin: 30px 0px 20px 100px;
-	
-}
-
-#como-llegar h3 {
-	font-size: 2em;
-	margin: 0px 0px 20px 0px;
+	margin: 30px 0px 20px 110px;
 }
 
 #como-llegar p {
 	display: flex;
 	align-items: center;
-	color: rgba(54,0,122,1.00);
+	color: #36007A;
 	height: 70px;
 	font-size: 1.3em;
 	font-style: italic;
-	background-color: beige;
+	background-color: #B7FFF4;
 	border-radius: 20px;
 	margin: 10px 0px 0px 0px;
 	padding: 0px 0px 0px 20px;
@@ -725,16 +793,447 @@ footer p {
 	font-size: 1.5em;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(54,0,122,1.00);
+	background-color: #36007A ;
 	border-radius: 10px;
 }
 
-#mapa {
+.transporte-media {
+	width: 40%;
+	display: none;
+}
+
+#mapa iframe, .mapainfo {
 	opacity: 0.5;
 }
 
-#mapa:hover {
+#mapa:hover iframe {
 	transition: all 500ms;
 	opacity: 1;
 }
 
+/*--- Pantalla Foro 1 ---*/
+
+#pantalla-foro, .perfilventa {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.artistasinfo {
+	display:flex;
+	flex-direction: column;
+}
+
+.perfilventa, .artistasinfo { 
+	align-items: center;
+}
+	
+.infocuadrado {
+	display: flex;
+	height: 120px;
+	margin: 20px 0px 0px 0px;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #A600A9;
+	border-radius: 10px;
+}
+
+.infocuadrado p {
+	font-size: 1.4em;
+	padding-left: 30px;
+	margin: 0px 50px 0px 0px;
+}
+
+.infocuadrado .tips-foro {
+	font-size: 1.8em;
+	padding-bottom: 2px;
+	font-weight: 600;
+}
+
+.subtituventa {
+	font-size: 1em
+}
+
+.bordesuperior, .vernota {
+	width: 480px;
+}
+
+.bordesuperior{
+	height: 15px
+}
+
+.perfilventa {
+	padding: 5px 0px 0px 25px;
+}
+.perfilventa p {
+	color: #B7FFF4;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+ /*---media---*/
+
+@media screen and (max-width : 600px ){
+	
+	body {
+		background-image: none;
+		margin: 0px;
+	}
+	
+	header {
+		margin: 0px;
+	}
+	
+	.buscar {
+		width: 600px;
+	}
+	
+	#infofechas, .infocuadraditolargo {
+		display: flex;
+		flex-direction: column;
+		margin-top: 0px;
+		padding-top: 0px;
+		width: 90%;
+	}
+	
+	#main-como-llegar {
+		display: flex;
+		flex-direction: column;
+		margin: 0% 15%;
+	}
+	
+	.nobackground .upss {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0px 0px 100px 50px ;
+		height: 100vh;
+	}
+	
+	.nobackground .navindex {
+		display: flex;
+		font-size: 0.8em;
+		width: 85%;
+	}
+	
+	main, #infofechas {
+		margin: 0% 15%;
+		padding: 0%;
+		width: 420px;
+	}
+	
+	.nobackground main {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.navindex, .logotexto article h2, .logotexto article h3, .textoprincipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar {
+		display: none;
+	}
+	
+	.pagina-como-llegar, .infocuadraditolargo, .logotexto, .botoningresa, .botonregistrate, iframe, .upss {
+		margin: 0px;
+	}
+	
+	.artistas-populares-media {
+		width: 85%;
+		display: flex;
+		flex-direction: row;
+		overflow-x: scroll;
+	}
+	
+	.artistas-populares-media img {
+		width: 350px;
+		margin: 0px 0px 0px 20px;
+	}
+	
+	nav {
+		margin-left: 20px;
+		width: 90%;
+	}
+	
+	.menu, .notificacion {
+		display: flex;
+		padding-left: 20px;
+	}
+	
+	.iconosnav {
+		display: flex;
+		align-items: center;
+	}
+	
+	.logotexto {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.logotexto img {
+		width: 200px;
+		margin-bottom: 80px;
+	}
+	
+	.logotexto article {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.botonessesion {
+		width: 300px;
+		height: 40px;
+		align-items: center;
+		font-size: 16pt;
+		font-weight: 500;
+	}
+	
+	.botonesregistro {
+		width: 300px;
+		height: 40px;
+		align-items: center;
+		font-size: 16pt;
+		font-weight: 500;
+	}
+	
+	#email, #email2, #name, #password, #password2, #password3 {
+		width: 300px;
+		
+	}
+		
+	.botoningresa {
+		font-size: 1.5em;
+		color: #120028; 
+		background-color: #B7FFF4;
+		padding: 15px;
+	}
+	
+	.botonregistrate {
+		padding-top: 30px;
+		background: none;
+		box-shadow: none;
+		font-size: 0.9em;
+	}
+	
+	.botonregistrate:hover{
+		color: #A600A9;
+	}
+	
+	#sesion, #registro {
+		display: flex;
+		align-items: center;
+		background: none;
+		box-shadow: none;
+		margin: 80px 0px;
+		padding: 0px;
+		font-size: 1.2em;
+	}
+	
+	.titulosyr {
+		color: #B7FFF4;
+	}
+	
+	.syrdatos {
+		color: #B7FFF4;
+		opacity: 0.7;
+	}
+	
+	
+	.botonesregistro {
+		background-color: #B7FFF4;
+		color: #120028;
+	}
+	
+	.listoregistro, .listosesion {
+		background-color: #B7FFF4;
+		color:#120028; 
+		margin-top: 50px;
+	}
+	
+	.miniatura, .iconobuscar {
+		height: 30px;
+		width: auto;
+	}
+	
+	.subtitulosmedia {
+		display: flex;
+		font-size: 1.5em;
+	}
+	
+	.artistaymusica {
+		margin-left: 0px;
+	}
+	
+	#artistayfecha, #artistayfecha img,.artistaymusica img, .fecha-actual {
+		display: flex;
+		width: 420px;
+	}
+	
+	.artistaymusica img {
+		margin: 0px 0px 30px 0px;
+	}
+	
+	article {
+		width: 420px;
+		padding: 0px;
+		margin: 0px;
+	}
+	 	
+	iframe {
+		opacity: 0.5;
+		width: 100%;
+		height: 230px;
+		border: 0px;
+	}
+	
+	.titulo-media {
+		width: 420px;
+		display: flex;
+		color: #B7FFF4;
+		padding-bottom: 20px;
+		font-size: 24pt;
+	}
+	
+	.teatrolugar, .fechaconfirmada, .infocuadraditolargo {
+		margin-top: 15px;
+	}
+	
+	#artistayfecha, .artistaymusica {
+		font-size: 0.8em;
+	}
+	
+	.media {
+		display: flex;
+		flex-direction: column;
+		font-size: 0.6em;
+		margin: 0px;
+		padding: 0px;
+		width: 480px;
+	}
+
+	.fecha-actual {
+		margin: 0px;
+		height: 95px;
+		margin-top: 20px;
+	}
+	
+	.fecha, .hora-lugar {
+		height: 100px;
+		font-size: 1.3em;
+	}
+	
+	.fecha {
+		padding: 0px;
+		margin: 0px;
+		font-weight: 600;
+		width: 20%;
+	}
+	
+	.fecha p {
+		font-size: 1.5em;
+		margin: 15px 10px;
+	}
+	
+	.hora-lugar {
+		display: flex;
+		flex-direction: column;
+		color: #B7FFF4;
+		width: 80%;
+	}
+	
+	.hora-lugar li {
+		display: flex;
+		margin: 0px 0px 2px 20px ;
+	}
+	
+	.hora-lugar li p {
+		margin: 0px;
+	}
+	
+	#como-llegar {
+		margin-top: 20px;
+		width: 100%;
+	}
+	
+	#como-llegar h4 {
+		margin: 20px 0px 10px 110px;
+	}
+	
+	#como-llegar img {
+		width: 20%;
+		height: auto;
+	}
+	
+	#como-llegar p {
+		background-color: #A600A9;
+		width: 70%;
+		height: 80px;
+		align-content: center;
+		color: #B7FFF4;
+		font-size: 1.3em;
+		margin: 0px;
+		font-style: normal;
+	}
+	
+	#como-llegar ul {
+		margin: 0px 0px 30px 0px;
+		height: 80px;
+	}
+	
+	#mapa {
+		margin-top: 50px;
+	}
+	
+	.boton-llegar {
+		left: 0%;
+		width: 40%;
+		font-size: 1.1em;
+		padding: 0px;
+		margin: 10% auto 0% auto;
+	}
+	
+	.transporte-desktop {
+		display: none;
+	}
+	
+	.transporte-media {
+		display: inline;
+	}
+	
+	.upss section{
+		padding: 0%;
+		height: auto
+	}
+	
+	.upss section h2 {
+		margin: 0px 0px 20px;
+		font-size: 3em;
+	}
+	
+	.upss section h3 {
+		margin: 0px;
+		font-size: 1.1em;
+		width: 450px;
+		margin-top: 10px;
+	}
+	
+	.upss section img {
+		width: 300px;
+		margin-left: 20%;
+		margin-bottom: 0px;
+	}
+	
+	.terminosycondiciones {
+		display: none;
+	}
+	
+	footer {
+		margin: 10% 0% 0% 0%;
+		width: 80%;
+		padding: 5% 10% 5% 10%;
+	}
+	
+	footer p {
+		font-size: 1.3em;
+	}
+}
