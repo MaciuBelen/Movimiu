@@ -1386,6 +1386,23 @@ footer p {
 		padding-left: 6px;
 	}
 	
+	.entradas {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		text-align: center;
+		margin: 0px;
+	}
+
+	.entradas a p {
+		background-color: #B7FFF4;
+		padding: 25px 20px 25px 20px;
+		border-radius: 10px 10px 0px 0px;
+		font-weight: 600;
+		color: #120028;
+		width: 90px;
+	}
+
 	.tuentrada{
 		width: 100px;
 	}
