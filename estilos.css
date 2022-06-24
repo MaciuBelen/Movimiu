@@ -1211,6 +1211,7 @@ footer p {
 	
 	.titulo-entrada {
 		width: 70%;
+		margin: 30px 0px 20px 0px;
 	}
 	
 	.subtituventa{
@@ -1392,15 +1393,16 @@ footer p {
 		width: 100%;
 		text-align: center;
 		margin: 0px;
+		font-size: 1.1em;
 	}
 
 	.entradas a p {
 		background-color: #B7FFF4;
-		padding: 25px 20px 25px 20px;
+		padding: 25px 15px 25px 15px;
 		border-radius: 10px 10px 0px 0px;
 		font-weight: 600;
 		color: #120028;
-		width: 90px;
+		width: 100px;
 	}
 
 	.tuentrada{
