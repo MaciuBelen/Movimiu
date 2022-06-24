@@ -1247,8 +1247,12 @@ footer p {
 	}
 	
 	.entradascuadrado{
-		padding-left: 10px;
+		padding-left: 6px;
 		box-sizing: border-box
+	}
+	
+	.tuentrada{
+		width: 90px
 	}
 	
 	.terminosycondiciones {
