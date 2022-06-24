@@ -172,12 +172,14 @@ h3 {
 	width: 55%;
 }
 
-.titulo {
+.titulo, .titulo-entrada {
 	font-size: 1.8em;
 	margin: 0px 0px 20px 0px;
 	opacity: 1;
 	color: #B7FFF4;
 }
+
+
 
 .subtitulofechas {
 	font-size: 1.2em;
@@ -725,8 +727,8 @@ footer p {
 
 .entradas {
 	display: flex;
-	justify-content: space-between;
-	width: 70%;
+	justify-content: space-around;
+	width: 100%;
 	text-align: center;
 	margin: 0px 0px 45px;
 }
@@ -738,6 +740,7 @@ footer p {
 	font-weight: 600;
 	color: #120028;
 	margin: 0px;
+	width: 130px;
 }
 
 .disponibilidad {
@@ -1204,6 +1207,10 @@ footer p {
 	.titulo{
 		padding-top: 30%;
 		width: 200px
+	}
+	
+	.titulo-entrada {
+		width: 70%;
 	}
 	
 	.subtituventa{
