@@ -543,6 +543,10 @@ footer p {
 	opacity: 0.3;
 }
 
+.carrusel1 {
+    justify-content: space-around;
+}
+
 #otras-fechas ul:hover {
 	opacity: 1;
 }
@@ -635,7 +639,7 @@ footer p {
 	flex-direction: row;
 }
 
-.boton-spotify, .textocentrado, .bordesuperior, .vernota {
+.boton-spotify, .textocentrado, .bordesuperior, .ver-nota {
 	display: flex; 
 	background-color: #A600A9;
 	justify-content: center;
@@ -643,13 +647,14 @@ footer p {
 	text-shadow: 1px 1px 4px #36007A;
 	margin-top: 30px;
 }
-.vernota{
+
+.ver-nota{
 	border-radius: 20px 20px 20px 20px;
 	margin-top: 0px;
 	color: #FFFFFF;
 }
 
-.boton-spotify, .vernota{
+.boton-spotify, .ver-nota{
 	border-radius: 0px 0px 20px 20px;
 	margin-top: 0px;
 	color: #FFFFFF;
@@ -723,10 +728,13 @@ footer p {
 	margin-bottom: 15px;
 }
 
+
+
 .entradas {
 	display: flex;
 	justify-content: space-between;
-	width: 80%;
+	width: 70%;
+	text-align: center;
 }
 
 .entradas a p {
@@ -734,6 +742,8 @@ footer p {
 	padding: 25px;
 	margin-bottom: 0px;
 	border-radius: 10px 10px 0px 0px;
+	font-weight: 600;
+	color: #120028;
 }
 
 .disponibilidad {
@@ -882,7 +892,6 @@ footer p {
 	flex-direction: row;
 }
 
-
 .artistasinfo {
 	display:flex;
 	flex-direction: column;
@@ -918,7 +927,7 @@ footer p {
 	font-size: 1em
 }
 
-.bordesuperior, .vernota {
+.bordesuperior, .ver-nota {
 	width: 480px;
 }
 
@@ -1009,7 +1018,7 @@ footer p {
 		opacity: 1;
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textoprincipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar, .artistasinfo iframe, .artistasinfo .bordesuperior, .vernota {
+	.navindex, .logotexto article h2, .logotexto article h3, .textoprincipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar, .artistasinfo iframe, .artistasinfo .bordesuperior, .ver-nota {
 		display: none;
 	}
 	
@@ -1226,7 +1235,7 @@ footer p {
 	
 	.fecha p {
 		font-size: 1.5em;
-		margin: 22px 10px;
+		margin: 22px 17px;
 	}
 	
 	.hora-lugar {
@@ -1343,11 +1352,10 @@ footer p {
 	
 	.entradascuadrado{
 		padding-left: 6px;
-		box-sizing: border-box;
 	}
 	
 	.tuentrada{
-		width: 100px
+		width: 100px;
 	}
 	
 	.terminosycondiciones {
