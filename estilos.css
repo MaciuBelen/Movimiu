@@ -1125,6 +1125,10 @@ footer p {
 		width: 200px
 	}
 	
+	.subtituventa, .mediap{
+		padding-top: 5%
+	}
+	
 	.titulo-media {
 		width: 420px;
 		display: flex;
