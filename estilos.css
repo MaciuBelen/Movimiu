@@ -1007,6 +1007,10 @@ footer p {
 		height: 100vh;
 	}
 	
+	.mediaerror{
+		margin-bottom: 50%
+	}
+	
 	.nobackground .navindex {
 		display: flex;
 		font-size: 0.8em;
