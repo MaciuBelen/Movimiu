@@ -958,7 +958,7 @@ footer p {
 	#main-como-llegar {
 		display: flex;
 		flex-direction: column;
-		margin-top: 0px;
+		margin: 0px auto;
 		padding-top: 0px;
 		width: 70%;
 	}
