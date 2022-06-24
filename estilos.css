@@ -1121,7 +1121,8 @@ footer p {
 	}
 	
 	.titulo{
-		padding-top: 30%
+		padding-top: 30%;
+		width: 200px
 	}
 	
 	.titulo-media {
