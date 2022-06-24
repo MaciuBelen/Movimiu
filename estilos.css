@@ -177,18 +177,16 @@ h3 {
 	margin: 0px 0px 20px 0px;
 	opacity: 1;
 	color: #B7FFF4;
-	width: 96%;
+	width: inherit;
 }
-
-
 
 .subtitulofechas, .subforo {
 	font-size: 1.2em;
-	width: inherit
+	width: inherit;
 }
 
-.subforo{
-		padding-top: 20px
+.subforo {
+	margin: 0px
 }
 
 h4 {
@@ -709,6 +707,7 @@ footer p {
 
 .boton-ver-mas {
 	background-color: #A600A9;
+	margin-bottom: 50px;
 }
 
 .boton-ver-mas-foro {
@@ -933,10 +932,6 @@ footer p {
 	height: 15px;
 }
 
-.perfilventa {
-	padding: 0px 0px 0px 25px;
-}
-
 .perfilventa p {
 	color: #B7FFF4;
 	padding: 0px;
@@ -1004,6 +999,10 @@ footer p {
 		flex-direction: column-reverse;
 		margin: 0px 0px 100px 50px ;
 		height: 100vh;
+	}
+	
+	.mediaerror{
+		margin-bottom: 50%
 	}
 	
 	.nobackground .navindex {
@@ -1206,7 +1205,7 @@ footer p {
 		border: 0px;
 	}
 	
-	.titulo{
+	.titulo {
 		padding-top: 30%;
 		width: 200px
 	}
