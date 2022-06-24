@@ -935,18 +935,12 @@ footer p {
 		width: 600px;
 	}
 	
-	#infofechas, .infocuadraditolargo, #pantalla-foro {
+	#infofechas, #main-como-llegar, .infocuadraditolargo, #pantalla-foro {
 		display: flex;
 		flex-direction: column;
 		margin-top: 0px;
 		padding-top: 0px;
 		width: 90%;
-	}
-	
-	#main-como-llegar {
-		display: flex;
-		flex-direction: column;
-		margin: 0% 15%;
 	}
 	
 	.nobackground .upss {
