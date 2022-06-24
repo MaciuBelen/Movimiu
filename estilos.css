@@ -756,7 +756,7 @@ footer p {
 	color: #120028;
 	font-size: 1.6em;
 	font-weight: 700;
-	width: 200px;
+	width: 30%;
 	height: 140px;
 	background-color: #B7FFF4;
 	border-radius: 20px 0px 0px 20px;
@@ -769,6 +769,7 @@ footer p {
 }
 
 .hora-lugar {
+	width: 70%;
 	justify-content: center;
 	height: 140px;
 	background-color: #A600A9;
