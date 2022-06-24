@@ -997,7 +997,8 @@ footer p {
 	.nobackground .upss {
 		display: flex;
 		flex-direction: column-reverse;
-		margin: 0px 0px 100px 50px ;
+		margin: 0% 15%;
+		padding: 0px;
 		height: 100vh;
 	}
 	
@@ -1366,9 +1367,9 @@ footer p {
 		margin-top: 10px;
 	}
 	
-	.upss section img {
+	.rueditas {
 		width: 300px;
-		margin-left: 20%;
+		margin-left: 0%;
 		margin-bottom: 0px;
 	}
 	
