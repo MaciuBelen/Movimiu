@@ -605,13 +605,12 @@ footer p {
 
 .teatrolugar {
 	border-radius: 0px 20px 20px 0px;
-	padding: 0px 0px 0px 25px;
+	padding-left: 20px
 }
 
 .ubicacion {
-	margin-bottom: 0px;
 	padding: 25px;
-	border-radius: 0px 20px 0px 0px;
+	border-radius: 0px 20px 20px 0px;
 }
 
 .proximasfechas{
