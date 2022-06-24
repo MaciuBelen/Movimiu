@@ -18,7 +18,7 @@ body {
 	align-items: center;
 }
 
-a{
+a {
 	text-decoration: none
 }
 
@@ -61,7 +61,6 @@ a{
 
 .main-inicio {
 	width: 95%;
-	margin-left: 30px;
 }
 
 #infofechas, #main-como-llegar, #pantalla-foro {
@@ -101,6 +100,10 @@ nav a {
 	color: #FFFFFF;
 	border-bottom-style: none;
 	text-decoration: none;
+}
+
+.atras-media {
+	display: none;
 }
 
 .buscar {
@@ -169,16 +172,19 @@ h3 {
 	width: 55%;
 }
 
-.titulo {
+.titulo, .titulo-entrada {
 	font-size: 1.8em;
 	margin: 0px 0px 20px 0px;
 	opacity: 1;
 	color: #B7FFF4;
+	width: 96%;
 }
+
+
 
 .subtitulofechas {
 	font-size: 1.2em;
-	width: inherit;
+	width: inherit;	
 }
 
 h4 {
@@ -224,7 +230,7 @@ h4 {
 	width: 98%;
 	height: 400px;
 	overflow-x:scroll;
-	margin-top: -50px
+	margin-top: 0px
 }
 
 .artistas-populares::-webkit-scrollbar {
@@ -258,7 +264,6 @@ h4 {
 	transition: all 500ms;
 	display: flex;
 	align-items: center;
-
 }
 
 .artistas-populares p {
@@ -345,6 +350,7 @@ input {
 	align-content: center;
 	align-self: center;
 	justify-content: center;
+	margin: 15% 0% 15% 0%;
 }
 
 .imgatras, .imgatras2{
@@ -365,7 +371,7 @@ input {
     display: flex;
 	align-self: center;
     align-items: flex-start;
-	padding: 60px 100px 220px 100px;
+	padding: 100px 100px 220px 100px; /* Antiguamedida 60px */
 	margin: 0% 0% 5% 15%;
 }
 
@@ -505,7 +511,7 @@ footer {
 	box-sizing: border-box;
 }
 
-.footer{
+.footer {
 	padding-left: 55%
 }
 
@@ -519,7 +525,7 @@ footer p {
 	width: 180px
 }
 
-.footerc{
+.footerc {
 	padding-top:8px
 }
 
@@ -541,6 +547,11 @@ footer p {
 	opacity: 0.3;
 }
 
+.carrusel1 {
+    justify-content: space-around;
+	margin: 0px 0px 45px;
+}
+
 #otras-fechas ul:hover {
 	opacity: 1;
 }
@@ -555,9 +566,9 @@ footer p {
 
 .carrusel1 p, #otras-fechas p { 
 	text-align: center;
-	width: 100px;
+	width: 80px;
 	height: 100px;
-	padding: 5px;
+	padding: 0px 10px 0px 10px;
 	font-size: 1.6em;
 	justify-content: center;
 	align-items: center;
@@ -588,30 +599,43 @@ footer p {
 
 .fechaconfirmada {
 	color: #120028;
-	font-size: 1em;
-	padding: 25px;
+	font-size: 1.5em;
+	padding: 15px 17px;
 	text-align: center;
+	font-weight: 600;
 }
 
 .infocuadraditolargo img {
-	padding: 20px 34px; 
+	padding: 20px 40px; 
 }
 
 .teatrolugar, .ubicacion {
 	width: 550px;
 	background-color: #A600A9;
 	padding-right: 50px;
-	
 }
 
 .teatrolugar {
+	height: 88px;
 	border-radius: 0px 20px 20px 0px;
-	padding-left: 20px
+	padding-left: 20px;
+}
+
+.teatrolugar li {
+	list-style: none;
+	font-size: 1.2em;
+}
+
+.teatrolugar li p {
+	font-size: 1.5em;
+	margin: 0px;
+	padding-top: 15px;
 }
 
 .ubicacion {
-	padding: 25px;
+	padding: 23px;
 	border-radius: 0px 20px 20px 0px;
+	font-size: 1.2em;
 }
 
 .proximasfechas{
@@ -619,7 +643,7 @@ footer p {
 	flex-direction: row;
 }
 
-.boton-spotify, .textocentrado, .bordesuperior, .vernota {
+.boton-spotify, .textocentrado, .bordesuperior, .ver-nota {
 	display: flex; 
 	background-color: #A600A9;
 	justify-content: center;
@@ -627,13 +651,14 @@ footer p {
 	text-shadow: 1px 1px 4px #36007A;
 	margin-top: 30px;
 }
-.vernota{
+
+.ver-nota{
 	border-radius: 20px 20px 20px 20px;
 	margin-top: 0px;
 	color: #FFFFFF;
 }
 
-.boton-spotify, .vernota{
+.boton-spotify, .ver-nota{
 	border-radius: 0px 0px 20px 20px;
 	margin-top: 0px;
 	color: #FFFFFF;
@@ -698,26 +723,26 @@ footer p {
     flex-direction: column;
 }
 
-.carrusel2 p {
-    display: flex;
-    justify-content: center;
-}
-
 .carrusel2 img {
 	margin-bottom: 15px;
 }
 
 .entradas {
 	display: flex;
-	justify-content: space-between;
-	width: 80%;
+	justify-content: space-around;
+	width: 100%;
+	text-align: center;
+	margin: 0px 0px 45px;
 }
 
 .entradas a p {
 	background-color: #B7FFF4;
 	padding: 25px;
-	margin-bottom: 0px;
 	border-radius: 10px 10px 0px 0px;
+	font-weight: 600;
+	color: #120028;
+	margin: 0px;
+	width: 130px;
 }
 
 .disponibilidad {
@@ -744,7 +769,7 @@ footer p {
 }
 
 .fecha-actual {
-	margin-top: 50px;
+	margin-top: 30px;
 	display: flex;
 	flex-direction: row;
 	font-size: 1.2em;
@@ -756,7 +781,7 @@ footer p {
 	color: #120028;
 	font-size: 1.6em;
 	font-weight: 700;
-	width: 200px;
+	width: 30%;
 	height: 140px;
 	background-color: #B7FFF4;
 	border-radius: 20px 0px 0px 20px;
@@ -769,6 +794,7 @@ footer p {
 }
 
 .hora-lugar {
+	width: 70%;
 	justify-content: center;
 	height: 140px;
 	background-color: #A600A9;
@@ -865,7 +891,6 @@ footer p {
 	flex-direction: row;
 }
 
-
 .artistasinfo {
 	display:flex;
 	flex-direction: column;
@@ -897,27 +922,45 @@ footer p {
 	font-weight: 600;
 }
 
-.subtituventa {
-	font-size: 1em
-}
-
-.bordesuperior, .vernota {
+.bordesuperior, .ver-nota {
 	width: 480px;
 }
 
 .bordesuperior{
-	height: 15px
+	height: 15px;
 }
 
 .perfilventa {
-	padding: 5px 0px 0px 25px;
+	padding: 0px 0px 0px 25px;
 }
 
 .perfilventa p {
 	color: #B7FFF4;
-	padding: 0px 0px 0px 0px;
+	padding: 0px;
 }
 
+.perfilventa ul {
+	margin: 0px;
+}
+
+.atras-media {
+	background-color: #B7FFF4;
+	padding: 15px;
+	border-radius: 50px;
+	box-shadow: 0px 1px 8px 2px #36007A;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+}
+
+.persona {
+	font-size: 1.3em;
+}
+
+.perfilventa .accion {
+	color: #A600A9;
+	font-weight: 600;
+}
 
 
  /*---media---*/
@@ -948,9 +991,9 @@ footer p {
 	#main-como-llegar {
 		display: flex;
 		flex-direction: column;
-		margin-top: 0px;
+		margin: 0px auto;
 		padding-top: 0px;
-		width: 80%;
+		width: 70%;
 	}
 	
 	.nobackground .upss {
@@ -972,12 +1015,33 @@ footer p {
 		width: 420px;
 	}
 	
+	.main-inicio {
+		width: 80%;
+		margin: 0% 10%;
+	}
+	
 	.nobackground main {
 		display: flex;
 		flex-direction: column;
 	}
 	
-	.navindex, .logotexto article h2, .logotexto article h3, .textoprincipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar, .artistasinfo iframe, .artistasinfo .bordesuperior, .vernota {
+	.atras-media {
+		display: flex;
+		background-color: #B7FFF4;
+		padding: 15px;
+		border-radius: 50px;
+		box-shadow: 0px 1px 8px 2px #36007A;
+		position: fixed;
+		bottom: 50px;
+		right: 20px;
+		opacity: 0.7;
+	}
+	
+	.atras-media:hover {
+		opacity: 1;
+	}
+	
+	.navindex, .logotexto article h2, .logotexto article h3, .textoprincipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar, .artistasinfo iframe, .artistasinfo .bordesuperior, .ver-nota {
 		display: none;
 	}
 	
@@ -986,7 +1050,7 @@ footer p {
 	}
 	
 	.artistas-populares-media {
-		width: 85%;
+		width: 95%;
 		display: flex;
 		flex-direction: row;
 		overflow-x: scroll;
@@ -994,12 +1058,13 @@ footer p {
 	
 	.artistas-populares-media img {
 		width: 350px;
-		margin: 0px 0px 0px 20px;
+		margin: 0px;
 	}
 	
 	nav {
 		margin-left: 20px;
 		width: 90%;
+		box-sizing: border-box;
 	}
 	
 	.menu, .notificacion {
@@ -1048,7 +1113,6 @@ footer p {
 	
 	#email, #email2, #name, #password, #password2, #password3 {
 		width: 300px;
-		
 	}
 		
 	.botoningresa {
@@ -1104,6 +1168,10 @@ footer p {
 		width: auto;
 	}
 	
+	.buscar .miniatura {
+		margin-top: 23px;
+	}
+	
 	.subtitulosmedia {
 		display: flex;
 		font-size: 1.5em;
@@ -1118,7 +1186,7 @@ footer p {
 		width: 420px;
 	}
 	
-	.artistaymusica img {
+	.artistaymusica img, #artistayfecha img {
 		margin: 0px 0px 15px 0px;
 	}
 	
@@ -1140,7 +1208,12 @@ footer p {
 		width: 200px
 	}
 	
-	.subtituventa, .mediap{
+	.titulo-entrada {
+		width: 70%;
+		margin: 30px 0px 20px 0px;
+	}
+	
+	.subtituventa{
 		padding-top: 5%
 	}
 	
@@ -1148,7 +1221,7 @@ footer p {
 		width: 420px;
 		display: flex;
 		color: #B7FFF4;
-		padding-bottom: 20px;
+		padding-bottom: 15px;
 		font-size: 24pt;
 	}
 	
@@ -1165,14 +1238,19 @@ footer p {
 		flex-direction: column;
 		font-size: 0.6em;
 		margin: 0px;
-		padding: 0px;
+		padding: 10px 0px 0px 0px;
 		width: 480px;
 	}
-
+	
+	.media a {
+		width: 70%;
+		margin: 0% 5%;
+	}
+	
 	.fecha-actual {
 		margin: 0px;
 		height: 95px;
-		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 	
 	.fecha, .hora-lugar {
@@ -1189,7 +1267,7 @@ footer p {
 	
 	.fecha p {
 		font-size: 1.5em;
-		margin: 15px 10px;
+		margin: 22px 17px;
 	}
 	
 	.hora-lugar {
@@ -1210,7 +1288,7 @@ footer p {
 	
 	#como-llegar {
 		margin-top: 20px;
-		width: 90%;
+		width: 100%;
 	}
 	
 	#como-llegar h4 {
@@ -1218,13 +1296,13 @@ footer p {
 	}
 	
 	#como-llegar img {
-		width: 80px;
+		width: 20%;
 		height: auto;
 	}
 	
 	#como-llegar p {
 		background-color: #A600A9;
-		width: 300px;
+		width: 80%;
 		height: 80px;
 		align-content: center;
 		color: #B7FFF4;
@@ -1306,11 +1384,28 @@ footer p {
 	
 	.entradascuadrado{
 		padding-left: 6px;
-		box-sizing: border-box
 	}
 	
+	.entradas {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		text-align: center;
+		margin: 0px;
+		font-size: 1.1em;
+	}
+
+	.entradas a p {
+		background-color: #B7FFF4;
+		padding: 25px 15px 25px 15px;
+		border-radius: 10px 10px 0px 0px;
+		font-weight: 600;
+		color: #120028;
+		width: 100px;
+	}
+
 	.tuentrada{
-		width: 100px
+		width: 100px;
 	}
 	
 	.terminosycondiciones {
@@ -1319,7 +1414,7 @@ footer p {
 	
 	footer {
 		margin: 10% 0% 0% 0%;
-		max-sizing: borderbox;
+		box-sizing: border-box;
 		padding: 5% 10% 5% 10%;
 	}
 	
