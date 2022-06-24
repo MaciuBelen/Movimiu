@@ -102,6 +102,10 @@ nav a {
 	text-decoration: none;
 }
 
+.atras-media {
+	display: none;
+}
+
 .buscar {
 	display: flex;
 	flex-direction: row;
@@ -587,30 +591,43 @@ footer p {
 
 .fechaconfirmada {
 	color: #120028;
-	font-size: 1em;
-	padding: 25px;
+	font-size: 1.5em;
+	padding: 15px 17px;
 	text-align: center;
+	font-weight: 600;
 }
 
 .infocuadraditolargo img {
-	padding: 20px 34px; 
+	padding: 20px 40px; 
 }
 
 .teatrolugar, .ubicacion {
 	width: 550px;
 	background-color: #A600A9;
 	padding-right: 50px;
-	
 }
 
 .teatrolugar {
+	height: 88px;
 	border-radius: 0px 20px 20px 0px;
-	padding-left: 20px
+	padding-left: 20px;
+}
+
+.teatrolugar li {
+	list-style: none;
+	font-size: 1.2em;
+}
+
+.teatrolugar li p {
+	font-size: 1.5em;
+	margin: 0px;
+	padding-top: 15px;
 }
 
 .ubicacion {
-	padding: 25px;
+	padding: 23px;
 	border-radius: 0px 20px 20px 0px;
+	font-size: 1.2em;
 }
 
 .proximasfechas{
@@ -919,17 +936,6 @@ footer p {
 }
 
 
-.atras-media {
-	background-color: #B7FFF4;
-	padding: 15px;
-	border-radius: 50px;
-	box-shadow: 0px 1px 8px 2px #36007A;
-	position: fixed;
-	bottom: 50px;
-	right: 20px;
-}
-
-
  /*---media---*/
 
 @media screen and (max-width : 600px ){
@@ -985,6 +991,22 @@ footer p {
 	.nobackground main {
 		display: flex;
 		flex-direction: column;
+	}
+	
+	.atras-media {
+		display: flex;
+		background-color: #B7FFF4;
+		padding: 15px;
+		border-radius: 50px;
+		box-shadow: 0px 1px 8px 2px #36007A;
+		position: fixed;
+		bottom: 50px;
+		right: 20px;
+		opacity: 0.7;
+	}
+	
+	.atras-media:hover {
+		opacity: 1;
 	}
 	
 	.navindex, .logotexto article h2, .logotexto article h3, .textoprincipal, .buscar form, .botonera ul, .subtitulos, .usuario, .imgatras, .imgatras2,.artistaymusica article, .titulo, .carrusel1, .carrusel2, .tu-ubicacion, #otras-fechas, .infocuadraditolargo, .fechaconfirmada, .teatrolugar, .artistasinfo iframe, .artistasinfo .bordesuperior, .vernota {
@@ -1204,7 +1226,7 @@ footer p {
 	
 	.fecha p {
 		font-size: 1.5em;
-		margin: 15px 10px;
+		margin: 22px 10px;
 	}
 	
 	.hora-lugar {
