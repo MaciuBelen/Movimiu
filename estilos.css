@@ -1158,7 +1158,7 @@ footer p {
 		width: 420px;
 		display: flex;
 		color: #B7FFF4;
-		padding-bottom: 20px;
+		padding: 20px 0px 0px;
 		font-size: 24pt;
 	}
 	
