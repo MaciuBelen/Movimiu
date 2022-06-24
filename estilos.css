@@ -350,6 +350,7 @@ input {
 	align-content: center;
 	align-self: center;
 	justify-content: center;
+	margin: 15% 0% 15% 0%;
 }
 
 .imgatras, .imgatras2{
@@ -370,7 +371,7 @@ input {
     display: flex;
 	align-self: center;
     align-items: flex-start;
-	padding: 60px 100px 220px 100px;
+	padding: 100px 100px 220px 100px; /* Antiguamedida 60px */
 	margin: 0% 0% 5% 15%;
 }
 
