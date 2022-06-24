@@ -1010,6 +1010,7 @@ footer p {
 	nav {
 		margin-left: 20px;
 		width: 90%;
+		box-sizing: border-box;
 	}
 	
 	.menu, .notificacion {
@@ -1112,6 +1113,10 @@ footer p {
 	.miniatura, .iconobuscar {
 		height: 30px;
 		width: auto;
+	}
+	
+	.buscar .miniatura {
+		margin-top: 23px;
 	}
 	
 	.subtitulosmedia {
@@ -1329,7 +1334,7 @@ footer p {
 	
 	footer {
 		margin: 10% 0% 0% 0%;
-		max-sizing: borderbox;
+		box-sizing: border-box;
 		padding: 5% 10% 5% 10%;
 	}
 	
