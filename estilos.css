@@ -554,15 +554,16 @@ footer p {
 
 .carrusel1 p, #otras-fechas p { 
 	text-align: center;
-	width: 100px;
+	width: 80px;
 	height: 100px;
-	padding: 5px;
+	padding: 0px 10px 0px 10px;
 	font-size: 1.6em;
 	justify-content: center;
 	align-items: center;
 	background-color: #36007A;
 	border-radius: 10px;	
 }
+
 
 .artistaymusica .lugaresconfirmados {
 	display: flex;
