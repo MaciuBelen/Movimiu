@@ -1254,7 +1254,7 @@ footer p {
 	.fecha-actual {
 		margin: 0px;
 		height: 95px;
-		margin: 30px 0px 20px 0px;
+		margin-bottom: 30px;
 	}
 	
 	.fecha, .hora-lugar {
