@@ -223,7 +223,7 @@ h4 {
 	width: 98%;
 	height: 400px;
 	overflow-x:scroll;
-	margin-top: -50px
+	margin-top: 0px
 }
 
 .artistas-populares::-webkit-scrollbar {
